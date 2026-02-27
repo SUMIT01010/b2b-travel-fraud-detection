@@ -1,0 +1,11 @@
+    {"cont_file": "./Data/b2b/C_Final_permuted.csv",
+    "struc_file": "./Data/b2b/A_Final_permuted.csv",
+    "encoder1": [25, 16],
+    "decoder1": [25],
+    "encoder2": [25, 16],
+    "decoder2": [25],
+    "batch_size": 256,
+    "pretrain_threshold": 10,
+    "experiment_name": "b2b_done",
+    "num_epochs": 50,
+    "learning_rate": 5e-4}
