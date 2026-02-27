@@ -5,14 +5,11 @@ __pycache__/
 *.pkl
 DONE_AdONE/Data/cora/
 .env
-eval.csv
-merged.csv
 DONE_AdONE/emb/cora*
 DONE_AdONE/ovals/cora*
 DONE_AdONE/aemodel_adone.py
 DONE_AdONE/run_adone.py
 DONE_AdONE/config_adone
 check.ipynb
-*.csv
 DONE_AdONE/log*
 Data/*.zip
