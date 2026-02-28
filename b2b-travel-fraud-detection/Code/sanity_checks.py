@@ -76,6 +76,8 @@ print("✅ VPN/Proxy = ASN-derived only: PASSED")
 assert len(passenger_details) >= N_BOOKINGS
 assert 'passenger_email_domain' in passenger_details.columns
 assert 'is_suspicious_domain' in passenger_details.columns
+assert 'user_id' in passenger_details.columns
+assert 'agency_id' in passenger_details.columns
 assert 'email_domain_match_flag' not in passenger_details.columns
 assert 'is_known_employee' not in passenger_details.columns
 assert 'email_domain_match_flag' in user_master.columns
@@ -338,7 +340,6 @@ print("\n--- F. Passenger Details ↔ Fraud Label Consistency ---")
 pax_labeled = (
     passenger_details
     .merge(booking_label_table[["booking_id", "fraud_label"]], on="booking_id")
-    .merge(booking_fact[["booking_id", "agency_id"]], on="booking_id")
     .merge(agency_master[["agency_id", "agency_email_domain"]], on="agency_id")
 )
 
