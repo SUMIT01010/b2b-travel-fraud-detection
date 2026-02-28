@@ -138,7 +138,7 @@ B000136,0,legit
 B000137,0,legit
 B000138,0,legit
 B000139,0,legit
-B000140,1,fraud user suspicious booking pattern
+B000140,1,user has abnormally high cancellation rate
 B000141,1,burst/automation pattern in activity
 B000142,0,legit
 B000143,0,legit
@@ -190,7 +190,7 @@ B000188,0,legit
 B000189,0,legit
 B000190,0,legit
 B000191,1,new device/ip + short lead time
-B000192,1,fraud user suspicious booking pattern
+B000192,1,user has abnormally high cancellation rate
 B000193,0,legit
 B000194,0,legit
 B000195,0,legit
@@ -379,7 +379,7 @@ B000377,0,legit
 B000378,0,legit
 B000379,0,legit
 B000380,0,legit
-B000381,1,user has abnormally high cancellation rate
+B000381,1,fraud user suspicious booking pattern
 B000382,0,legit
 B000383,0,legit
 B000384,1,credit bustout: high value international + high loss
@@ -852,7 +852,7 @@ B000850,0,legit
 B000851,0,legit
 B000852,0,legit
 B000853,0,legit
-B000854,1,user has abnormally high cancellation rate
+B000854,1,fraud user suspicious booking pattern
 B000855,0,legit
 B000856,0,legit
 B000857,0,legit
@@ -896,7 +896,7 @@ B000894,0,legit
 B000895,0,legit
 B000896,0,legit
 B000897,0,legit
-B000898,1,fraud user suspicious booking pattern
+B000898,1,user has abnormally high cancellation rate
 B000899,0,legit
 B000900,0,legit
 B000901,0,legit
@@ -1349,7 +1349,7 @@ B001347,0,legit
 B001348,0,legit
 B001349,0,legit
 B001350,0,legit
-B001351,1,user has abnormally high cancellation rate
+B001351,1,fraud user suspicious booking pattern
 B001352,0,legit
 B001353,0,legit
 B001354,0,legit
@@ -1574,7 +1574,7 @@ B001572,0,legit
 B001573,0,legit
 B001574,0,legit
 B001575,0,legit
-B001576,1,fraud user suspicious booking pattern
+B001576,1,user has abnormally high cancellation rate
 B001577,1,new device/ip + short lead time
 B001578,0,legit
 B001579,1,shared infra across multiple fraud users
@@ -1626,7 +1626,7 @@ B001624,0,legit
 B001625,0,legit
 B001626,0,legit
 B001627,1,user has abnormally high cancellation rate
-B001628,1,user has abnormally high cancellation rate
+B001628,1,fraud user suspicious booking pattern
 B001629,1,shared infra across multiple fraud users
 B001630,0,legit
 B001631,0,legit
@@ -2222,7 +2222,7 @@ B002220,0,legit
 B002221,0,legit
 B002222,0,legit
 B002223,0,legit
-B002224,1,fraud user suspicious booking pattern
+B002224,1,user has abnormally high cancellation rate
 B002225,0,legit
 B002226,0,legit
 B002227,0,legit
@@ -3188,7 +3188,7 @@ B003186,1,new user with risky infra + abnormal velocity
 B003187,0,legit
 B003188,0,legit
 B003189,0,legit
-B003190,1,fraud user suspicious booking pattern
+B003190,1,user has abnormally high cancellation rate
 B003191,0,legit
 B003192,0,legit
 B003193,0,legit
@@ -3531,7 +3531,7 @@ B003529,0,legit
 B003530,0,legit
 B003531,0,legit
 B003532,0,legit
-B003533,1,fraud user suspicious booking pattern
+B003533,1,user has abnormally high cancellation rate
 B003534,0,legit
 B003535,0,legit
 B003536,0,legit
@@ -4109,7 +4109,7 @@ B004107,0,legit
 B004108,0,legit
 B004109,1,new device/ip + short lead time
 B004110,0,legit
-B004111,1,user has abnormally high cancellation rate
+B004111,1,fraud user suspicious booking pattern
 B004112,0,legit
 B004113,0,legit
 B004114,0,legit
@@ -4359,7 +4359,7 @@ B004357,0,legit
 B004358,0,legit
 B004359,0,legit
 B004360,0,legit
-B004361,1,user has abnormally high cancellation rate
+B004361,1,fraud user suspicious booking pattern
 B004362,0,legit
 B004363,0,legit
 B004364,0,legit
@@ -4899,7 +4899,7 @@ B004897,0,legit
 B004898,0,legit
 B004899,0,legit
 B004900,0,legit
-B004901,1,fraud user suspicious booking pattern
+B004901,1,user has abnormally high cancellation rate
 B004902,0,legit
 B004903,0,legit
 B004904,0,legit
@@ -5124,7 +5124,7 @@ B005122,0,legit
 B005123,0,legit
 B005124,0,legit
 B005125,1,credit bustout: high value international + high loss
-B005126,1,user has abnormally high cancellation rate
+B005126,1,fraud user suspicious booking pattern
 B005127,0,legit
 B005128,0,legit
 B005129,0,legit
@@ -5132,7 +5132,7 @@ B005130,0,legit
 B005131,0,legit
 B005132,1,new user with risky infra + abnormal velocity
 B005133,0,legit
-B005134,1,fraud user suspicious booking pattern
+B005134,1,user has abnormally high cancellation rate
 B005135,0,legit
 B005136,0,legit
 B005137,0,legit
@@ -6029,7 +6029,7 @@ B006027,0,legit
 B006028,0,legit
 B006029,0,legit
 B006030,0,legit
-B006031,1,user has abnormally high cancellation rate
+B006031,1,fraud user suspicious booking pattern
 B006032,0,legit
 B006033,0,legit
 B006034,0,legit
@@ -6311,7 +6311,7 @@ B006309,0,legit
 B006310,0,legit
 B006311,0,legit
 B006312,0,legit
-B006313,1,user has abnormally high cancellation rate
+B006313,1,fraud user suspicious booking pattern
 B006314,0,legit
 B006315,0,legit
 B006316,0,legit
@@ -6343,7 +6343,7 @@ B006341,0,legit
 B006342,0,legit
 B006343,0,legit
 B006344,0,legit
-B006345,1,user has abnormally high cancellation rate
+B006345,1,fraud user suspicious booking pattern
 B006346,0,legit
 B006347,0,legit
 B006348,0,legit
@@ -6384,7 +6384,7 @@ B006382,0,legit
 B006383,0,legit
 B006384,0,legit
 B006385,0,legit
-B006386,1,user has abnormally high cancellation rate
+B006386,1,fraud user suspicious booking pattern
 B006387,0,legit
 B006388,0,legit
 B006389,0,legit
@@ -7091,7 +7091,7 @@ B007089,0,legit
 B007090,0,legit
 B007091,0,legit
 B007092,0,legit
-B007093,1,user has abnormally high cancellation rate
+B007093,1,fraud user suspicious booking pattern
 B007094,0,legit
 B007095,0,legit
 B007096,0,legit
@@ -7325,7 +7325,7 @@ B007323,0,legit
 B007324,0,legit
 B007325,0,legit
 B007326,0,legit
-B007327,1,user has abnormally high cancellation rate
+B007327,1,fraud user suspicious booking pattern
 B007328,0,legit
 B007329,0,legit
 B007330,1,user has abnormally high cancellation rate
@@ -7768,7 +7768,7 @@ B007766,0,legit
 B007767,0,legit
 B007768,0,legit
 B007769,0,legit
-B007770,1,user has abnormally high cancellation rate
+B007770,1,fraud user suspicious booking pattern
 B007771,1,shared infra across multiple fraud users
 B007772,0,legit
 B007773,0,legit
@@ -7954,7 +7954,7 @@ B007952,0,legit
 B007953,1,new device/ip + short lead time
 B007954,0,legit
 B007955,1,credit bustout: high value international + high loss
-B007956,1,user has abnormally high cancellation rate
+B007956,1,fraud user suspicious booking pattern
 B007957,0,legit
 B007958,0,legit
 B007959,0,legit

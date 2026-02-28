@@ -1,31 +1,58 @@
+#!/usr/bin/env python3
+"""
+Standalone sanity-check script for the B2B Travel Fraud Detection dataset.
+
+Loads the generated CSVs from Data/Tables and runs every structural,
+referential-integrity, and cross-table consistency check.
+
+Usage:
+    python cell8_sanity_checks.py              # run from Code/ directory
+    python cell8_sanity_checks.py /path/to/Tables   # explicit data dir
+"""
+
+import os
+import sys
+import pandas as pd
+
 # ============================================================
-# CELL 8 — SAVE FILES & SANITY CHECKS
+# CONFIGURATION / CONSTANTS
 # ============================================================
-agency_master.to_csv(os.path.join(OUT_DIR, "agency_master.csv"), index=False)
-user_master.to_csv(os.path.join(OUT_DIR, "user_master.csv"), index=False)
-booking_fact.to_csv(os.path.join(OUT_DIR, "booking_fact.csv"), index=False)
-session_context.to_csv(os.path.join(OUT_DIR, "session_context.csv"), index=False)
-passenger_details.to_csv(os.path.join(OUT_DIR, "passenger_details.csv"), index=False)
-post_booking_events.to_csv(os.path.join(OUT_DIR, "post_booking_events.csv"), index=False)
-booking_label_table.to_csv(os.path.join(OUT_DIR, "booking_label_table.csv"), index=False)
+N_BOOKINGS = 8000
 
-for old_file in ["device_master.csv", "ip_master.csv"]:
-    old_path = os.path.join(OUT_DIR, old_file)
-    if os.path.exists(old_path):
-        os.remove(old_path)
-        print(f"🗑️  Removed old {old_file}")
+DATACENTER_ASN_RANGES = set(range(10000, 15000)) | set(range(30000, 35000))
 
-with zipfile.ZipFile(ZIP_NAME, "w", zipfile.ZIP_DEFLATED) as z:
-    for f in os.listdir(OUT_DIR):
-        z.write(os.path.join(OUT_DIR, f), arcname=f)
+# ============================================================
+# RESOLVE DATA DIRECTORY
+# ============================================================
+if len(sys.argv) > 1:
+    DATA_DIR = sys.argv[1]
+else:
+    # Default: ../Data/Tables relative to this script
+    DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            os.pardir, "Data", "Tables")
 
-print("\n✅ Dataset generated!")
-print("Folder:", OUT_DIR)
-print("Zip:", ZIP_NAME)
+DATA_DIR = os.path.abspath(DATA_DIR)
+assert os.path.isdir(DATA_DIR), f"Data directory not found: {DATA_DIR}"
 
-print("\n" + "="*80)
+# ============================================================
+# LOAD TABLES
+# ============================================================
+print(f"📂 Loading CSVs from {DATA_DIR} …")
+agency_master       = pd.read_csv(os.path.join(DATA_DIR, "agency_master.csv"))
+user_master         = pd.read_csv(os.path.join(DATA_DIR, "user_master.csv"))
+booking_fact        = pd.read_csv(os.path.join(DATA_DIR, "booking_fact.csv"))
+session_context     = pd.read_csv(os.path.join(DATA_DIR, "session_context.csv"))
+passenger_details   = pd.read_csv(os.path.join(DATA_DIR, "passenger_details.csv"))
+post_booking_events = pd.read_csv(os.path.join(DATA_DIR, "post_booking_events.csv"))
+booking_label_table = pd.read_csv(os.path.join(DATA_DIR, "booking_label_table.csv"))
+print("✅ All 7 tables loaded.\n")
+
+# ============================================================
+# SANITY CHECKS
+# ============================================================
+print("=" * 80)
 print("  SANITY CHECKS")
-print("="*80)
+print("=" * 80)
 
 # ------------------------------------------------------------------
 # SECTION A — BASIC STRUCTURAL CHECKS
@@ -48,54 +75,82 @@ print("✅ VPN/Proxy = ASN-derived only: PASSED")
 
 assert len(passenger_details) >= N_BOOKINGS
 assert 'passenger_email_domain' in passenger_details.columns
+assert 'is_suspicious_domain' in passenger_details.columns
 assert 'email_domain_match_flag' not in passenger_details.columns
 assert 'is_known_employee' not in passenger_details.columns
 assert 'email_domain_match_flag' in user_master.columns
 assert 'agency_email_domain' in agency_master.columns
+assert 'device_switch_flag' in session_context.columns
 print("✅ Column placement: PASSED")
+
+# Legit users should never have device_switch_flag = 1 (they use 1 sticky fingerprint)
+sc_with_user = session_context.merge(
+    booking_fact[["booking_id", "user_id"]], on="booking_id"
+).merge(
+    user_master[["user_id", "user_fraud_label"]], on="user_id"
+)
+legit_device_switches = sc_with_user[
+    (sc_with_user["user_fraud_label"] == 0) & (sc_with_user["device_switch_flag"] == 1)
+]
+assert len(legit_device_switches) == 0, (
+    f"FAIL: {len(legit_device_switches)} legit-user sessions have device_switch_flag=1!"
+)
+print("✅ Legit users always use single device (device_switch_flag=0): PASSED")
 
 # ------------------------------------------------------------------
 # SECTION B — REFERENTIAL INTEGRITY (no orphan keys)
 # ------------------------------------------------------------------
 print("\n--- B. Referential Integrity (no orphan keys) ---")
 
-# Every booking_id in booking_fact exists in booking_label_table and vice-versa
 bf_ids = set(booking_fact["booking_id"])
 bl_ids = set(booking_label_table["booking_id"])
-assert bf_ids == bl_ids, f"FAIL: booking_fact ↔ booking_label_table mismatch! Only in fact: {bf_ids - bl_ids}, Only in label: {bl_ids - bf_ids}"
+assert bf_ids == bl_ids, (
+    f"FAIL: booking_fact ↔ booking_label_table mismatch! "
+    f"Only in fact: {bf_ids - bl_ids}, Only in label: {bl_ids - bf_ids}"
+)
 print("✅ booking_fact ↔ booking_label_table: booking_id sets match exactly")
 
-# Every booking_id in session_context exists in booking_fact
 sc_ids = set(session_context["booking_id"])
-assert sc_ids == bf_ids, f"FAIL: session_context ↔ booking_fact mismatch! Only in session: {sc_ids - bf_ids}, Only in fact: {bf_ids - sc_ids}"
+assert sc_ids == bf_ids, (
+    f"FAIL: session_context ↔ booking_fact mismatch! "
+    f"Only in session: {sc_ids - bf_ids}, Only in fact: {bf_ids - sc_ids}"
+)
 print("✅ session_context ↔ booking_fact: booking_id sets match exactly")
 
-# Every booking_id in post_booking_events exists in booking_fact
 pb_ids = set(post_booking_events["booking_id"])
-assert pb_ids == bf_ids, f"FAIL: post_booking_events ↔ booking_fact mismatch! Only in post: {pb_ids - bf_ids}, Only in fact: {bf_ids - pb_ids}"
+assert pb_ids == bf_ids, (
+    f"FAIL: post_booking_events ↔ booking_fact mismatch! "
+    f"Only in post: {pb_ids - bf_ids}, Only in fact: {bf_ids - pb_ids}"
+)
 print("✅ post_booking_events ↔ booking_fact: booking_id sets match exactly")
 
-# Every booking_id in passenger_details exists in booking_fact
 pax_bids = set(passenger_details["booking_id"])
-assert pax_bids.issubset(bf_ids), f"FAIL: passenger_details has booking_ids not in booking_fact: {pax_bids - bf_ids}"
-assert bf_ids.issubset(pax_bids), f"FAIL: booking_fact has booking_ids with no passengers: {bf_ids - pax_bids}"
+assert pax_bids.issubset(bf_ids), (
+    f"FAIL: passenger_details has booking_ids not in booking_fact: {pax_bids - bf_ids}"
+)
+assert bf_ids.issubset(pax_bids), (
+    f"FAIL: booking_fact has booking_ids with no passengers: {bf_ids - pax_bids}"
+)
 print("✅ passenger_details ↔ booking_fact: every booking has passengers, no orphans")
 
-# Every user_id in booking_fact exists in user_master
 bf_uids = set(booking_fact["user_id"])
 um_uids = set(user_master["user_id"])
-assert bf_uids.issubset(um_uids), f"FAIL: booking_fact has user_ids not in user_master: {bf_uids - um_uids}"
+assert bf_uids.issubset(um_uids), (
+    f"FAIL: booking_fact has user_ids not in user_master: {bf_uids - um_uids}"
+)
 print("✅ booking_fact → user_master: all user_ids valid")
 
-# Every agency_id in booking_fact exists in agency_master
 bf_aids = set(booking_fact["agency_id"])
 am_aids = set(agency_master["agency_id"])
-assert bf_aids.issubset(am_aids), f"FAIL: booking_fact has agency_ids not in agency_master: {bf_aids - am_aids}"
+assert bf_aids.issubset(am_aids), (
+    f"FAIL: booking_fact has agency_ids not in agency_master: {bf_aids - am_aids}"
+)
 print("✅ booking_fact → agency_master: all agency_ids valid")
 
-# Every agency_id in user_master exists in agency_master
 um_aids = set(user_master["agency_id"])
-assert um_aids.issubset(am_aids), f"FAIL: user_master has agency_ids not in agency_master: {um_aids - am_aids}"
+assert um_aids.issubset(am_aids), (
+    f"FAIL: user_master has agency_ids not in agency_master: {um_aids - am_aids}"
+)
 print("✅ user_master → agency_master: all agency_ids valid")
 
 # ------------------------------------------------------------------
@@ -108,7 +163,9 @@ fraud_bids = booking_label_table[booking_label_table["fraud_label"] == 1]["booki
 fraud_booking_users = booking_fact[booking_fact["booking_id"].isin(fraud_bids)]["user_id"].unique()
 fraud_uids_from_um = set(user_master[user_master["user_fraud_label"] == 1]["user_id"])
 bad_users = set(fraud_booking_users) - fraud_uids_from_um
-assert len(bad_users) == 0, f"FAIL: {len(bad_users)} fraud bookings belong to NON-fraud users: {bad_users}"
+assert len(bad_users) == 0, (
+    f"FAIL: {len(bad_users)} fraud bookings belong to NON-fraud users: {bad_users}"
+)
 print(f"✅ C1: All {len(fraud_bids)} fraud bookings belong to fraud-labeled users")
 
 # C2: Check if any good bookings belong to fraud users (by design this can happen)
@@ -121,13 +178,14 @@ if len(good_bookings_by_fraud_users) > 0:
         (booking_fact["booking_id"].isin(good_bids)) &
         (booking_fact["user_id"].isin(good_bookings_by_fraud_users))
     ]
-    print(f"⚠️  C2: {len(good_bookings_by_fraud_users)} fraud users also have GOOD bookings (by design)")
-    print(f"      → {len(good_by_fraud)} good bookings from fraud users (out of {len(good_bids)} total good)")
+    print(f"⚠️  C2: {len(good_bookings_by_fraud_users)} fraud users also have "
+          f"GOOD bookings (by design)")
+    print(f"      → {len(good_by_fraud)} good bookings from fraud users "
+          f"(out of {len(good_bids)} total good)")
 else:
     print("✅ C2: All good bookings belong to good (legit) users")
 
-# C3: Agency linkage consistency — booking_fact.agency_id must match
-#     the agency_id of the user in user_master for that booking
+# C3: Agency linkage consistency
 bf_check = booking_fact[["booking_id", "user_id", "agency_id"]].merge(
     user_master[["user_id", "agency_id"]], on="user_id", suffixes=("_booking", "_user")
 )
@@ -139,7 +197,7 @@ assert len(agency_mismatch) == 0, (
 print(f"✅ C3: Agency linkage consistent — booking_fact.agency_id matches "
       f"user_master.agency_id for all {len(bf_check)} bookings")
 
-# C4: fraud_reason in booking_label_table aligns with user_fraud_type in user_master
+# C4: fraud_reason ↔ user_fraud_type alignment
 reason_type_map = {
     "user has abnormally high cancellation rate": "cancellation_abuser",
     "credit bustout: high value international + high loss": "credit_bustout_user",
@@ -148,10 +206,10 @@ reason_type_map = {
     "shared infra across multiple fraud users": "ring_operator",
     "burst/automation pattern in activity": "bot_booking",
 }
-fraud_labels_with_user = booking_label_table[booking_label_table["fraud_label"] == 1].merge(
-    booking_fact[["booking_id", "user_id"]], on="booking_id"
-).merge(
-    user_master[["user_id", "user_fraud_type"]], on="user_id"
+fraud_labels_with_user = (
+    booking_label_table[booking_label_table["fraud_label"] == 1]
+    .merge(booking_fact[["booking_id", "user_id"]], on="booking_id")
+    .merge(user_master[["user_id", "user_fraud_type"]], on="user_id")
 )
 mismatches = []
 for _, row in fraud_labels_with_user.iterrows():
@@ -161,7 +219,7 @@ for _, row in fraud_labels_with_user.iterrows():
             "booking_id": row["booking_id"],
             "fraud_reason": row["fraud_reason"],
             "expected_type": expected_type,
-            "actual_type": row["user_fraud_type"]
+            "actual_type": row["user_fraud_type"],
         })
 if len(mismatches) == 0:
     print(f"✅ C4: fraud_reason ↔ user_fraud_type aligned for all "
@@ -178,12 +236,11 @@ else:
 # ------------------------------------------------------------------
 print("\n--- D. Post-Booking Events ↔ Fraud Type Consistency ---")
 
-pbe_labeled = post_booking_events.merge(
-    booking_label_table[["booking_id", "fraud_label", "fraud_reason"]], on="booking_id"
-).merge(
-    booking_fact[["booking_id", "user_id"]], on="booking_id"
-).merge(
-    user_master[["user_id", "user_fraud_type"]], on="user_id"
+pbe_labeled = (
+    post_booking_events
+    .merge(booking_label_table[["booking_id", "fraud_label", "fraud_reason"]], on="booking_id")
+    .merge(booking_fact[["booking_id", "user_id"]], on="booking_id")
+    .merge(user_master[["user_id", "user_fraud_type"]], on="user_id")
 )
 
 # D1: cancellation_abuser fraud bookings should have higher cancel rate
@@ -198,7 +255,7 @@ if len(cancel_abuse_fraud) > 0:
           f"{ca_cancel_rate*100:.1f}% vs overall: {overall_cancel_rate*100:.1f}%")
     assert ca_cancel_rate > overall_cancel_rate, \
         "FAIL: cancellation_abuser fraud bookings should have higher cancel rate!"
-    print(f"✅ D1: cancellation_abuser fraud bookings have elevated cancel rate")
+    print("✅ D1: cancellation_abuser fraud bookings have elevated cancel rate")
 
 # D2: credit_bustout_user fraud bookings should have higher dispute rate
 bustout_fraud = pbe_labeled[
@@ -212,7 +269,7 @@ if len(bustout_fraud) > 0:
           f"{cb_dispute_rate*100:.1f}% vs overall: {overall_dispute_rate*100:.1f}%")
     assert cb_dispute_rate > overall_dispute_rate, \
         "FAIL: credit_bustout_user fraud bookings should have higher dispute rate!"
-    print(f"✅ D2: credit_bustout_user fraud bookings have elevated dispute rate")
+    print("✅ D2: credit_bustout_user fraud bookings have elevated dispute rate")
 
 # D3: Good bookings should have lower cancel + dispute rates than fraud bookings
 fraud_pbe = pbe_labeled[pbe_labeled["fraud_label"] == 1]
@@ -229,12 +286,11 @@ print(f"   D3: Dispute rate — Fraud: {fraud_dispute*100:.1f}% vs Good: {good_d
 # ------------------------------------------------------------------
 print("\n--- E. Session Context ↔ Fraud Label Consistency ---")
 
-sc_with_label = session_context.merge(
-    booking_label_table[["booking_id", "fraud_label"]], on="booking_id"
-).merge(
-    booking_fact[["booking_id", "user_id"]], on="booking_id"
-).merge(
-    user_master[["user_id", "user_fraud_type"]], on="user_id"
+sc_with_label = (
+    session_context
+    .merge(booking_label_table[["booking_id", "fraud_label"]], on="booking_id")
+    .merge(booking_fact[["booking_id", "user_id"]], on="booking_id")
+    .merge(user_master[["user_id", "user_fraud_type"]], on="user_id")
 )
 
 # E1: Fraud bookings should have higher VPN/proxy rate
@@ -245,29 +301,48 @@ assert fraud_vpn > good_vpn, "FAIL: Fraud bookings should have higher VPN/proxy 
 print("✅ E1: Fraud bookings have elevated VPN/proxy rate")
 
 # E2: Avg unique IPs per device — fraud should be higher (IP masking signal)
-fraud_ip_per_fp = sc_with_label[sc_with_label['fraud_label']==1] \
+fraud_ip_per_fp = (
+    sc_with_label[sc_with_label['fraud_label'] == 1]
     .groupby('device_fingerprint')['ip_address'].nunique().mean()
-legit_ip_per_fp = sc_with_label[sc_with_label['fraud_label']==0] \
+)
+legit_ip_per_fp = (
+    sc_with_label[sc_with_label['fraud_label'] == 0]
     .groupby('device_fingerprint')['ip_address'].nunique().mean()
-print(f"   E2: Avg unique IPs per device — Fraud: {fraud_ip_per_fp:.2f}, Good: {legit_ip_per_fp:.2f}")
+)
+print(f"   E2: Avg unique IPs per device — Fraud: {fraud_ip_per_fp:.2f}, "
+      f"Good: {legit_ip_per_fp:.2f}")
 assert fraud_ip_per_fp > legit_ip_per_fp, \
     "FAIL: Fraud should have more IPs per device (IP masking)!"
 print("✅ E2: Fraud has higher IP diversity per device (IP masking detected)")
+
+# E3: Booking time — fraud should be faster (bots/scripts)
+fraud_ttb = sc_with_label[sc_with_label['fraud_label'] == 1]['time_to_book_seconds'].mean()
+good_ttb = sc_with_label[sc_with_label['fraud_label'] == 0]['time_to_book_seconds'].mean()
+print(f"   E3: Avg booking time — Fraud: {fraud_ttb:.0f}s vs Good: {good_ttb:.0f}s")
+assert fraud_ttb < good_ttb, "FAIL: Fraud bookings should be faster (bot-like)!"
+print("✅ E3: Fraud bookings have lower booking time (bot/script pattern detected)")
+
+# E4: Device-switch rate — fraud should be higher (multi-device usage)
+fraud_dev_switch = sc_with_label[sc_with_label["fraud_label"] == 1]["device_switch_flag"].mean()
+good_dev_switch = sc_with_label[sc_with_label["fraud_label"] == 0]["device_switch_flag"].mean()
+print(f"   E4: Device-switch rate — Fraud: {fraud_dev_switch*100:.1f}% vs Good: {good_dev_switch*100:.1f}%")
+assert fraud_dev_switch > good_dev_switch, \
+    "FAIL: Fraud bookings should have higher device-switch rate!"
+print("✅ E4: Fraud bookings have elevated device-switch rate")
 
 # ------------------------------------------------------------------
 # SECTION F — PASSENGER DETAILS ↔ FRAUD LABEL CONSISTENCY
 # ------------------------------------------------------------------
 print("\n--- F. Passenger Details ↔ Fraud Label Consistency ---")
 
-pax_labeled = passenger_details.merge(
-    booking_label_table[["booking_id", "fraud_label"]], on="booking_id"
-).merge(
-    booking_fact[["booking_id", "agency_id"]], on="booking_id"
-).merge(
-    agency_master[["agency_id", "agency_email_domain"]], on="agency_id"
+pax_labeled = (
+    passenger_details
+    .merge(booking_label_table[["booking_id", "fraud_label"]], on="booking_id")
+    .merge(booking_fact[["booking_id", "agency_id"]], on="booking_id")
+    .merge(agency_master[["agency_id", "agency_email_domain"]], on="agency_id")
 )
 
-# F1: Corporate domain match rate — legit passengers should match agency domain more
+# F1: Corporate domain match rate
 pax_labeled["domain_matches_agency"] = (
     pax_labeled["passenger_email_domain"] == pax_labeled["agency_email_domain"]
 ).astype(int)
@@ -279,16 +354,14 @@ assert good_domain_match > fraud_domain_match, \
     "FAIL: Good bookings should have higher agency domain match rate!"
 print("✅ F1: Good bookings have higher agency-email domain match")
 
-# F2: Throwaway email usage — fraud passengers should use more throwaway domains
-throwaway_set = set(THROWAWAY_DOMAINS)
-pax_labeled["is_throwaway"] = pax_labeled["passenger_email_domain"].isin(throwaway_set).astype(int)
-fraud_throwaway = pax_labeled[pax_labeled["fraud_label"] == 1]["is_throwaway"].mean()
-good_throwaway = pax_labeled[pax_labeled["fraud_label"] == 0]["is_throwaway"].mean()
-print(f"   F2: Throwaway email usage — "
-      f"Fraud: {fraud_throwaway*100:.1f}% vs Good: {good_throwaway*100:.1f}%")
-assert fraud_throwaway > good_throwaway, \
-    "FAIL: Fraud bookings should have higher throwaway email usage!"
-print("✅ F2: Fraud bookings have higher throwaway email usage")
+# F2: Suspicious (throwaway) email domain usage — uses pre-computed is_suspicious_domain
+fraud_suspicious = pax_labeled[pax_labeled["fraud_label"] == 1]["is_suspicious_domain"].mean()
+good_suspicious = pax_labeled[pax_labeled["fraud_label"] == 0]["is_suspicious_domain"].mean()
+print(f"   F2: Suspicious domain usage — "
+      f"Fraud: {fraud_suspicious*100:.1f}% vs Good: {good_suspicious*100:.1f}%")
+assert fraud_suspicious > good_suspicious, \
+    "FAIL: Fraud bookings should have higher suspicious domain usage!"
+print("✅ F2: Fraud bookings have higher suspicious (throwaway) domain usage")
 
 # ------------------------------------------------------------------
 # SECTION G — SUMMARY STATS
