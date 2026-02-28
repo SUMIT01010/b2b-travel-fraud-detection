@@ -13,3 +13,4 @@ DONE_AdONE/config_adone
 check.ipynb
 DONE_AdONE/log*
 Data/*.zip
+b2b-travel-fraud-detection/Data/graph/structural_matrix.csv
