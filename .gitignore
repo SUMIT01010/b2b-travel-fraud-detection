@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 structural_matrix.csv
+fraud_env/
