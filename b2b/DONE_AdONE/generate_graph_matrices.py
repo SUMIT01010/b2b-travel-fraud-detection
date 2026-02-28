@@ -18,20 +18,15 @@ def generate_matrices():
     # Ensure output directory exists
     os.makedirs(output_path, exist_ok=True)
     
-    print("Loading data...")
-    booking_fact = pd.read_csv(os.path.join(data_tables_path, 'booking_fact.csv'))
-    session_context = pd.read_csv(os.path.join(data_tables_path, 'session_context.csv'))
-    user_master = pd.read_csv(os.path.join(data_tables_path, 'user_master.csv'))
+    print("Loading data from master_table.csv...")
+    master_table_file = os.path.join(data_tables_path, 'master_table.csv')
+    df = pd.read_csv(master_table_file)
     
     # Preprocessing: Map time_to_book_seconds to session_duration
-    session_context = session_context.rename(columns={'time_to_book_seconds': 'session_duration'})
+    if 'time_to_book_seconds' in df.columns:
+        df = df.rename(columns={'time_to_book_seconds': 'session_duration'})
     
-    # Join Data
-    # Join session_context -> booking_fact -> user_master
-    df = session_context.merge(booking_fact, on='booking_id', how='left')
-    df = df.merge(user_master, on='user_id', how='left')
-    
-    # Handle missing values if any
+    # Handle missing values if any (though master table should be clean)
     df['avg_logins_per_day'] = df['avg_logins_per_day'].fillna(0)
     df['failed_login_ratio'] = df['failed_login_ratio'].fillna(0)
     df['is_vpn_or_proxy'] = df['is_vpn_or_proxy'].fillna(0).astype(int)

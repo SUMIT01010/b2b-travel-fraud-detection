@@ -25,9 +25,10 @@ def load_config(fname='./config_done'):
 def read_csv_file_as_numpy(fname):
 	with open(fname, 'r') as fp:
 		rd = csv.reader(fp)
+		next(rd) # Skip header
 		ret = []
 		for row in tqdm(rd):
-			ret.append([float(r) for r in row])
+			ret.append([float(r) for r in row[1:]]) # Skip ID column
 	return np.array(ret)
 
 def batch_iter(in_x, in_y, in_id, o1, o2, o3, batch_size, num_epochs, shuffle = True):

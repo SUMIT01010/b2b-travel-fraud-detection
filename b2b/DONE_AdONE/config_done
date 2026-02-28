@@ -1,5 +1,5 @@
-    {"cont_file": "./Data/b2b/C_Final_permuted.csv",
-    "struc_file": "./Data/b2b/A_Final_permuted.csv",
+    {"cont_file": "../Data/graph/attribute_matrix.csv",
+    "struc_file": "../Data/graph/structural_matrix.csv",
     "encoder1": [25, 16],
     "decoder1": [25],
     "encoder2": [25, 16],

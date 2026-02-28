@@ -25,13 +25,27 @@ class AutoEncoder(object):
         self.oval2 = tf.placeholder(tf.float32, [None], name = "o2_coeff")
         self.oval3 = tf.placeholder(tf.float32, [None], name = "o3_coeff")
 
+    def _dense(self, x, units, name, activation=None, use_bias=True):
+        with tf.variable_scope(name):
+            in_dim = x.get_shape().as_list()[-1]
+            w = tf.get_variable("kernel", [in_dim, units], 
+                               initializer=tf.glorot_uniform_initializer())
+            out = tf.matmul(x, w)
+            if use_bias:
+                b = tf.get_variable("bias", [units], 
+                                   initializer=tf.zeros_initializer())
+                out = tf.nn.bias_add(out, b)
+            if activation:
+                out = activation(out)
+            return out
+
     def _add_encoder_struc(self, batch_x, reuse = False):
         xvec =  batch_x
         with tf.variable_scope("struc_encoder", reuse = reuse):
             for ii in range(len(self.encoder1)):
                 layer_name = 'layer_' + str(ii)
-                xvec = tf.layers.dense(xvec, self.encoder1[ii],
-                                       activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
+                xvec = self._dense(xvec, self.encoder1[ii],
+                                   activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
 
         # struc_embeddings
         return xvec
@@ -41,8 +55,8 @@ class AutoEncoder(object):
         with tf.variable_scope("cont_encoder", reuse = reuse):
             for ii in range(len(self.encoder2)):
                 layer_name = 'layer_' + str(ii)
-                xvec = tf.layers.dense(xvec, self.encoder2[ii],
-                                       activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
+                xvec = self._dense(xvec, self.encoder2[ii],
+                                   activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
         # cont_embeddings
         return xvec
 
@@ -51,9 +65,9 @@ class AutoEncoder(object):
         with tf.variable_scope("struc_decoder"):
             for ii in range(len(self.decoder1)):
                 layer_name = 'layer_' + str(ii)
-                xvec = tf.layers.dense(xvec, self.decoder1[ii],
-                                       activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
-            input_rec = tf.layers.dense(xvec, self.struc_size, activation=tf.nn.relu, use_bias=False, name = "struc_final_layer")
+                xvec = self._dense(xvec, self.decoder1[ii],
+                                   activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
+            input_rec = self._dense(xvec, self.struc_size, activation=tf.nn.relu, use_bias=False, name = "struc_final_layer")
 
         return input_rec
 
@@ -62,9 +76,9 @@ class AutoEncoder(object):
         with tf.variable_scope("cont_decoder"):
             for ii in range(len(self.decoder2)):
                 layer_name = 'layer_' + str(ii)
-                xvec = tf.layers.dense(xvec, self.decoder2[ii],
-                                       activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
-            input_rec = tf.layers.dense(xvec, self.cont_size, activation=tf.nn.relu, use_bias=False, name = "cont_final_layer")
+                xvec = self._dense(xvec, self.decoder2[ii],
+                                   activation = tf.nn.leaky_relu, use_bias = True, name = layer_name)
+            input_rec = self._dense(xvec, self.cont_size, activation=tf.nn.relu, use_bias=False, name = "cont_final_layer")
 
         return input_rec
 
