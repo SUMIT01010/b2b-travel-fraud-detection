@@ -1,3 +1,7 @@
 fraud/
 __pycache__/
 .DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+structural_matrix.csv
