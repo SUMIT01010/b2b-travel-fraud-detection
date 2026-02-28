@@ -1,6 +1,6 @@
 booking_id,booking_ts,agency_id,user_id,product_type,route_type,origin_country,dest_country,lead_time_days,booking_value,passengers_count,payment_method,booking_status
 B000001,2025-07-26 02:24:00,A0072,U00567,hotel,domestic,IN,IN,6,205.91,6,credit_line,failed
-B000002,2025-11-23 10:58:00,A0082,U00607,flight,international,US,US,1,17493.55,1,credit_line,confirmed
+B000002,2025-11-23 10:58:00,A0082,U00607,flight,international,US,US,1,21512.58,1,credit_line,confirmed
 B000003,2025-01-29 02:51:00,A0105,U00272,package,domestic,IN,IN,19,332.24,6,credit_line,confirmed
 B000004,2025-02-13 18:43:00,A0179,U00642,hotel,domestic,US,US,3,469.32,2,credit_line,confirmed
 B000005,2025-03-31 06:48:00,A0124,U00448,hotel,domestic,IN,IN,16,221.84,3,credit_line,confirmed
@@ -19,12 +19,12 @@ B000017,2025-07-21 18:14:00,A0025,U00455,flight,domestic,UK,UK,12,320.5,4,credit
 B000018,2025-05-19 23:23:00,A0010,U00183,flight,domestic,US,US,15,669.8,3,bank,confirmed
 B000019,2025-10-25 03:34:00,A0153,U00156,hotel,domestic,IN,IN,17,605.48,2,credit_line,confirmed
 B000020,2025-12-01 00:58:00,A0067,U00274,hotel,domestic,AE,AE,9,179.54,2,credit_line,confirmed
-B000021,2025-05-24 23:58:00,A0005,U00245,flight,international,IN,IN,1,18086.9,9,credit_line,confirmed
+B000021,2025-05-24 23:58:00,A0005,U00245,flight,international,IN,IN,1,21698.13,9,credit_line,confirmed
 B000022,2025-12-25 15:36:00,A0013,U00168,package,domestic,IN,IN,6,399.21,2,credit_line,confirmed
 B000023,2025-04-07 15:08:00,A0115,U00307,flight,international,UK,TH,59,537.73,2,credit_line,pending
-B000024,2025-04-12 11:23:00,A0131,U00145,package,international,IN,SG,3,421.17,10,credit_line,failed
+B000024,2025-04-12 11:23:00,A0131,U00145,package,international,IN,SG,1,421.17,10,credit_line,failed
 B000025,2025-10-04 01:30:00,A0069,U00676,flight,international,IN,DE,10,1187.7,1,credit_line,confirmed
-B000026,2025-12-10 00:53:00,A0068,U00383,flight,international,IN,DE,1,23990.24,1,credit_line,failed
+B000026,2025-12-10 00:53:00,A0068,U00383,flight,international,IN,DE,1,18448.24,1,credit_line,failed
 B000027,2025-01-08 02:36:00,A0189,U00736,flight,domestic,UK,UK,14,242.78,9,credit_line,confirmed
 B000028,2025-01-25 16:48:00,A0051,U00035,flight,domestic,SG,SG,13,167.01,3,credit_line,confirmed
 B000029,2025-06-27 14:25:00,A0123,U00173,flight,domestic,US,US,13,556.53,2,credit_line,confirmed
@@ -32,7 +32,7 @@ B000030,2025-09-16 13:32:00,A0122,U00252,hotel,international,US,TH,35,2162.98,1,
 B000031,2025-12-03 21:19:00,A0108,U00735,hotel,domestic,IN,IN,16,186.81,2,credit_line,confirmed
 B000032,2025-07-13 09:36:00,A0039,U00174,flight,international,IN,SG,75,359.34,2,credit_line,confirmed
 B000033,2025-06-30 01:31:00,A0069,U00055,flight,domestic,IN,IN,18,261.71,2,card,confirmed
-B000034,2025-11-01 18:26:00,A0005,U00245,flight,international,AE,UK,1,21440.23,2,credit_line,confirmed
+B000034,2025-11-01 18:26:00,A0005,U00245,flight,international,AE,UK,1,17457.56,2,credit_line,confirmed
 B000035,2025-10-08 06:02:00,A0041,U00678,flight,domestic,AE,AE,5,179.8,2,credit_line,confirmed
 B000036,2025-02-08 19:44:00,A0040,U00066,hotel,international,IN,US,38,941.14,10,credit_line,confirmed
 B000037,2025-07-13 05:32:00,A0153,U00185,flight,domestic,IN,IN,1,151.9,8,credit_line,confirmed
@@ -65,7 +65,7 @@ B000063,2025-03-05 17:48:00,A0059,U00229,hotel,international,UK,US,70,740.88,1,c
 B000064,2025-11-22 03:59:00,A0072,U00567,hotel,international,UK,DE,43,1629.44,3,credit_line,confirmed
 B000065,2025-06-19 17:57:00,A0151,U00769,hotel,domestic,AE,AE,7,220.74,5,credit_line,pending
 B000066,2025-02-04 16:46:00,A0166,U00544,flight,domestic,AE,AE,6,311.28,2,credit_line,confirmed
-B000067,2025-05-10 01:26:00,A0059,U00322,flight,international,UK,UK,0,16812.13,4,credit_line,confirmed
+B000067,2025-05-10 01:26:00,A0059,U00322,flight,international,UK,UK,0,17887.71,4,credit_line,confirmed
 B000068,2025-07-09 06:10:00,A0156,U00375,hotel,domestic,UK,UK,9,145.26,3,credit_line,confirmed
 B000069,2025-04-12 14:17:00,A0131,U00616,hotel,domestic,IN,IN,15,143.23,3,card,confirmed
 B000070,2025-10-12 15:49:00,A0120,U00263,flight,international,UK,UK,67,1148.61,1,bank,confirmed
@@ -133,7 +133,7 @@ B000131,2025-11-05 05:33:00,A0096,U00643,flight,international,AE,AE,86,1477.56,1
 B000132,2025-10-06 10:46:00,A0033,U00405,hotel,domestic,UK,UK,17,229.27,5,bank,confirmed
 B000133,2025-09-05 23:13:00,A0051,U00605,hotel,domestic,IN,IN,14,121.86,4,credit_line,confirmed
 B000134,2025-12-13 21:55:00,A0078,U00672,package,international,UK,UK,76,1609.97,3,credit_line,confirmed
-B000135,2025-02-14 02:48:00,A0059,U00322,hotel,international,US,US,0,19415.5,3,credit_line,confirmed
+B000135,2025-02-14 02:48:00,A0059,U00322,hotel,international,US,US,1,20491.76,3,credit_line,confirmed
 B000136,2025-12-20 09:47:00,A0087,U00590,package,international,AE,TH,24,480.37,3,credit_line,confirmed
 B000137,2025-07-17 20:51:00,A0198,U00295,hotel,domestic,IN,IN,4,199.07,1,credit_line,confirmed
 B000138,2025-09-20 07:57:00,A0056,U00731,hotel,domestic,SG,SG,14,159.93,3,bank,confirmed
@@ -169,14 +169,14 @@ B000167,2025-07-13 19:27:00,A0169,U00325,flight,domestic,UK,UK,4,273.85,2,credit
 B000168,2025-01-29 06:45:00,A0108,U00150,flight,domestic,UK,UK,15,276.0,4,credit_line,confirmed
 B000169,2025-12-13 10:24:00,A0088,U00208,flight,domestic,IN,IN,11,96.8,5,card,confirmed
 B000170,2025-07-13 11:26:00,A0135,U00624,hotel,domestic,US,US,9,220.47,1,credit_line,confirmed
-B000171,2025-08-26 01:36:00,A0131,U00145,flight,domestic,US,US,3,63.93,2,bank,confirmed
+B000171,2025-08-26 01:36:00,A0131,U00145,flight,domestic,US,US,0,63.93,2,bank,confirmed
 B000172,2025-11-06 17:35:00,A0104,U00554,flight,domestic,AE,AE,2,373.31,2,credit_line,confirmed
 B000173,2025-12-02 01:57:00,A0044,U00085,flight,domestic,IN,IN,1,77.82,2,credit_line,confirmed
 B000174,2025-09-28 12:49:00,A0087,U00590,flight,international,UK,IN,4,740.38,1,card,confirmed
 B000175,2025-03-20 17:54:00,A0025,U00593,flight,international,AE,FR,89,1781.94,1,card,confirmed
 B000176,2025-04-14 10:20:00,A0123,U00275,flight,international,UK,SG,43,874.83,1,credit_line,confirmed
 B000177,2025-08-27 06:53:00,A0062,U00258,flight,domestic,UK,UK,5,245.81,2,bank,confirmed
-B000178,2025-01-16 10:22:00,A0005,U00245,flight,international,IN,FR,0,21607.64,1,credit_line,confirmed
+B000178,2025-01-16 10:22:00,A0005,U00245,flight,international,IN,FR,1,19561.07,1,credit_line,confirmed
 B000179,2025-02-25 09:54:00,A0028,U00299,flight,domestic,SG,SG,1,361.34,3,credit_line,confirmed
 B000180,2025-09-11 13:30:00,A0126,U00433,flight,domestic,AE,AE,2,153.64,2,credit_line,confirmed
 B000181,2025-06-11 21:27:00,A0102,U00513,flight,domestic,US,US,10,176.63,1,credit_line,confirmed
@@ -270,7 +270,7 @@ B000268,2025-09-22 08:25:00,A0029,U00744,hotel,domestic,IN,IN,15,123.87,2,credit
 B000269,2025-01-13 18:34:00,A0132,U00577,flight,domestic,US,US,17,321.7,1,credit_line,confirmed
 B000270,2025-05-03 21:38:00,A0138,U00023,flight,domestic,IN,IN,5,127.91,3,bank,pending
 B000271,2025-02-11 04:52:00,A0179,U00517,flight,domestic,SG,SG,12,65.55,2,credit_line,confirmed
-B000272,2025-04-27 22:17:00,A0139,U00404,hotel,international,UK,US,1,951.72,2,credit_line,pending
+B000272,2025-04-27 22:17:00,A0139,U00404,hotel,international,UK,US,3,951.72,2,credit_line,pending
 B000273,2025-01-30 14:28:00,A0168,U00531,flight,domestic,IN,IN,3,83.83,4,credit_line,confirmed
 B000274,2025-11-30 06:18:00,A0196,U00209,hotel,international,IN,TH,87,2220.91,2,credit_line,confirmed
 B000275,2025-02-06 02:33:00,A0081,U00060,flight,international,IN,TH,3,2632.67,1,credit_line,confirmed
@@ -280,7 +280,7 @@ B000278,2025-11-29 10:40:00,A0142,U00268,flight,domestic,US,US,14,126.02,2,card,
 B000279,2025-12-18 15:17:00,A0170,U00654,hotel,international,UK,TH,18,1092.06,2,card,confirmed
 B000280,2025-01-06 22:19:00,A0037,U00296,flight,domestic,UK,UK,11,110.35,1,card,confirmed
 B000281,2025-04-02 21:35:00,A0189,U00452,hotel,domestic,IN,IN,7,79.53,2,credit_line,confirmed
-B000282,2025-10-10 07:21:00,A0033,U00535,flight,international,IN,IN,1,17677.37,2,credit_line,confirmed
+B000282,2025-10-10 07:21:00,A0033,U00535,flight,international,IN,IN,0,13152.01,2,credit_line,confirmed
 B000283,2025-06-16 21:10:00,A0087,U00590,flight,domestic,UK,UK,8,456.32,2,credit_line,confirmed
 B000284,2025-05-24 15:53:00,A0098,U00144,hotel,international,AE,TH,26,998.69,8,credit_line,confirmed
 B000285,2025-08-05 03:31:00,A0145,U00464,flight,international,SG,TH,21,1341.85,2,credit_line,pending
@@ -342,7 +342,7 @@ B000340,2025-06-18 15:01:00,A0179,U00642,hotel,domestic,IN,IN,4,95.06,2,credit_l
 B000341,2025-01-09 22:35:00,A0102,U00080,flight,international,AE,SG,9,2621.31,9,credit_line,pending
 B000342,2025-10-30 10:05:00,A0026,U00796,flight,international,IN,TH,8,1283.62,2,credit_line,confirmed
 B000343,2025-08-26 10:45:00,A0147,U00442,flight,international,SG,DE,84,457.4,1,card,confirmed
-B000344,2025-01-05 11:37:00,A0059,U00322,hotel,international,AE,AE,1,15770.8,1,credit_line,confirmed
+B000344,2025-01-05 11:37:00,A0059,U00322,hotel,international,AE,AE,1,15116.21,1,credit_line,confirmed
 B000345,2025-01-23 23:04:00,A0012,U00658,package,international,IN,US,3,1525.17,3,credit_line,confirmed
 B000346,2025-05-26 15:27:00,A0007,U00402,flight,domestic,IN,IN,19,88.9,2,credit_line,confirmed
 B000347,2025-04-22 08:33:00,A0145,U00259,flight,domestic,UK,UK,3,41.9,3,credit_line,confirmed
@@ -382,7 +382,7 @@ B000380,2025-05-21 22:25:00,A0130,U00496,hotel,international,AE,US,28,1597.77,3,
 B000381,2025-09-02 12:51:00,A0077,U00538,flight,domestic,IN,IN,19,144.39,1,credit_line,confirmed
 B000382,2025-06-04 18:33:00,A0187,U00086,package,domestic,IN,IN,16,305.81,4,credit_line,confirmed
 B000383,2025-06-04 09:22:00,A0029,U00398,hotel,international,IN,AE,67,1149.61,9,card,confirmed
-B000384,2025-01-15 11:55:00,A0082,U00607,flight,international,AE,IN,1,11529.09,1,credit_line,confirmed
+B000384,2025-01-15 11:55:00,A0082,U00607,flight,international,AE,IN,1,10086.63,1,credit_line,confirmed
 B000385,2025-07-11 02:41:00,A0006,U00316,flight,domestic,SG,SG,18,169.27,4,card,confirmed
 B000386,2025-01-23 12:00:00,A0152,U00053,hotel,domestic,IN,IN,13,254.78,9,card,confirmed
 B000387,2025-11-19 16:34:00,A0176,U00292,hotel,domestic,UK,UK,8,226.9,1,credit_line,confirmed
@@ -402,7 +402,7 @@ B000400,2025-01-09 03:55:00,A0092,U00569,package,international,SG,DE,33,1142.5,1
 B000401,2025-09-21 23:29:00,A0191,U00622,hotel,international,IN,DE,8,519.84,1,credit_line,confirmed
 B000402,2025-04-04 17:22:00,A0076,U00625,flight,domestic,US,US,8,98.49,1,card,confirmed
 B000403,2025-06-28 07:20:00,A0011,U00044,flight,domestic,AE,AE,16,410.37,9,credit_line,confirmed
-B000404,2025-01-12 22:15:00,A0033,U00535,flight,international,US,UK,1,17550.54,1,credit_line,confirmed
+B000404,2025-01-12 22:15:00,A0033,U00535,flight,international,US,UK,0,20258.84,1,credit_line,confirmed
 B000405,2025-12-01 09:03:00,A0037,U00146,hotel,domestic,IN,IN,15,196.13,5,credit_line,confirmed
 B000406,2025-02-02 09:09:00,A0014,U00395,flight,international,SG,SG,33,1511.25,4,credit_line,confirmed
 B000407,2025-05-05 05:12:00,A0098,U00019,hotel,international,IN,DE,10,6024.58,3,credit_line,pending
@@ -439,7 +439,7 @@ B000437,2025-05-01 08:05:00,A0011,U00510,hotel,domestic,IN,IN,7,393.45,2,credit_
 B000438,2025-06-12 22:31:00,A0080,U00707,package,domestic,IN,IN,2,98.88,1,bank,confirmed
 B000439,2025-02-28 04:45:00,A0186,U00629,flight,domestic,IN,IN,4,139.73,2,bank,confirmed
 B000440,2025-03-28 14:18:00,A0073,U00204,package,domestic,AE,AE,9,451.86,3,card,confirmed
-B000441,2025-04-28 07:02:00,A0059,U00322,hotel,international,IN,DE,1,12223.03,8,credit_line,confirmed
+B000441,2025-04-28 07:02:00,A0059,U00322,hotel,international,IN,DE,1,24423.76,8,credit_line,confirmed
 B000442,2025-01-08 10:32:00,A0173,U00192,flight,international,IN,FR,4,1947.49,4,card,confirmed
 B000443,2025-08-27 15:51:00,A0199,U00472,hotel,international,IN,US,44,1131.8,1,credit_line,confirmed
 B000444,2025-12-27 04:40:00,A0049,U00553,hotel,domestic,IN,IN,8,539.28,2,credit_line,confirmed
@@ -465,12 +465,12 @@ B000463,2025-01-20 03:57:00,A0172,U00670,hotel,domestic,IN,IN,19,198.61,1,credit
 B000464,2025-08-22 15:13:00,A0072,U00567,flight,domestic,IN,IN,7,110.81,1,card,confirmed
 B000465,2025-10-27 17:33:00,A0106,U00012,hotel,domestic,IN,IN,7,181.19,1,credit_line,confirmed
 B000466,2025-03-01 12:07:00,A0058,U00447,flight,domestic,IN,IN,1,89.48,2,credit_line,confirmed
-B000467,2025-03-24 14:48:00,A0174,U00413,package,international,IN,IN,1,23368.94,3,credit_line,confirmed
+B000467,2025-03-24 14:48:00,A0174,U00413,package,international,IN,IN,0,12024.98,3,credit_line,confirmed
 B000468,2025-11-21 14:53:00,A0177,U00641,flight,domestic,IN,IN,17,328.87,10,credit_line,confirmed
 B000469,2025-05-22 08:50:00,A0016,U00159,flight,domestic,IN,IN,8,312.32,1,credit_line,confirmed
 B000470,2025-10-27 14:13:00,A0037,U00675,flight,international,IN,TH,26,1750.66,3,credit_line,confirmed
 B000471,2025-08-30 07:49:00,A0018,U00503,hotel,domestic,IN,IN,19,219.82,1,card,confirmed
-B000472,2025-07-26 12:31:00,A0092,U00528,hotel,international,UK,TH,2,430.03,2,bank,confirmed
+B000472,2025-07-26 12:31:00,A0092,U00528,hotel,international,UK,TH,3,430.03,2,bank,confirmed
 B000473,2025-09-23 01:28:00,A0063,U00374,flight,domestic,IN,IN,13,162.09,2,credit_line,failed
 B000474,2025-05-24 17:54:00,A0063,U00219,hotel,domestic,IN,IN,1,192.36,1,credit_line,pending
 B000475,2025-10-01 08:50:00,A0032,U00604,flight,domestic,SG,SG,7,83.72,2,credit_line,confirmed
@@ -484,7 +484,7 @@ B000482,2025-06-07 08:17:00,A0097,U00533,hotel,international,IN,DE,30,1230.76,1,
 B000483,2025-08-21 01:52:00,A0081,U00060,hotel,domestic,AE,AE,11,99.93,9,credit_line,confirmed
 B000484,2025-12-24 11:31:00,A0076,U00800,package,international,IN,DE,42,3779.09,2,credit_line,confirmed
 B000485,2025-05-08 17:51:00,A0058,U00411,flight,domestic,IN,IN,9,504.83,9,credit_line,confirmed
-B000486,2025-04-09 09:08:00,A0033,U00535,flight,international,US,US,1,25000.0,1,credit_line,confirmed
+B000486,2025-04-09 09:08:00,A0033,U00535,flight,international,US,US,0,17806.4,1,credit_line,confirmed
 B000487,2025-11-12 04:45:00,A0116,U00132,flight,domestic,IN,IN,3,370.25,1,credit_line,confirmed
 B000488,2025-10-14 21:46:00,A0166,U00544,hotel,domestic,SG,SG,3,194.46,3,credit_line,confirmed
 B000489,2025-05-05 07:42:00,A0041,U00585,flight,international,IN,AE,32,1435.23,7,credit_line,confirmed
@@ -550,7 +550,7 @@ B000548,2025-06-10 05:55:00,A0153,U00225,hotel,domestic,SG,SG,11,297.61,1,credit
 B000549,2025-03-04 05:10:00,A0138,U00023,flight,domestic,AE,AE,6,206.06,3,card,confirmed
 B000550,2025-09-15 10:34:00,A0095,U00507,flight,domestic,IN,IN,17,483.82,1,bank,confirmed
 B000551,2025-07-24 00:45:00,A0003,U00241,flight,international,IN,AE,46,928.52,3,card,confirmed
-B000552,2025-01-12 22:24:00,A0092,U00528,flight,domestic,AE,AE,1,164.99,2,card,confirmed
+B000552,2025-01-12 22:24:00,A0092,U00528,flight,domestic,AE,AE,3,164.99,2,card,confirmed
 B000553,2025-11-13 07:59:00,A0051,U00605,hotel,domestic,IN,IN,15,218.4,1,credit_line,confirmed
 B000554,2025-05-25 02:57:00,A0126,U00771,flight,international,AE,DE,33,2023.01,4,credit_line,confirmed
 B000555,2025-05-08 13:59:00,A0107,U00238,hotel,domestic,IN,IN,17,69.98,2,credit_line,confirmed
@@ -566,7 +566,7 @@ B000564,2025-06-30 03:03:00,A0172,U00078,flight,international,IN,SG,88,1185.16,1
 B000565,2025-09-10 07:09:00,A0049,U00087,hotel,domestic,IN,IN,12,78.61,4,credit_line,confirmed
 B000566,2025-05-03 16:42:00,A0082,U00257,flight,international,IN,US,36,1387.1,4,credit_line,confirmed
 B000567,2025-03-08 23:33:00,A0122,U00252,hotel,domestic,AE,AE,5,378.16,1,credit_line,confirmed
-B000568,2025-08-23 17:10:00,A0005,U00245,flight,international,AE,AE,1,17340.79,8,credit_line,confirmed
+B000568,2025-08-23 17:10:00,A0005,U00245,flight,international,AE,AE,1,18174.38,8,credit_line,confirmed
 B000569,2025-10-14 05:27:00,A0062,U00095,hotel,international,US,US,37,827.64,7,bank,confirmed
 B000570,2025-12-04 00:40:00,A0108,U00161,hotel,domestic,UK,UK,10,1086.26,2,credit_line,confirmed
 B000571,2025-10-11 15:29:00,A0047,U00112,flight,domestic,US,US,14,358.64,1,credit_line,confirmed
@@ -574,8 +574,8 @@ B000572,2025-11-22 21:24:00,A0039,U00174,flight,domestic,US,US,15,132.61,1,card,
 B000573,2025-07-31 12:32:00,A0015,U00450,flight,domestic,UK,UK,14,145.29,7,credit_line,confirmed
 B000574,2025-10-15 21:22:00,A0120,U00153,flight,domestic,IN,IN,16,113.27,3,credit_line,confirmed
 B000575,2025-11-13 03:15:00,A0055,U00051,flight,domestic,IN,IN,8,186.03,6,credit_line,confirmed
-B000576,2025-12-07 17:54:00,A0139,U00404,flight,domestic,AE,AE,1,477.13,1,bank,confirmed
-B000577,2025-12-09 16:56:00,A0068,U00383,package,international,SG,SG,0,15564.5,10,credit_line,confirmed
+B000576,2025-12-07 17:54:00,A0139,U00404,flight,domestic,AE,AE,2,477.13,1,bank,confirmed
+B000577,2025-12-09 16:56:00,A0068,U00383,package,international,SG,SG,1,17485.7,10,credit_line,confirmed
 B000578,2025-11-24 00:37:00,A0175,U00726,package,international,IN,SG,84,3933.27,3,credit_line,pending
 B000579,2025-06-02 21:32:00,A0170,U00165,hotel,domestic,UK,UK,12,478.41,1,credit_line,confirmed
 B000580,2025-01-18 13:41:00,A0155,U00334,flight,international,US,US,13,3270.51,2,credit_line,confirmed
@@ -597,7 +597,7 @@ B000595,2025-03-24 21:02:00,A0093,U00474,flight,domestic,US,US,12,99.78,1,credit
 B000596,2025-11-09 19:59:00,A0012,U00355,flight,domestic,IN,IN,9,97.44,1,credit_line,confirmed
 B000597,2025-06-22 19:30:00,A0171,U00147,flight,international,IN,SG,28,4123.32,1,credit_line,pending
 B000598,2025-06-22 00:08:00,A0029,U00040,flight,international,AE,DE,39,1519.63,3,card,confirmed
-B000599,2025-07-14 16:51:00,A0005,U00245,hotel,international,IN,IN,1,15670.95,6,credit_line,confirmed
+B000599,2025-07-14 16:51:00,A0005,U00245,hotel,international,IN,IN,1,17446.43,6,credit_line,confirmed
 B000600,2025-12-28 17:59:00,A0168,U00531,flight,domestic,US,US,8,201.27,1,credit_line,confirmed
 B000601,2025-03-08 03:39:00,A0129,U00780,flight,domestic,IN,IN,17,141.54,1,credit_line,confirmed
 B000602,2025-03-28 10:11:00,A0039,U00356,hotel,international,SG,FR,14,888.09,7,credit_line,confirmed
@@ -655,7 +655,7 @@ B000653,2025-01-18 22:01:00,A0097,U00623,hotel,international,IN,IN,69,2165.32,1,
 B000654,2025-08-08 00:54:00,A0015,U00419,flight,domestic,IN,IN,2,169.23,5,credit_line,confirmed
 B000655,2025-11-19 19:18:00,A0039,U00151,flight,international,IN,TH,76,1088.23,1,credit_line,confirmed
 B000656,2025-06-27 11:20:00,A0122,U00595,flight,domestic,SG,SG,18,166.21,1,credit_line,confirmed
-B000657,2025-01-12 06:20:00,A0131,U00145,flight,international,SG,UK,2,1618.48,2,credit_line,confirmed
+B000657,2025-01-12 06:20:00,A0131,U00145,flight,international,SG,UK,0,1618.48,2,credit_line,confirmed
 B000658,2025-07-11 08:16:00,A0003,U00260,hotel,international,UK,SG,15,1006.87,1,credit_line,confirmed
 B000659,2025-11-29 12:03:00,A0037,U00611,hotel,domestic,AE,AE,6,214.1,1,bank,confirmed
 B000660,2025-10-02 15:02:00,A0044,U00085,package,domestic,US,US,13,101.54,3,card,confirmed
@@ -671,13 +671,13 @@ B000669,2025-10-16 04:40:00,A0157,U00782,flight,international,IN,US,54,625.52,3,
 B000670,2025-01-01 18:02:00,A0165,U00006,hotel,domestic,IN,IN,3,543.59,2,credit_line,confirmed
 B000671,2025-10-08 19:24:00,A0095,U00507,hotel,domestic,AE,AE,17,342.09,1,card,confirmed
 B000672,2025-04-21 02:46:00,A0089,U00329,flight,domestic,SG,SG,5,161.43,2,card,confirmed
-B000673,2025-08-07 02:56:00,A0139,U00404,package,domestic,US,US,3,277.15,2,credit_line,confirmed
+B000673,2025-08-07 02:56:00,A0139,U00404,package,domestic,US,US,0,277.15,2,credit_line,confirmed
 B000674,2025-01-26 11:59:00,A0012,U00591,flight,domestic,AE,AE,12,144.31,2,credit_line,confirmed
 B000675,2025-02-03 20:17:00,A0098,U00019,package,international,SG,IN,25,2041.43,5,credit_line,confirmed
 B000676,2025-11-11 08:29:00,A0166,U00003,flight,domestic,IN,IN,13,118.17,8,credit_line,confirmed
 B000677,2025-03-16 11:51:00,A0037,U00146,hotel,domestic,SG,SG,7,247.81,8,card,failed
 B000678,2025-05-07 03:56:00,A0094,U00627,flight,domestic,IN,IN,11,180.25,6,bank,confirmed
-B000679,2025-11-05 08:49:00,A0174,U00413,hotel,international,US,US,1,17198.94,4,credit_line,confirmed
+B000679,2025-11-05 08:49:00,A0174,U00413,hotel,international,US,US,1,20687.27,4,credit_line,confirmed
 B000680,2025-07-29 18:29:00,A0192,U00396,hotel,domestic,IN,IN,18,726.06,2,credit_line,confirmed
 B000681,2025-05-07 10:35:00,A0015,U00450,flight,international,AE,UK,31,1410.77,1,credit_line,confirmed
 B000682,2025-11-04 00:33:00,A0153,U00007,package,domestic,IN,IN,3,70.97,3,credit_line,confirmed
@@ -726,7 +726,7 @@ B000724,2025-03-27 22:55:00,A0105,U00272,package,domestic,AE,AE,12,277.95,4,cred
 B000725,2025-02-24 16:23:00,A0187,U00439,flight,international,SG,IN,49,412.66,5,credit_line,confirmed
 B000726,2025-08-30 12:26:00,A0170,U00165,package,domestic,IN,IN,1,395.99,2,credit_line,confirmed
 B000727,2025-09-30 00:51:00,A0166,U00449,flight,domestic,IN,IN,14,498.83,9,credit_line,confirmed
-B000728,2025-11-13 21:56:00,A0107,U00327,flight,international,IN,FR,2,2052.17,2,credit_line,confirmed
+B000728,2025-11-13 21:56:00,A0107,U00327,flight,international,IN,FR,0,2052.17,2,credit_line,confirmed
 B000729,2025-12-18 01:33:00,A0037,U00378,flight,domestic,IN,IN,16,334.21,1,credit_line,confirmed
 B000730,2025-07-03 16:51:00,A0193,U00789,flight,domestic,IN,IN,5,356.39,2,card,confirmed
 B000731,2025-05-11 00:32:00,A0181,U00330,hotel,international,IN,AE,86,2087.8,2,credit_line,confirmed
@@ -742,7 +742,7 @@ B000740,2025-03-10 13:52:00,A0028,U00299,flight,domestic,AE,AE,15,264.2,3,credit
 B000741,2025-04-05 12:00:00,A0179,U00517,package,international,AE,SG,2,1303.84,5,card,confirmed
 B000742,2025-06-01 07:25:00,A0174,U00463,package,domestic,IN,IN,17,303.89,1,bank,confirmed
 B000743,2025-09-20 05:45:00,A0196,U00209,hotel,international,IN,DE,34,1100.62,1,card,confirmed
-B000744,2025-04-13 16:52:00,A0131,U00145,hotel,domestic,IN,IN,3,164.73,6,credit_line,confirmed
+B000744,2025-04-13 16:52:00,A0131,U00145,hotel,domestic,IN,IN,0,164.73,6,credit_line,confirmed
 B000745,2025-11-19 18:04:00,A0171,U00717,flight,domestic,IN,IN,3,173.69,3,credit_line,confirmed
 B000746,2025-04-17 11:25:00,A0125,U00401,hotel,domestic,IN,IN,9,156.07,10,credit_line,confirmed
 B000747,2025-10-21 08:18:00,A0107,U00346,hotel,domestic,AE,AE,5,111.91,3,card,confirmed
@@ -788,14 +788,14 @@ B000786,2025-07-28 18:46:00,A0023,U00342,hotel,international,IN,UK,65,1023.89,1,
 B000787,2025-01-11 21:15:00,A0002,U00353,package,domestic,SG,SG,14,131.84,2,card,confirmed
 B000788,2025-03-24 05:04:00,A0072,U00567,hotel,domestic,IN,IN,17,241.74,2,card,confirmed
 B000789,2025-02-24 07:49:00,A0154,U00109,flight,international,UK,DE,77,2024.1,9,credit_line,confirmed
-B000790,2025-09-01 23:01:00,A0068,U00383,flight,international,SG,SG,1,18276.52,1,credit_line,confirmed
+B000790,2025-09-01 23:01:00,A0068,U00383,flight,international,SG,SG,0,12059.76,1,credit_line,confirmed
 B000791,2025-06-02 23:59:00,A0168,U00695,flight,domestic,IN,IN,2,201.2,2,credit_line,confirmed
 B000792,2025-02-08 01:15:00,A0078,U00672,flight,international,AE,SG,41,1662.76,2,credit_line,confirmed
 B000793,2025-09-15 03:23:00,A0003,U00241,flight,domestic,UK,UK,10,80.6,2,credit_line,confirmed
 B000794,2025-03-14 02:45:00,A0092,U00320,flight,international,IN,UK,51,1437.22,1,card,confirmed
 B000795,2025-08-05 18:10:00,A0029,U00759,hotel,domestic,UK,UK,11,280.06,6,card,confirmed
 B000796,2025-08-23 09:40:00,A0079,U00377,hotel,domestic,IN,IN,9,128.59,4,credit_line,confirmed
-B000797,2025-06-26 04:50:00,A0131,U00145,hotel,domestic,AE,AE,1,436.24,1,credit_line,confirmed
+B000797,2025-06-26 04:50:00,A0131,U00145,hotel,domestic,AE,AE,2,436.24,1,credit_line,confirmed
 B000798,2025-05-22 06:26:00,A0039,U00048,package,international,US,TH,22,794.78,2,credit_line,confirmed
 B000799,2025-06-09 06:13:00,A0142,U00268,flight,domestic,AE,AE,3,231.1,3,card,confirmed
 B000800,2025-09-17 04:18:00,A0025,U00284,hotel,domestic,IN,IN,7,220.79,8,card,failed
@@ -821,7 +821,7 @@ B000819,2025-03-19 03:59:00,A0108,U00150,hotel,international,AE,AE,45,524.15,2,c
 B000820,2025-10-28 08:45:00,A0111,U00682,flight,domestic,SG,SG,1,147.31,2,credit_line,confirmed
 B000821,2025-07-12 21:28:00,A0053,U00466,flight,domestic,UK,UK,5,165.66,3,credit_line,confirmed
 B000822,2025-01-07 22:06:00,A0141,U00592,flight,international,US,FR,35,2046.15,2,credit_line,confirmed
-B000823,2025-06-03 01:42:00,A0092,U00528,flight,international,IN,FR,1,2406.43,4,credit_line,confirmed
+B000823,2025-06-03 01:42:00,A0092,U00528,flight,international,IN,FR,3,2406.43,4,credit_line,confirmed
 B000824,2025-04-25 18:21:00,A0114,U00302,hotel,domestic,UK,UK,10,91.59,4,credit_line,confirmed
 B000825,2025-02-19 12:21:00,A0188,U00638,flight,domestic,IN,IN,18,170.29,1,credit_line,pending
 B000826,2025-10-13 00:39:00,A0053,U00602,flight,domestic,SG,SG,10,161.05,1,credit_line,confirmed
@@ -863,7 +863,7 @@ B000861,2025-07-15 04:57:00,A0126,U00636,hotel,domestic,IN,IN,3,685.46,1,credit_
 B000862,2025-09-10 03:16:00,A0164,U00697,hotel,domestic,AE,AE,14,318.22,1,card,confirmed
 B000863,2025-06-29 19:46:00,A0069,U00055,hotel,international,US,US,14,405.93,2,credit_line,confirmed
 B000864,2025-02-24 19:30:00,A0105,U00712,package,domestic,IN,IN,14,285.43,1,credit_line,confirmed
-B000865,2025-05-10 20:28:00,A0174,U00413,flight,international,IN,AE,1,15410.89,1,credit_line,confirmed
+B000865,2025-05-10 20:28:00,A0174,U00413,flight,international,IN,AE,1,16561.86,1,credit_line,confirmed
 B000866,2025-07-02 18:51:00,A0076,U00280,hotel,international,SG,SG,39,3142.66,1,bank,confirmed
 B000867,2025-08-06 05:22:00,A0148,U00737,flight,international,IN,IN,4,1121.35,3,credit_line,confirmed
 B000868,2025-08-27 03:25:00,A0049,U00553,flight,domestic,SG,SG,4,96.64,1,credit_line,confirmed
@@ -904,7 +904,7 @@ B000902,2025-01-20 21:49:00,A0039,U00217,flight,domestic,US,US,4,193.78,8,credit
 B000903,2025-10-06 02:58:00,A0191,U00622,package,international,SG,US,49,1252.14,3,bank,confirmed
 B000904,2025-07-20 11:23:00,A0011,U00044,flight,international,US,IN,73,1269.14,4,credit_line,confirmed
 B000905,2025-06-12 06:30:00,A0109,U00110,package,domestic,UK,UK,13,176.06,4,credit_line,confirmed
-B000906,2025-10-01 19:29:00,A0174,U00413,package,international,IN,IN,1,17490.98,3,credit_line,confirmed
+B000906,2025-10-01 19:29:00,A0174,U00413,package,international,IN,IN,1,16319.0,3,credit_line,confirmed
 B000907,2025-01-18 21:01:00,A0098,U00081,hotel,international,UK,TH,20,1635.66,9,credit_line,confirmed
 B000908,2025-04-17 11:58:00,A0148,U00737,flight,domestic,IN,IN,8,65.12,1,credit_line,confirmed
 B000909,2025-01-03 11:59:00,A0008,U00716,hotel,international,IN,IN,34,1955.07,2,card,confirmed
@@ -921,7 +921,7 @@ B000919,2025-11-11 11:14:00,A0122,U00480,flight,domestic,IN,IN,1,111.95,2,credit
 B000920,2025-12-29 00:35:00,A0123,U00275,hotel,domestic,IN,IN,7,261.23,2,credit_line,confirmed
 B000921,2025-10-19 03:40:00,A0199,U00116,flight,international,SG,TH,56,1777.03,2,credit_line,confirmed
 B000922,2025-04-17 06:43:00,A0100,U00667,package,domestic,AE,AE,3,196.17,2,credit_line,confirmed
-B000923,2025-09-16 06:26:00,A0005,U00245,flight,international,AE,AE,1,9362.32,3,credit_line,confirmed
+B000923,2025-09-16 06:26:00,A0005,U00245,flight,international,AE,AE,1,15885.16,3,credit_line,confirmed
 B000924,2025-02-21 06:20:00,A0131,U00616,flight,international,AE,AE,75,1444.37,1,credit_line,confirmed
 B000925,2025-12-29 13:57:00,A0124,U00215,flight,international,US,SG,55,1992.12,1,credit_line,confirmed
 B000926,2025-11-13 14:19:00,A0148,U00632,flight,domestic,US,US,18,317.64,2,credit_line,confirmed
@@ -948,7 +948,7 @@ B000946,2025-01-18 17:30:00,A0148,U00632,flight,domestic,US,US,13,209.46,1,credi
 B000947,2025-06-17 14:28:00,A0037,U00296,hotel,domestic,UK,UK,15,789.17,4,credit_line,confirmed
 B000948,2025-01-11 15:05:00,A0168,U00018,flight,domestic,UK,UK,9,343.37,2,card,confirmed
 B000949,2025-03-17 18:17:00,A0020,U00637,hotel,domestic,AE,AE,6,189.88,1,credit_line,confirmed
-B000950,2025-11-29 22:25:00,A0033,U00535,hotel,international,UK,AE,0,9038.96,1,credit_line,confirmed
+B000950,2025-11-29 22:25:00,A0033,U00535,hotel,international,UK,AE,1,17494.4,1,credit_line,confirmed
 B000951,2025-12-08 16:49:00,A0119,U00551,flight,domestic,US,US,9,168.22,1,credit_line,confirmed
 B000952,2025-02-06 03:24:00,A0184,U00218,hotel,domestic,SG,SG,6,293.37,1,credit_line,pending
 B000953,2025-04-01 13:56:00,A0022,U00379,package,domestic,IN,IN,7,582.92,5,credit_line,confirmed
@@ -962,7 +962,7 @@ B000960,2025-03-19 23:33:00,A0176,U00298,hotel,domestic,IN,IN,10,141.32,2,credit
 B000961,2025-03-12 04:06:00,A0134,U00578,hotel,domestic,AE,AE,3,353.42,1,credit_line,confirmed
 B000962,2025-01-26 23:23:00,A0056,U00310,flight,international,IN,DE,61,1204.11,1,card,confirmed
 B000963,2025-04-27 20:25:00,A0171,U00763,flight,domestic,UK,UK,11,187.11,6,credit_line,confirmed
-B000964,2025-12-14 08:21:00,A0005,U00245,flight,international,IN,IN,0,19536.17,1,credit_line,confirmed
+B000964,2025-12-14 08:21:00,A0005,U00245,flight,international,IN,IN,1,25000.0,1,credit_line,confirmed
 B000965,2025-10-03 17:26:00,A0194,U00163,flight,international,US,US,66,786.64,1,credit_line,confirmed
 B000966,2025-04-02 09:25:00,A0062,U00572,flight,domestic,SG,SG,13,153.6,2,card,pending
 B000967,2025-04-16 13:38:00,A0091,U00314,package,domestic,SG,SG,14,153.83,9,card,confirmed
@@ -976,8 +976,8 @@ B000974,2025-07-26 03:47:00,A0034,U00788,flight,international,IN,FR,33,1546.39,4
 B000975,2025-09-10 06:44:00,A0006,U00441,flight,international,SG,SG,8,1436.1,6,credit_line,confirmed
 B000976,2025-04-16 19:43:00,A0120,U00194,flight,international,AE,DE,79,489.0,2,card,confirmed
 B000977,2025-09-21 06:49:00,A0001,U00446,package,domestic,SG,SG,4,63.19,2,credit_line,confirmed
-B000978,2025-08-30 18:05:00,A0068,U00383,hotel,international,SG,SG,1,18910.44,1,credit_line,confirmed
-B000979,2025-10-01 04:39:00,A0131,U00145,hotel,domestic,SG,SG,2,300.0,2,credit_line,confirmed
+B000978,2025-08-30 18:05:00,A0068,U00383,hotel,international,SG,SG,0,19111.23,1,credit_line,confirmed
+B000979,2025-10-01 04:39:00,A0131,U00145,hotel,domestic,SG,SG,1,300.0,2,credit_line,confirmed
 B000980,2025-11-28 22:22:00,A0011,U00044,flight,international,IN,DE,71,2930.04,1,card,confirmed
 B000981,2025-05-15 20:42:00,A0135,U00121,flight,domestic,UK,UK,17,142.88,2,credit_line,confirmed
 B000982,2025-08-12 10:01:00,A0074,U00373,hotel,domestic,AE,AE,12,375.36,3,credit_line,confirmed
@@ -1029,8 +1029,8 @@ B001027,2025-03-30 00:25:00,A0034,U00166,hotel,domestic,SG,SG,9,203.7,4,card,con
 B001028,2025-05-12 07:39:00,A0016,U00159,flight,domestic,US,US,7,323.7,2,credit_line,confirmed
 B001029,2025-12-29 02:35:00,A0044,U00606,flight,domestic,US,US,14,264.68,9,credit_line,confirmed
 B001030,2025-11-13 16:21:00,A0080,U00318,flight,domestic,US,US,2,323.21,8,bank,confirmed
-B001031,2025-09-18 02:37:00,A0131,U00145,flight,international,UK,SG,3,545.41,4,credit_line,confirmed
-B001032,2025-08-14 17:55:00,A0107,U00327,flight,international,UK,FR,2,1207.95,2,credit_line,confirmed
+B001031,2025-09-18 02:37:00,A0131,U00145,flight,international,UK,SG,2,545.41,4,credit_line,confirmed
+B001032,2025-08-14 17:55:00,A0107,U00327,flight,international,UK,FR,3,1207.95,2,credit_line,confirmed
 B001033,2025-09-07 06:43:00,A0168,U00148,flight,domestic,UK,UK,17,93.6,6,credit_line,confirmed
 B001034,2025-03-13 22:52:00,A0096,U00643,flight,domestic,US,US,2,167.2,1,credit_line,confirmed
 B001035,2025-03-01 19:20:00,A0096,U00382,flight,international,US,TH,71,695.89,1,card,pending
@@ -1061,7 +1061,7 @@ B001059,2025-02-04 17:41:00,A0175,U00427,hotel,domestic,IN,IN,6,611.46,9,credit_
 B001060,2025-11-18 00:33:00,A0042,U00072,flight,domestic,IN,IN,2,188.17,9,credit_line,pending
 B001061,2025-12-28 09:30:00,A0041,U00519,flight,domestic,AE,AE,15,114.66,2,credit_line,confirmed
 B001062,2025-04-01 17:52:00,A0125,U00264,flight,international,AE,IN,63,1889.74,2,credit_line,confirmed
-B001063,2025-09-22 09:03:00,A0033,U00535,flight,international,US,US,1,23203.77,1,credit_line,confirmed
+B001063,2025-09-22 09:03:00,A0033,U00535,flight,international,US,US,1,10387.17,1,credit_line,confirmed
 B001064,2025-10-22 10:58:00,A0092,U00435,hotel,domestic,US,US,14,131.44,2,credit_line,confirmed
 B001065,2025-11-30 07:29:00,A0164,U00399,flight,international,SG,US,62,1320.74,4,card,pending
 B001066,2025-11-05 21:39:00,A0147,U00442,flight,domestic,IN,IN,9,681.17,8,credit_line,confirmed
@@ -1089,7 +1089,7 @@ B001087,2025-09-16 15:09:00,A0120,U00393,flight,domestic,IN,IN,17,120.19,4,credi
 B001088,2025-03-04 22:29:00,A0087,U00590,package,domestic,AE,AE,5,164.12,5,card,confirmed
 B001089,2025-12-19 13:44:00,A0015,U00152,flight,domestic,IN,IN,9,127.31,1,credit_line,confirmed
 B001090,2025-08-24 09:34:00,A0190,U00198,hotel,international,US,AE,19,1890.56,2,credit_line,confirmed
-B001091,2025-08-02 16:02:00,A0005,U00245,flight,international,IN,UK,1,13674.21,5,credit_line,confirmed
+B001091,2025-08-02 16:02:00,A0005,U00245,flight,international,IN,UK,1,16548.69,5,credit_line,confirmed
 B001092,2025-08-03 21:34:00,A0007,U00125,hotel,domestic,IN,IN,19,50.78,1,credit_line,confirmed
 B001093,2025-03-22 01:06:00,A0011,U00042,flight,international,US,UK,66,679.98,1,card,confirmed
 B001094,2025-05-11 19:22:00,A0103,U00542,flight,domestic,US,US,12,165.28,3,card,confirmed
@@ -1149,7 +1149,7 @@ B001147,2025-02-21 12:20:00,A0174,U00470,flight,domestic,UK,UK,19,175.3,3,card,c
 B001148,2025-05-23 04:30:00,A0001,U00713,hotel,domestic,UK,UK,15,231.65,4,credit_line,confirmed
 B001149,2025-01-24 06:41:00,A0017,U00089,package,domestic,IN,IN,7,249.58,3,card,pending
 B001150,2025-10-20 00:35:00,A0148,U00381,hotel,domestic,SG,SG,13,359.7,1,credit_line,confirmed
-B001151,2025-11-03 08:54:00,A0005,U00245,flight,international,US,SG,0,21541.13,1,credit_line,confirmed
+B001151,2025-11-03 08:54:00,A0005,U00245,flight,international,US,SG,0,24441.38,1,credit_line,confirmed
 B001152,2025-05-10 23:10:00,A0109,U00368,hotel,domestic,IN,IN,19,415.58,9,credit_line,confirmed
 B001153,2025-10-10 09:17:00,A0151,U00769,hotel,domestic,US,US,19,159.82,2,credit_line,confirmed
 B001154,2025-09-01 16:11:00,A0072,U00230,hotel,international,SG,DE,27,2695.21,3,credit_line,confirmed
@@ -1159,13 +1159,13 @@ B001157,2025-01-30 14:37:00,A0145,U00795,flight,international,UK,TH,45,1849.94,2
 B001158,2025-12-11 18:24:00,A0124,U00448,flight,international,AE,US,77,607.9,2,credit_line,confirmed
 B001159,2025-01-17 20:36:00,A0184,U00218,flight,domestic,UK,UK,6,326.76,4,card,confirmed
 B001160,2025-04-19 02:07:00,A0080,U00525,flight,domestic,UK,UK,9,249.55,8,credit_line,confirmed
-B001161,2025-10-29 19:37:00,A0059,U00322,hotel,international,AE,AE,0,23802.67,1,credit_line,confirmed
+B001161,2025-10-29 19:37:00,A0059,U00322,hotel,international,AE,AE,1,15658.84,1,credit_line,confirmed
 B001162,2025-07-30 16:14:00,A0032,U00425,hotel,domestic,IN,IN,16,295.45,1,credit_line,confirmed
 B001163,2025-09-26 05:10:00,A0147,U00442,flight,international,IN,UK,77,2780.3,2,credit_line,confirmed
 B001164,2025-03-31 22:46:00,A0040,U00043,hotel,domestic,IN,IN,12,362.2,1,credit_line,confirmed
 B001165,2025-12-19 14:03:00,A0188,U00493,package,domestic,US,US,13,227.85,2,credit_line,confirmed
 B001166,2025-11-17 17:13:00,A0058,U00411,flight,domestic,IN,IN,18,191.71,1,credit_line,confirmed
-B001167,2025-10-11 22:33:00,A0092,U00528,flight,domestic,IN,IN,1,371.57,1,bank,confirmed
+B001167,2025-10-11 22:33:00,A0092,U00528,flight,domestic,IN,IN,0,371.57,1,bank,confirmed
 B001168,2025-07-26 09:23:00,A0082,U00257,flight,international,IN,AE,3,4284.84,1,credit_line,confirmed
 B001169,2025-01-02 01:32:00,A0134,U00406,flight,domestic,US,US,17,173.77,1,credit_line,confirmed
 B001170,2025-12-27 18:38:00,A0111,U00407,flight,domestic,AE,AE,1,374.22,1,credit_line,confirmed
@@ -1226,14 +1226,14 @@ B001224,2025-01-28 18:42:00,A0117,U00011,flight,domestic,AE,AE,16,947.59,5,credi
 B001225,2025-06-27 11:09:00,A0118,U00390,hotel,domestic,UK,UK,14,133.0,2,credit_line,confirmed
 B001226,2025-12-02 07:23:00,A0063,U00494,flight,international,UK,TH,89,870.32,7,bank,pending
 B001227,2025-10-01 10:07:00,A0026,U00665,flight,domestic,US,US,15,141.51,2,credit_line,confirmed
-B001228,2025-09-18 09:54:00,A0033,U00535,flight,international,AE,AE,0,22873.79,3,credit_line,confirmed
+B001228,2025-09-18 09:54:00,A0033,U00535,flight,international,AE,AE,0,13851.06,3,credit_line,confirmed
 B001229,2025-11-27 03:08:00,A0155,U00360,hotel,international,SG,UK,28,2638.4,3,bank,confirmed
 B001230,2025-01-23 01:46:00,A0118,U00705,hotel,international,US,US,6,1416.88,3,bank,confirmed
 B001231,2025-11-21 16:52:00,A0079,U00468,flight,international,IN,TH,41,3932.25,1,credit_line,confirmed
 B001232,2025-07-27 05:08:00,A0123,U00173,flight,domestic,IN,IN,7,425.19,3,credit_line,pending
 B001233,2025-02-16 17:01:00,A0069,U00676,flight,domestic,SG,SG,15,294.44,6,credit_line,confirmed
 B001234,2025-07-14 21:01:00,A0107,U00238,hotel,domestic,US,US,14,165.78,5,credit_line,confirmed
-B001235,2025-07-07 22:40:00,A0131,U00145,hotel,domestic,IN,IN,3,74.26,6,credit_line,failed
+B001235,2025-07-07 22:40:00,A0131,U00145,hotel,domestic,IN,IN,1,74.26,6,credit_line,failed
 B001236,2025-03-25 16:42:00,A0098,U00312,package,domestic,IN,IN,19,189.94,2,credit_line,confirmed
 B001237,2025-10-09 14:06:00,A0131,U00481,flight,domestic,IN,IN,16,132.1,2,credit_line,confirmed
 B001238,2025-07-16 10:28:00,A0120,U00263,flight,international,IN,DE,26,1286.48,4,credit_line,confirmed
@@ -1269,7 +1269,7 @@ B001267,2025-04-10 06:37:00,A0041,U00519,hotel,international,IN,DE,65,427.16,1,c
 B001268,2025-03-09 14:55:00,A0038,U00767,flight,domestic,AE,AE,14,302.45,1,bank,confirmed
 B001269,2025-09-02 03:51:00,A0108,U00635,flight,domestic,IN,IN,3,159.85,1,credit_line,confirmed
 B001270,2025-03-06 02:33:00,A0064,U00454,hotel,domestic,IN,IN,16,115.02,1,credit_line,confirmed
-B001271,2025-02-25 18:14:00,A0139,U00404,package,international,SG,SG,0,1176.23,2,credit_line,confirmed
+B001271,2025-02-25 18:14:00,A0139,U00404,package,international,SG,SG,1,1176.23,2,credit_line,confirmed
 B001272,2025-03-08 00:17:00,A0137,U00126,package,domestic,AE,AE,9,224.46,8,bank,confirmed
 B001273,2025-04-16 06:41:00,A0039,U00418,flight,domestic,UK,UK,3,71.53,6,credit_line,confirmed
 B001274,2025-09-24 13:09:00,A0040,U00283,package,international,IN,FR,19,1126.64,1,credit_line,confirmed
@@ -1279,7 +1279,7 @@ B001277,2025-07-23 12:36:00,A0046,U00175,hotel,domestic,IN,IN,14,315.65,1,credit
 B001278,2025-12-24 20:23:00,A0150,U00610,flight,international,IN,AE,23,694.19,1,credit_line,confirmed
 B001279,2025-07-03 08:52:00,A0059,U00130,flight,domestic,IN,IN,19,400.7,3,credit_line,confirmed
 B001280,2025-12-18 21:05:00,A0045,U00511,flight,international,US,IN,66,918.98,1,bank,confirmed
-B001281,2025-10-22 03:34:00,A0059,U00322,hotel,international,IN,IN,0,12935.95,7,credit_line,confirmed
+B001281,2025-10-22 03:34:00,A0059,U00322,hotel,international,IN,IN,0,16005.83,7,credit_line,confirmed
 B001282,2025-06-26 08:08:00,A0055,U00051,flight,domestic,AE,AE,13,458.67,1,credit_line,confirmed
 B001283,2025-05-28 07:04:00,A0148,U00059,hotel,domestic,UK,UK,9,100.87,4,credit_line,confirmed
 B001284,2025-01-03 00:48:00,A0086,U00527,flight,international,SG,DE,64,903.11,4,credit_line,confirmed
@@ -1316,7 +1316,7 @@ B001314,2025-01-26 06:08:00,A0026,U00412,hotel,international,AE,DE,14,1694.57,1,
 B001315,2025-01-31 15:09:00,A0181,U00755,hotel,domestic,US,US,19,100.64,3,credit_line,confirmed
 B001316,2025-05-12 01:17:00,A0176,U00292,flight,international,IN,UK,15,953.86,1,credit_line,confirmed
 B001317,2025-01-20 01:06:00,A0045,U00594,flight,domestic,IN,IN,9,260.39,1,credit_line,confirmed
-B001318,2025-09-24 22:52:00,A0082,U00607,flight,international,IN,IN,1,22872.61,1,credit_line,confirmed
+B001318,2025-09-24 22:52:00,A0082,U00607,flight,international,IN,IN,0,15945.36,1,credit_line,confirmed
 B001319,2025-11-11 05:23:00,A0105,U00614,flight,domestic,IN,IN,4,319.6,2,credit_line,confirmed
 B001320,2025-04-19 07:24:00,A0057,U00091,flight,international,SG,IN,71,1169.02,4,credit_line,confirmed
 B001321,2025-12-23 08:48:00,A0025,U00284,hotel,domestic,SG,SG,17,164.79,2,credit_line,confirmed
@@ -1335,7 +1335,7 @@ B001333,2025-03-01 03:46:00,A0126,U00433,hotel,domestic,SG,SG,19,119.04,4,credit
 B001334,2025-07-14 08:20:00,A0096,U00643,hotel,domestic,AE,AE,13,230.5,1,credit_line,confirmed
 B001335,2025-10-05 19:16:00,A0004,U00415,flight,domestic,AE,AE,13,421.18,3,credit_line,pending
 B001336,2025-03-24 21:34:00,A0130,U00740,package,international,IN,UK,21,2129.15,3,credit_line,confirmed
-B001337,2025-07-31 23:22:00,A0005,U00245,flight,international,IN,AE,1,20905.21,1,credit_line,confirmed
+B001337,2025-07-31 23:22:00,A0005,U00245,flight,international,IN,AE,0,17058.95,1,credit_line,confirmed
 B001338,2025-08-08 00:27:00,A0079,U00408,flight,domestic,AE,AE,2,349.21,2,card,pending
 B001339,2025-09-19 23:55:00,A0033,U00315,flight,domestic,IN,IN,3,328.76,2,card,confirmed
 B001340,2025-12-30 21:10:00,A0017,U00137,flight,domestic,IN,IN,13,158.11,5,credit_line,confirmed
@@ -1503,12 +1503,12 @@ B001501,2025-01-12 16:29:00,A0037,U00675,flight,international,IN,IN,75,1190.7,2,
 B001502,2025-01-04 03:22:00,A0106,U00587,flight,international,AE,TH,85,454.16,1,credit_line,confirmed
 B001503,2025-10-25 14:15:00,A0097,U00623,hotel,domestic,US,US,12,170.25,1,card,pending
 B001504,2025-09-23 14:38:00,A0193,U00391,hotel,international,US,US,32,2002.15,7,card,confirmed
-B001505,2025-03-24 08:16:00,A0033,U00535,flight,international,UK,UK,1,21857.35,2,credit_line,confirmed
+B001505,2025-03-24 08:16:00,A0033,U00535,flight,international,UK,UK,1,19375.47,2,credit_line,confirmed
 B001506,2025-12-11 16:16:00,A0198,U00748,flight,domestic,US,US,8,152.73,1,credit_line,confirmed
 B001507,2025-04-23 04:25:00,A0131,U00445,flight,international,SG,SG,75,1026.82,3,credit_line,confirmed
 B001508,2025-02-17 08:05:00,A0039,U00356,flight,international,IN,DE,10,1562.2,1,credit_line,confirmed
 B001509,2025-10-29 03:51:00,A0179,U00642,flight,domestic,UK,UK,10,140.99,9,credit_line,confirmed
-B001510,2025-01-22 07:56:00,A0068,U00383,flight,international,US,US,0,13260.21,3,credit_line,confirmed
+B001510,2025-01-22 07:56:00,A0068,U00383,flight,international,US,US,0,16180.29,3,credit_line,confirmed
 B001511,2025-01-05 17:54:00,A0123,U00557,package,international,AE,UK,51,634.91,2,credit_line,confirmed
 B001512,2025-12-25 22:13:00,A0150,U00541,flight,domestic,IN,IN,15,260.5,2,credit_line,confirmed
 B001513,2025-07-01 16:09:00,A0050,U00640,flight,domestic,AE,AE,6,253.3,6,credit_line,confirmed
@@ -1526,7 +1526,7 @@ B001524,2025-01-23 16:24:00,A0173,U00192,flight,international,IN,DE,12,700.5,1,c
 B001525,2025-04-10 15:32:00,A0096,U00172,flight,domestic,IN,IN,3,139.2,7,credit_line,confirmed
 B001526,2025-11-19 07:33:00,A0059,U00323,hotel,domestic,AE,AE,19,290.97,2,credit_line,confirmed
 B001527,2025-06-06 16:48:00,A0026,U00796,hotel,domestic,US,US,11,97.3,7,credit_line,confirmed
-B001528,2025-12-08 01:27:00,A0131,U00145,hotel,international,UK,US,2,2050.72,3,credit_line,confirmed
+B001528,2025-12-08 01:27:00,A0131,U00145,hotel,international,UK,US,0,2050.72,3,credit_line,confirmed
 B001529,2025-02-14 09:10:00,A0198,U00216,hotel,international,US,DE,46,868.97,1,credit_line,confirmed
 B001530,2025-08-09 21:03:00,A0145,U00795,flight,domestic,AE,AE,8,853.57,1,credit_line,confirmed
 B001531,2025-12-11 13:02:00,A0012,U00355,hotel,domestic,AE,AE,6,465.09,4,credit_line,confirmed
@@ -1616,7 +1616,7 @@ B001614,2025-07-22 16:00:00,A0178,U00568,hotel,international,IN,DE,84,371.7,1,cr
 B001615,2025-04-04 15:25:00,A0008,U00098,flight,international,IN,DE,13,441.43,1,card,confirmed
 B001616,2025-01-18 07:56:00,A0095,U00507,flight,domestic,IN,IN,9,219.22,4,card,confirmed
 B001617,2025-07-03 02:32:00,A0009,U00490,hotel,international,AE,TH,27,2251.61,4,credit_line,confirmed
-B001618,2025-09-28 18:45:00,A0005,U00245,flight,international,AE,AE,0,19649.67,2,credit_line,confirmed
+B001618,2025-09-28 18:45:00,A0005,U00245,flight,international,AE,AE,0,13680.95,2,credit_line,confirmed
 B001619,2025-03-02 01:31:00,A0113,U00046,package,international,IN,DE,65,972.94,5,credit_line,confirmed
 B001620,2025-01-31 23:08:00,A0188,U00493,flight,domestic,UK,UK,14,416.65,2,credit_line,confirmed
 B001621,2025-05-21 00:57:00,A0005,U00785,hotel,international,AE,IN,35,910.27,1,card,confirmed
@@ -1633,7 +1633,7 @@ B001631,2025-06-07 05:26:00,A0109,U00062,flight,domestic,IN,IN,3,162.83,1,bank,c
 B001632,2025-04-05 06:33:00,A0139,U00404,hotel,domestic,US,US,1,370.67,7,bank,confirmed
 B001633,2025-06-09 08:49:00,A0111,U00052,flight,domestic,SG,SG,4,379.67,3,credit_line,confirmed
 B001634,2025-10-10 13:46:00,A0076,U00009,flight,international,US,TH,37,944.94,1,credit_line,confirmed
-B001635,2025-07-06 12:57:00,A0082,U00607,flight,international,UK,UK,0,14966.06,2,credit_line,confirmed
+B001635,2025-07-06 12:57:00,A0082,U00607,flight,international,UK,UK,1,19484.18,2,credit_line,confirmed
 B001636,2025-10-14 00:45:00,A0067,U00309,package,domestic,IN,IN,17,290.7,1,credit_line,confirmed
 B001637,2025-05-16 01:39:00,A0187,U00047,hotel,domestic,IN,IN,11,226.4,4,credit_line,confirmed
 B001638,2025-12-30 17:24:00,A0115,U00307,flight,domestic,AE,AE,4,240.54,4,credit_line,confirmed
@@ -1643,7 +1643,7 @@ B001641,2025-07-09 13:36:00,A0012,U00355,flight,international,US,IN,9,1430.5,1,c
 B001642,2025-12-06 15:54:00,A0175,U00787,flight,domestic,IN,IN,5,472.03,1,credit_line,confirmed
 B001643,2025-04-12 05:40:00,A0198,U00295,flight,domestic,AE,AE,18,389.48,2,credit_line,confirmed
 B001644,2025-11-10 18:16:00,A0007,U00402,flight,domestic,IN,IN,3,362.07,2,card,confirmed
-B001645,2025-08-28 12:11:00,A0082,U00607,hotel,international,SG,AE,1,17616.03,1,credit_line,confirmed
+B001645,2025-08-28 12:11:00,A0082,U00607,hotel,international,SG,AE,1,14955.04,1,credit_line,confirmed
 B001646,2025-08-16 11:32:00,A0002,U00353,flight,international,IN,SG,16,761.4,2,credit_line,confirmed
 B001647,2025-01-08 15:22:00,A0051,U00605,hotel,domestic,IN,IN,2,176.8,2,credit_line,confirmed
 B001648,2025-01-23 14:36:00,A0037,U00378,flight,international,US,IN,73,590.78,1,credit_line,confirmed
@@ -1653,7 +1653,7 @@ B001651,2025-01-05 13:23:00,A0108,U00141,hotel,international,UK,TH,85,1331.32,2,
 B001652,2025-05-27 12:35:00,A0044,U00730,package,international,AE,US,33,1269.9,2,card,confirmed
 B001653,2025-04-17 14:40:00,A0093,U00232,flight,international,UK,US,7,722.37,4,credit_line,confirmed
 B001654,2025-12-07 01:16:00,A0008,U00467,hotel,international,IN,AE,17,1930.99,2,card,confirmed
-B001655,2025-10-21 11:38:00,A0092,U00528,hotel,international,IN,IN,3,585.42,1,credit_line,confirmed
+B001655,2025-10-21 11:38:00,A0092,U00528,hotel,international,IN,IN,0,585.42,1,credit_line,confirmed
 B001656,2025-07-05 01:36:00,A0190,U00027,flight,domestic,IN,IN,19,852.85,1,credit_line,confirmed
 B001657,2025-07-02 04:08:00,A0160,U00409,flight,domestic,IN,IN,17,396.46,1,credit_line,confirmed
 B001658,2025-07-11 23:43:00,A0153,U00200,flight,domestic,IN,IN,6,103.6,4,credit_line,confirmed
@@ -1664,7 +1664,7 @@ B001662,2025-11-09 08:34:00,A0040,U00066,flight,international,UK,TH,19,990.6,2,c
 B001663,2025-03-23 02:15:00,A0118,U00101,hotel,international,AE,SG,9,2441.03,2,credit_line,confirmed
 B001664,2025-01-24 04:08:00,A0098,U00312,hotel,domestic,US,US,18,130.19,5,credit_line,pending
 B001665,2025-03-14 02:41:00,A0056,U00056,flight,domestic,IN,IN,17,370.22,1,credit_line,confirmed
-B001666,2025-12-07 20:46:00,A0033,U00535,flight,international,SG,SG,1,16159.7,1,credit_line,confirmed
+B001666,2025-12-07 20:46:00,A0033,U00535,flight,international,SG,SG,0,16660.27,1,credit_line,confirmed
 B001667,2025-09-21 02:48:00,A0191,U00622,flight,domestic,SG,SG,14,124.54,6,bank,confirmed
 B001668,2025-05-27 17:33:00,A0094,U00627,hotel,international,US,IN,10,2332.35,2,credit_line,confirmed
 B001669,2025-01-07 01:24:00,A0041,U00002,package,international,IN,DE,43,2145.17,3,credit_line,confirmed
@@ -1717,7 +1717,7 @@ B001715,2025-12-18 03:06:00,A0032,U00425,flight,domestic,IN,IN,19,178.98,2,card,
 B001716,2025-02-16 10:06:00,A0114,U00302,flight,domestic,AE,AE,15,156.76,2,credit_line,confirmed
 B001717,2025-09-05 19:06:00,A0136,U00600,hotel,domestic,AE,AE,19,295.75,6,credit_line,confirmed
 B001718,2025-11-04 15:05:00,A0147,U00317,flight,international,UK,AE,45,2155.07,1,credit_line,confirmed
-B001719,2025-07-22 09:36:00,A0033,U00535,flight,international,AE,AE,1,18264.46,9,credit_line,confirmed
+B001719,2025-07-22 09:36:00,A0033,U00535,flight,international,AE,AE,0,24263.98,9,credit_line,confirmed
 B001720,2025-12-07 02:13:00,A0108,U00735,hotel,domestic,US,US,11,247.58,9,credit_line,confirmed
 B001721,2025-09-19 08:10:00,A0022,U00429,flight,domestic,IN,IN,13,81.57,7,card,confirmed
 B001722,2025-10-12 01:42:00,A0034,U00166,hotel,domestic,AE,AE,4,200.92,8,credit_line,confirmed
@@ -1734,7 +1734,7 @@ B001732,2025-01-29 05:38:00,A0096,U00172,flight,domestic,IN,IN,2,381.81,2,credit
 B001733,2025-11-11 04:00:00,A0057,U00015,flight,domestic,UK,UK,2,191.28,4,bank,confirmed
 B001734,2025-09-23 19:44:00,A0007,U00575,hotel,domestic,SG,SG,13,224.25,1,credit_line,confirmed
 B001735,2025-08-11 10:58:00,A0007,U00125,hotel,international,IN,AE,67,1363.66,1,card,confirmed
-B001736,2025-05-18 21:39:00,A0059,U00322,hotel,international,AE,FR,1,19772.33,1,credit_line,confirmed
+B001736,2025-05-18 21:39:00,A0059,U00322,hotel,international,AE,FR,1,19511.94,1,credit_line,confirmed
 B001737,2025-09-17 17:36:00,A0166,U00335,hotel,international,UK,IN,8,748.54,2,credit_line,confirmed
 B001738,2025-11-06 22:08:00,A0142,U00193,flight,domestic,UK,UK,4,232.7,4,card,confirmed
 B001739,2025-06-24 23:13:00,A0046,U00523,flight,international,IN,SG,13,2850.34,2,credit_line,confirmed
@@ -1762,7 +1762,7 @@ B001760,2025-05-27 00:04:00,A0070,U00686,flight,domestic,IN,IN,6,145.13,1,credit
 B001761,2025-01-11 09:50:00,A0176,U00128,hotel,international,SG,UK,83,727.85,1,credit_line,pending
 B001762,2025-12-25 18:41:00,A0045,U00511,hotel,domestic,US,US,17,137.2,3,credit_line,confirmed
 B001763,2025-03-31 19:27:00,A0123,U00173,flight,domestic,UK,UK,10,87.86,1,credit_line,confirmed
-B001764,2025-07-20 16:46:00,A0139,U00404,hotel,international,US,UK,2,1046.64,2,bank,pending
+B001764,2025-07-20 16:46:00,A0139,U00404,hotel,international,US,UK,1,1046.64,2,bank,pending
 B001765,2025-10-20 00:09:00,A0132,U00577,hotel,domestic,IN,IN,1,73.05,1,credit_line,confirmed
 B001766,2025-05-22 02:01:00,A0073,U00065,flight,international,IN,AE,24,1475.57,2,credit_line,confirmed
 B001767,2025-09-01 16:53:00,A0057,U00719,flight,international,AE,AE,86,683.5,1,credit_line,confirmed
@@ -1825,7 +1825,7 @@ B001823,2025-10-12 19:41:00,A0164,U00697,hotel,international,AE,SG,5,2191.95,3,c
 B001824,2025-07-20 19:29:00,A0148,U00529,flight,domestic,IN,IN,19,239.29,3,credit_line,confirmed
 B001825,2025-10-17 09:49:00,A0177,U00641,hotel,domestic,IN,IN,1,334.02,3,credit_line,confirmed
 B001826,2025-12-27 09:42:00,A0187,U00047,package,domestic,IN,IN,8,519.43,2,credit_line,confirmed
-B001827,2025-07-16 15:02:00,A0139,U00404,hotel,domestic,IN,IN,1,159.87,2,credit_line,confirmed
+B001827,2025-07-16 15:02:00,A0139,U00404,hotel,domestic,IN,IN,2,159.87,2,credit_line,confirmed
 B001828,2025-08-13 13:52:00,A0014,U00671,flight,domestic,SG,SG,4,118.64,4,credit_line,confirmed
 B001829,2025-07-18 01:21:00,A0108,U00150,flight,international,IN,UK,10,2154.39,8,credit_line,confirmed
 B001830,2025-05-30 02:00:00,A0020,U00742,flight,international,US,AE,9,1412.16,2,bank,confirmed
@@ -1863,7 +1863,7 @@ B001861,2025-10-18 05:39:00,A0039,U00217,hotel,international,UK,UK,6,1043.26,4,c
 B001862,2025-07-11 00:47:00,A0007,U00402,flight,domestic,US,US,8,219.0,3,credit_line,confirmed
 B001863,2025-10-08 05:22:00,A0024,U00478,hotel,international,UK,US,64,927.2,3,credit_line,confirmed
 B001864,2025-04-27 13:36:00,A0194,U00543,flight,international,IN,DE,46,1081.65,1,card,confirmed
-B001865,2025-12-22 10:44:00,A0005,U00245,package,international,SG,SG,0,18001.26,3,credit_line,confirmed
+B001865,2025-12-22 10:44:00,A0005,U00245,package,international,SG,SG,0,17446.48,3,credit_line,confirmed
 B001866,2025-09-24 08:25:00,A0155,U00360,flight,international,IN,IN,14,1180.75,1,credit_line,confirmed
 B001867,2025-06-03 12:59:00,A0033,U00405,flight,domestic,IN,IN,5,223.04,1,credit_line,confirmed
 B001868,2025-10-21 21:10:00,A0074,U00237,flight,domestic,SG,SG,6,213.09,1,credit_line,confirmed
@@ -1890,7 +1890,7 @@ B001888,2025-06-01 07:12:00,A0176,U00492,flight,international,AE,US,87,1155.52,4
 B001889,2025-08-30 04:04:00,A0088,U00208,flight,domestic,IN,IN,5,99.43,7,bank,confirmed
 B001890,2025-08-21 23:40:00,A0066,U00648,hotel,international,US,TH,67,975.46,2,credit_line,pending
 B001891,2025-01-17 12:54:00,A0061,U00555,flight,international,IN,FR,46,1035.07,7,card,confirmed
-B001892,2025-04-18 18:01:00,A0131,U00145,flight,domestic,IN,IN,0,272.81,3,credit_line,confirmed
+B001892,2025-04-18 18:01:00,A0131,U00145,flight,domestic,IN,IN,3,272.81,3,credit_line,confirmed
 B001893,2025-11-08 20:07:00,A0102,U00080,package,domestic,IN,IN,6,121.7,5,credit_line,confirmed
 B001894,2025-02-26 17:13:00,A0192,U00396,hotel,domestic,IN,IN,10,195.97,3,card,confirmed
 B001895,2025-03-02 06:36:00,A0088,U00208,hotel,domestic,SG,SG,11,293.59,2,card,confirmed
@@ -1901,7 +1901,7 @@ B001899,2025-03-29 16:19:00,A0102,U00080,flight,international,US,IN,36,4279.37,2
 B001900,2025-10-08 16:21:00,A0184,U00434,flight,international,IN,TH,5,851.48,1,credit_line,confirmed
 B001901,2025-09-08 13:43:00,A0131,U00145,flight,domestic,US,US,0,238.44,4,credit_line,confirmed
 B001902,2025-05-05 13:17:00,A0046,U00483,flight,domestic,IN,IN,11,108.84,2,credit_line,confirmed
-B001903,2025-05-10 13:31:00,A0174,U00413,flight,international,UK,SG,0,19342.87,2,credit_line,confirmed
+B001903,2025-05-10 13:31:00,A0174,U00413,flight,international,UK,SG,1,19400.77,2,credit_line,confirmed
 B001904,2025-04-19 13:08:00,A0192,U00366,hotel,domestic,AE,AE,2,161.8,1,credit_line,confirmed
 B001905,2025-03-28 07:23:00,A0001,U00446,package,international,IN,AE,72,587.66,2,credit_line,confirmed
 B001906,2025-11-04 17:08:00,A0124,U00776,flight,international,IN,DE,72,1475.76,4,credit_line,confirmed
@@ -1936,7 +1936,7 @@ B001934,2025-02-23 07:17:00,A0036,U00037,hotel,international,UK,UK,38,1267.61,1,
 B001935,2025-04-03 15:27:00,A0007,U00337,hotel,domestic,US,US,6,536.18,1,credit_line,pending
 B001936,2025-11-18 18:08:00,A0059,U00615,flight,domestic,IN,IN,17,200.26,10,credit_line,confirmed
 B001937,2025-06-19 16:28:00,A0146,U00609,flight,domestic,US,US,5,126.14,1,credit_line,confirmed
-B001938,2025-06-05 01:23:00,A0005,U00245,flight,international,IN,IN,1,18641.09,1,credit_line,confirmed
+B001938,2025-06-05 01:23:00,A0005,U00245,flight,international,IN,IN,0,15996.05,1,credit_line,confirmed
 B001939,2025-09-14 01:42:00,A0082,U00257,flight,international,IN,UK,87,2712.7,6,card,pending
 B001940,2025-05-28 10:48:00,A0044,U00730,flight,domestic,AE,AE,11,234.84,3,credit_line,confirmed
 B001941,2025-10-04 21:59:00,A0180,U00400,flight,international,SG,FR,18,536.88,3,credit_line,confirmed
@@ -1950,7 +1950,7 @@ B001948,2025-03-14 09:02:00,A0118,U00705,flight,international,IN,IN,12,701.26,1,
 B001949,2025-06-12 10:51:00,A0009,U00490,hotel,domestic,US,US,18,68.9,3,credit_line,confirmed
 B001950,2025-04-26 10:34:00,A0122,U00480,flight,domestic,UK,UK,1,93.21,2,credit_line,confirmed
 B001951,2025-12-01 10:44:00,A0118,U00390,package,domestic,AE,AE,4,345.51,8,card,confirmed
-B001952,2025-01-24 05:14:00,A0033,U00535,hotel,international,UK,UK,1,19844.14,6,credit_line,confirmed
+B001952,2025-01-24 05:14:00,A0033,U00535,hotel,international,UK,UK,0,17337.6,6,credit_line,confirmed
 B001953,2025-01-15 22:56:00,A0057,U00015,flight,domestic,AE,AE,2,542.18,3,credit_line,confirmed
 B001954,2025-03-14 15:59:00,A0199,U00116,hotel,domestic,IN,IN,12,112.31,2,bank,confirmed
 B001955,2025-11-05 01:24:00,A0015,U00484,flight,international,AE,TH,45,1576.14,1,credit_line,confirmed
@@ -2005,7 +2005,7 @@ B002003,2025-04-15 19:33:00,A0179,U00517,flight,international,UK,US,85,773.49,3,
 B002004,2025-10-17 19:41:00,A0078,U00739,flight,domestic,IN,IN,2,102.39,8,credit_line,confirmed
 B002005,2025-02-14 19:12:00,A0121,U00522,flight,domestic,SG,SG,11,157.26,2,credit_line,confirmed
 B002006,2025-03-10 01:46:00,A0014,U00683,flight,domestic,IN,IN,14,211.68,5,credit_line,confirmed
-B002007,2025-02-22 12:56:00,A0005,U00245,package,international,SG,FR,0,18407.3,6,credit_line,confirmed
+B002007,2025-02-22 12:56:00,A0005,U00245,package,international,SG,FR,0,23039.8,6,credit_line,confirmed
 B002008,2025-09-07 21:10:00,A0111,U00682,hotel,domestic,IN,IN,7,152.06,1,credit_line,confirmed
 B002009,2025-05-02 16:10:00,A0001,U00745,flight,domestic,AE,AE,16,368.86,5,card,confirmed
 B002010,2025-05-09 02:52:00,A0174,U00547,flight,international,IN,UK,16,856.42,2,credit_line,confirmed
@@ -2028,7 +2028,7 @@ B002026,2025-09-26 20:47:00,A0069,U00055,flight,domestic,IN,IN,14,359.3,4,credit
 B002027,2025-10-26 19:34:00,A0142,U00268,hotel,domestic,IN,IN,13,153.63,1,credit_line,confirmed
 B002028,2025-06-10 20:17:00,A0007,U00337,package,domestic,IN,IN,19,191.8,5,card,confirmed
 B002029,2025-02-08 03:18:00,A0131,U00076,flight,domestic,UK,UK,19,176.44,1,card,confirmed
-B002030,2025-01-06 08:31:00,A0068,U00383,flight,international,IN,IN,1,25000.0,1,credit_line,confirmed
+B002030,2025-01-06 08:31:00,A0068,U00383,flight,international,IN,IN,0,19675.17,1,credit_line,confirmed
 B002031,2025-06-01 08:52:00,A0072,U00498,hotel,domestic,US,US,19,183.47,1,credit_line,confirmed
 B002032,2025-08-12 07:34:00,A0026,U00665,flight,domestic,US,US,1,236.83,1,card,confirmed
 B002033,2025-06-09 22:34:00,A0130,U00031,hotel,international,US,AE,26,2351.65,3,card,confirmed
@@ -2084,7 +2084,7 @@ B002082,2025-10-14 05:16:00,A0013,U00262,package,international,SG,US,35,1394.87,
 B002083,2025-10-04 17:36:00,A0034,U00788,flight,international,US,UK,33,1784.43,1,credit_line,confirmed
 B002084,2025-03-13 05:08:00,A0013,U00358,flight,domestic,IN,IN,14,283.51,2,credit_line,confirmed
 B002085,2025-10-02 13:40:00,A0081,U00060,flight,domestic,IN,IN,5,194.32,2,credit_line,confirmed
-B002086,2025-09-24 06:33:00,A0139,U00404,flight,international,IN,FR,2,1643.01,7,credit_line,confirmed
+B002086,2025-09-24 06:33:00,A0139,U00404,flight,international,IN,FR,0,1643.01,7,credit_line,confirmed
 B002087,2025-12-04 11:00:00,A0147,U00596,flight,domestic,IN,IN,11,240.0,1,credit_line,confirmed
 B002088,2025-09-29 16:12:00,A0105,U00644,hotel,domestic,IN,IN,18,254.66,3,credit_line,confirmed
 B002089,2025-08-26 08:08:00,A0081,U00060,flight,international,US,UK,48,1869.3,7,credit_line,confirmed
@@ -2136,7 +2136,7 @@ B002134,2025-05-26 19:17:00,A0050,U00640,flight,international,IN,FR,27,961.73,3,
 B002135,2025-02-16 04:58:00,A0119,U00551,flight,domestic,AE,AE,15,272.55,2,card,confirmed
 B002136,2025-03-14 14:50:00,A0106,U00587,flight,international,IN,TH,21,1581.17,2,credit_line,confirmed
 B002137,2025-07-01 23:05:00,A0103,U00545,flight,international,AE,TH,85,1672.96,1,credit_line,confirmed
-B002138,2025-09-24 03:56:00,A0174,U00413,hotel,international,SG,SG,1,19104.41,2,credit_line,confirmed
+B002138,2025-09-24 03:56:00,A0174,U00413,hotel,international,SG,SG,0,13986.41,2,credit_line,confirmed
 B002139,2025-05-16 16:32:00,A0039,U00074,hotel,international,IN,SG,42,707.93,2,credit_line,confirmed
 B002140,2025-03-31 13:53:00,A0128,U00770,flight,domestic,IN,IN,16,191.9,1,card,pending
 B002141,2025-06-04 22:32:00,A0046,U00523,flight,domestic,IN,IN,17,213.97,2,card,confirmed
@@ -2158,7 +2158,7 @@ B002156,2025-04-01 23:36:00,A0092,U00435,hotel,domestic,US,US,17,120.04,1,credit
 B002157,2025-06-09 03:07:00,A0050,U00394,hotel,international,IN,SG,36,666.9,1,credit_line,confirmed
 B002158,2025-02-03 09:10:00,A0108,U00161,flight,domestic,IN,IN,9,256.62,3,credit_line,confirmed
 B002159,2025-10-06 00:17:00,A0037,U00378,hotel,domestic,IN,IN,3,145.99,3,card,confirmed
-B002160,2025-11-26 22:45:00,A0139,U00404,flight,domestic,US,US,1,92.8,2,card,confirmed
+B002160,2025-11-26 22:45:00,A0139,U00404,flight,domestic,US,US,0,92.8,2,card,confirmed
 B002161,2025-01-27 03:44:00,A0124,U00776,flight,domestic,IN,IN,5,90.26,1,credit_line,confirmed
 B002162,2025-12-19 19:14:00,A0029,U00414,flight,domestic,AE,AE,3,347.55,1,credit_line,confirmed
 B002163,2025-12-13 03:57:00,A0194,U00357,package,domestic,IN,IN,17,80.0,1,card,confirmed
@@ -2173,7 +2173,7 @@ B002171,2025-07-02 01:41:00,A0081,U00432,hotel,domestic,UK,UK,14,217.05,4,card,f
 B002172,2025-03-09 22:47:00,A0106,U00012,hotel,domestic,IN,IN,12,164.28,1,credit_line,confirmed
 B002173,2025-02-03 16:23:00,A0015,U00484,hotel,domestic,IN,IN,18,152.44,1,credit_line,pending
 B002174,2025-12-15 20:56:00,A0057,U00239,flight,domestic,UK,UK,15,327.2,3,credit_line,confirmed
-B002175,2025-07-25 03:05:00,A0174,U00413,package,international,IN,TH,1,23408.93,1,credit_line,confirmed
+B002175,2025-07-25 03:05:00,A0174,U00413,package,international,IN,TH,1,20946.77,1,credit_line,confirmed
 B002176,2025-09-06 19:55:00,A0069,U00750,hotel,domestic,US,US,1,409.31,1,credit_line,confirmed
 B002177,2025-11-26 09:29:00,A0015,U00419,flight,international,SG,UK,82,2853.47,2,credit_line,confirmed
 B002178,2025-06-30 12:46:00,A0124,U00215,hotel,international,AE,FR,86,781.34,1,credit_line,pending
@@ -2250,7 +2250,7 @@ B002248,2025-02-26 00:24:00,A0008,U00716,package,domestic,SG,SG,7,296.01,7,credi
 B002249,2025-10-13 18:16:00,A0082,U00131,flight,domestic,UK,UK,12,489.54,1,credit_line,confirmed
 B002250,2025-01-28 09:07:00,A0026,U00796,flight,domestic,SG,SG,9,127.41,8,credit_line,confirmed
 B002251,2025-03-09 11:40:00,A0019,U00083,flight,international,US,TH,3,1243.71,1,credit_line,confirmed
-B002252,2025-02-24 03:12:00,A0005,U00245,flight,international,UK,UK,0,13410.45,1,credit_line,confirmed
+B002252,2025-02-24 03:12:00,A0005,U00245,flight,international,UK,UK,1,16854.27,1,credit_line,confirmed
 B002253,2025-02-15 20:46:00,A0045,U00328,hotel,domestic,UK,UK,3,273.48,3,credit_line,confirmed
 B002254,2025-03-16 05:58:00,A0123,U00688,flight,domestic,UK,UK,11,341.03,2,bank,confirmed
 B002255,2025-08-17 21:06:00,A0103,U00542,flight,domestic,IN,IN,12,187.67,1,card,confirmed
@@ -2281,7 +2281,7 @@ B002279,2025-12-31 20:58:00,A0176,U00128,hotel,domestic,IN,IN,4,197.62,2,credit_
 B002280,2025-09-16 14:24:00,A0188,U00493,flight,domestic,US,US,2,153.61,1,credit_line,confirmed
 B002281,2025-02-13 08:08:00,A0192,U00366,hotel,domestic,US,US,15,316.79,5,credit_line,confirmed
 B002282,2025-02-05 23:06:00,A0012,U00658,flight,domestic,IN,IN,16,150.72,2,credit_line,confirmed
-B002283,2025-01-14 07:18:00,A0174,U00413,hotel,international,AE,AE,1,22303.4,4,credit_line,confirmed
+B002283,2025-01-14 07:18:00,A0174,U00413,hotel,international,AE,AE,1,16526.77,4,credit_line,confirmed
 B002284,2025-03-03 04:34:00,A0093,U00306,package,domestic,SG,SG,7,176.61,6,credit_line,confirmed
 B002285,2025-12-29 01:18:00,A0096,U00172,flight,domestic,UK,UK,13,448.03,1,card,confirmed
 B002286,2025-06-16 01:39:00,A0101,U00269,hotel,domestic,US,US,1,141.84,2,credit_line,confirmed
@@ -2321,7 +2321,7 @@ B002319,2025-09-12 20:31:00,A0161,U00751,flight,domestic,US,US,16,67.8,1,credit_
 B002320,2025-01-13 02:12:00,A0048,U00324,hotel,domestic,US,US,6,76.92,1,credit_line,pending
 B002321,2025-09-16 10:54:00,A0154,U00063,flight,domestic,IN,IN,18,226.11,1,credit_line,confirmed
 B002322,2025-07-05 23:20:00,A0013,U00168,package,domestic,UK,UK,6,163.37,6,card,pending
-B002323,2025-04-08 05:59:00,A0005,U00245,flight,international,SG,SG,1,19863.59,1,credit_line,confirmed
+B002323,2025-04-08 05:59:00,A0005,U00245,flight,international,SG,SG,0,13381.41,1,credit_line,confirmed
 B002324,2025-11-29 01:34:00,A0101,U00269,flight,domestic,UK,UK,17,256.31,4,bank,confirmed
 B002325,2025-10-12 00:20:00,A0040,U00311,hotel,domestic,IN,IN,10,170.71,1,credit_line,confirmed
 B002326,2025-11-05 12:06:00,A0153,U00156,hotel,domestic,SG,SG,2,255.73,1,credit_line,pending
@@ -2347,7 +2347,7 @@ B002345,2025-02-20 01:42:00,A0035,U00618,flight,domestic,AE,AE,4,93.38,2,credit_
 B002346,2025-07-14 03:30:00,A0062,U00095,package,domestic,IN,IN,11,108.68,1,credit_line,confirmed
 B002347,2025-01-22 08:30:00,A0037,U00296,hotel,domestic,IN,IN,4,334.19,1,credit_line,confirmed
 B002348,2025-07-09 14:16:00,A0111,U00682,flight,domestic,IN,IN,11,179.25,4,credit_line,confirmed
-B002349,2025-09-30 05:24:00,A0059,U00322,flight,international,SG,SG,1,17941.87,1,credit_line,confirmed
+B002349,2025-09-30 05:24:00,A0059,U00322,flight,international,SG,SG,1,13478.74,1,credit_line,confirmed
 B002350,2025-06-10 16:00:00,A0127,U00582,hotel,international,AE,IN,33,750.93,2,credit_line,confirmed
 B002351,2025-06-06 13:20:00,A0193,U00034,hotel,international,AE,DE,31,2084.89,2,credit_line,confirmed
 B002352,2025-03-06 08:23:00,A0069,U00055,flight,domestic,IN,IN,13,159.72,1,credit_line,pending
@@ -2365,9 +2365,9 @@ B002363,2025-08-11 08:57:00,A0153,U00200,hotel,domestic,AE,AE,17,126.36,6,credit
 B002364,2025-06-19 11:22:00,A0006,U00316,flight,domestic,IN,IN,10,84.28,5,credit_line,confirmed
 B002365,2025-06-06 17:23:00,A0027,U00469,hotel,international,IN,TH,23,508.92,2,credit_line,confirmed
 B002366,2025-05-30 16:27:00,A0116,U00539,flight,international,US,US,89,699.5,3,credit_line,confirmed
-B002367,2025-06-19 04:03:00,A0033,U00535,hotel,international,IN,IN,1,17702.13,1,credit_line,confirmed
+B002367,2025-06-19 04:03:00,A0033,U00535,hotel,international,IN,IN,0,20244.82,1,credit_line,confirmed
 B002368,2025-05-18 17:43:00,A0088,U00221,flight,domestic,SG,SG,5,267.15,1,credit_line,failed
-B002369,2025-07-18 22:19:00,A0139,U00404,hotel,international,US,AE,2,974.64,1,credit_line,confirmed
+B002369,2025-07-18 22:19:00,A0139,U00404,hotel,international,US,AE,3,974.64,1,credit_line,confirmed
 B002370,2025-07-14 03:26:00,A0172,U00670,hotel,international,IN,AE,83,1142.12,1,credit_line,pending
 B002371,2025-02-20 11:03:00,A0096,U00643,flight,domestic,IN,IN,8,143.63,3,credit_line,confirmed
 B002372,2025-03-12 06:56:00,A0158,U00167,flight,domestic,IN,IN,3,182.24,6,card,confirmed
@@ -2406,7 +2406,7 @@ B002404,2025-04-16 06:03:00,A0080,U00525,package,domestic,SG,SG,6,62.7,2,card,co
 B002405,2025-03-20 09:18:00,A0082,U00257,package,domestic,IN,IN,11,40.0,1,credit_line,confirmed
 B002406,2025-03-22 23:03:00,A0096,U00783,flight,domestic,IN,IN,8,244.1,2,bank,confirmed
 B002407,2025-02-03 20:00:00,A0135,U00624,flight,domestic,IN,IN,14,256.04,5,credit_line,confirmed
-B002408,2025-06-11 00:36:00,A0082,U00607,flight,international,AE,IN,1,18732.4,5,credit_line,pending
+B002408,2025-06-11 00:36:00,A0082,U00607,flight,international,AE,IN,1,21277.23,5,credit_line,pending
 B002409,2025-10-25 18:53:00,A0113,U00799,hotel,domestic,IN,IN,2,180.33,7,credit_line,confirmed
 B002410,2025-12-08 08:47:00,A0147,U00317,flight,domestic,IN,IN,1,444.94,1,card,confirmed
 B002411,2025-09-09 22:52:00,A0039,U00349,flight,domestic,UK,UK,5,179.5,2,credit_line,confirmed
@@ -2423,7 +2423,7 @@ B002421,2025-07-14 05:17:00,A0116,U00539,flight,domestic,AE,AE,12,376.2,1,credit
 B002422,2025-12-19 18:06:00,A0119,U00420,hotel,domestic,UK,UK,7,369.87,8,credit_line,confirmed
 B002423,2025-12-06 01:47:00,A0025,U00104,flight,domestic,IN,IN,19,569.34,1,credit_line,confirmed
 B002424,2025-09-14 16:48:00,A0084,U00768,flight,international,IN,US,76,980.52,1,credit_line,confirmed
-B002425,2025-06-02 00:50:00,A0131,U00145,package,domestic,SG,SG,2,146.35,2,card,confirmed
+B002425,2025-06-02 00:50:00,A0131,U00145,package,domestic,SG,SG,0,146.35,2,card,confirmed
 B002426,2025-10-08 03:59:00,A0199,U00486,flight,domestic,IN,IN,4,273.41,3,card,confirmed
 B002427,2025-11-21 17:21:00,A0182,U00621,flight,international,UK,IN,71,3197.86,8,card,confirmed
 B002428,2025-12-20 04:44:00,A0128,U00770,package,domestic,IN,IN,4,355.12,3,credit_line,confirmed
@@ -2467,7 +2467,7 @@ B002465,2025-11-29 10:59:00,A0016,U00159,hotel,domestic,AE,AE,1,159.65,2,credit_
 B002466,2025-06-18 13:23:00,A0170,U00165,flight,domestic,IN,IN,8,284.63,1,bank,confirmed
 B002467,2025-04-13 07:49:00,A0022,U00392,package,domestic,IN,IN,5,182.94,2,credit_line,confirmed
 B002468,2025-02-15 12:35:00,A0093,U00155,hotel,domestic,IN,IN,13,118.52,2,credit_line,pending
-B002469,2025-02-07 05:49:00,A0082,U00607,flight,international,IN,IN,1,16467.24,2,credit_line,confirmed
+B002469,2025-02-07 05:49:00,A0082,U00607,flight,international,IN,IN,1,17917.4,2,credit_line,confirmed
 B002470,2025-08-09 13:02:00,A0184,U00696,flight,domestic,US,US,11,370.87,2,card,confirmed
 B002471,2025-07-08 14:41:00,A0006,U00441,package,international,IN,UK,85,533.57,1,bank,confirmed
 B002472,2025-05-13 10:21:00,A0148,U00737,flight,domestic,IN,IN,14,301.43,2,credit_line,confirmed
@@ -2481,7 +2481,7 @@ B002479,2025-12-23 13:43:00,A0093,U00155,hotel,domestic,IN,IN,1,279.2,1,card,con
 B002480,2025-04-25 22:13:00,A0121,U00182,flight,domestic,IN,IN,6,287.57,1,bank,confirmed
 B002481,2025-05-29 02:33:00,A0007,U00125,hotel,domestic,IN,IN,13,126.95,4,credit_line,confirmed
 B002482,2025-07-19 19:44:00,A0174,U00470,package,domestic,US,US,12,123.38,1,credit_line,confirmed
-B002483,2025-05-27 07:34:00,A0107,U00327,hotel,domestic,IN,IN,2,271.22,3,credit_line,confirmed
+B002483,2025-05-27 07:34:00,A0107,U00327,hotel,domestic,IN,IN,0,271.22,3,credit_line,confirmed
 B002484,2025-07-01 23:31:00,A0114,U00302,flight,domestic,IN,IN,7,200.21,1,credit_line,confirmed
 B002485,2025-10-26 04:27:00,A0185,U00760,flight,international,US,US,23,1294.85,3,credit_line,confirmed
 B002486,2025-08-13 18:30:00,A0145,U00259,hotel,domestic,SG,SG,18,101.6,8,bank,confirmed
@@ -2504,7 +2504,7 @@ B002502,2025-05-21 05:58:00,A0018,U00660,hotel,domestic,IN,IN,1,263.58,2,card,co
 B002503,2025-09-08 16:21:00,A0108,U00077,flight,domestic,IN,IN,8,166.16,5,credit_line,confirmed
 B002504,2025-04-19 08:49:00,A0170,U00165,flight,domestic,IN,IN,2,487.33,1,credit_line,confirmed
 B002505,2025-03-12 19:27:00,A0151,U00699,flight,international,IN,US,62,1105.7,9,credit_line,confirmed
-B002506,2025-10-01 03:45:00,A0174,U00413,flight,international,IN,DE,0,19337.31,2,credit_line,confirmed
+B002506,2025-10-01 03:45:00,A0174,U00413,flight,international,IN,DE,0,12238.96,2,credit_line,confirmed
 B002507,2025-08-12 11:47:00,A0080,U00774,flight,international,IN,UK,36,1158.34,1,credit_line,confirmed
 B002508,2025-08-02 12:35:00,A0090,U00546,hotel,domestic,IN,IN,12,41.82,2,credit_line,confirmed
 B002509,2025-06-22 17:19:00,A0096,U00172,flight,international,US,US,50,1015.0,3,bank,confirmed
@@ -2596,7 +2596,7 @@ B002594,2025-11-14 14:37:00,A0117,U00646,flight,domestic,IN,IN,15,181.7,2,credit
 B002595,2025-04-12 11:04:00,A0126,U00162,flight,international,AE,DE,21,2929.46,1,credit_line,confirmed
 B002596,2025-03-11 06:50:00,A0004,U00154,flight,domestic,IN,IN,18,236.74,1,credit_line,confirmed
 B002597,2025-01-21 23:35:00,A0142,U00193,flight,international,IN,FR,84,1169.52,1,credit_line,pending
-B002598,2025-11-09 04:15:00,A0174,U00413,flight,international,IN,US,0,21020.05,6,credit_line,confirmed
+B002598,2025-11-09 04:15:00,A0174,U00413,flight,international,IN,US,0,19392.69,6,credit_line,confirmed
 B002599,2025-12-27 22:31:00,A0055,U00597,flight,domestic,AE,AE,1,258.11,2,credit_line,confirmed
 B002600,2025-07-30 16:31:00,A0168,U00531,hotel,domestic,UK,UK,19,105.67,3,credit_line,confirmed
 B002601,2025-05-24 11:24:00,A0148,U00632,flight,domestic,AE,AE,1,115.38,1,bank,confirmed
@@ -2609,7 +2609,7 @@ B002607,2025-01-07 08:59:00,A0012,U00082,package,international,UK,SG,23,2278.97,
 B002608,2025-12-01 09:22:00,A0193,U00034,flight,domestic,IN,IN,11,145.76,5,credit_line,confirmed
 B002609,2025-03-27 11:16:00,A0148,U00231,flight,domestic,IN,IN,10,306.92,1,credit_line,confirmed
 B002610,2025-04-04 18:47:00,A0058,U00411,hotel,domestic,SG,SG,17,125.52,2,credit_line,confirmed
-B002611,2025-06-26 17:17:00,A0059,U00322,hotel,international,US,US,0,12256.93,4,credit_line,confirmed
+B002611,2025-06-26 17:17:00,A0059,U00322,hotel,international,US,US,0,20077.76,4,credit_line,confirmed
 B002612,2025-08-23 05:22:00,A0047,U00247,flight,domestic,UK,UK,10,364.03,4,credit_line,confirmed
 B002613,2025-05-01 07:06:00,A0063,U00219,package,international,IN,IN,64,3413.87,1,credit_line,confirmed
 B002614,2025-05-24 13:48:00,A0059,U00749,package,international,AE,UK,27,2855.36,5,credit_line,confirmed
@@ -2640,7 +2640,7 @@ B002638,2025-07-29 22:15:00,A0004,U00154,flight,domestic,US,US,16,187.54,1,credi
 B002639,2025-08-29 00:07:00,A0179,U00752,package,domestic,IN,IN,18,407.19,2,credit_line,confirmed
 B002640,2025-07-21 14:19:00,A0011,U00222,hotel,international,AE,SG,22,976.21,1,credit_line,confirmed
 B002641,2025-04-14 17:20:00,A0189,U00736,hotel,domestic,IN,IN,17,111.9,2,bank,confirmed
-B002642,2025-08-06 04:12:00,A0107,U00327,hotel,international,IN,IN,0,413.87,2,credit_line,confirmed
+B002642,2025-08-06 04:12:00,A0107,U00327,hotel,international,IN,IN,1,413.87,2,credit_line,confirmed
 B002643,2025-06-01 09:43:00,A0114,U00565,flight,domestic,IN,IN,15,284.13,4,credit_line,pending
 B002644,2025-03-13 03:00:00,A0013,U00358,hotel,domestic,US,US,19,190.82,2,credit_line,confirmed
 B002645,2025-07-08 17:27:00,A0011,U00516,hotel,domestic,IN,IN,9,89.52,2,credit_line,confirmed
@@ -2650,7 +2650,7 @@ B002648,2025-07-06 07:07:00,A0039,U00074,flight,international,AE,DE,62,1578.36,5
 B002649,2025-07-04 04:05:00,A0166,U00003,flight,domestic,US,US,1,140.84,1,credit_line,confirmed
 B002650,2025-03-15 21:13:00,A0081,U00100,hotel,domestic,IN,IN,6,107.82,7,credit_line,confirmed
 B002651,2025-07-29 04:39:00,A0179,U00410,flight,domestic,US,US,3,229.08,1,credit_line,confirmed
-B002652,2025-05-13 10:10:00,A0092,U00528,flight,domestic,IN,IN,1,204.31,1,credit_line,confirmed
+B002652,2025-05-13 10:10:00,A0092,U00528,flight,domestic,IN,IN,2,204.31,1,credit_line,confirmed
 B002653,2025-09-21 23:49:00,A0031,U00016,hotel,domestic,US,US,12,755.49,1,card,pending
 B002654,2025-12-21 21:28:00,A0088,U00367,flight,domestic,IN,IN,11,116.15,2,credit_line,confirmed
 B002655,2025-03-01 03:01:00,A0066,U00648,flight,international,IN,UK,65,1723.11,2,bank,confirmed
@@ -2815,7 +2815,7 @@ B002813,2025-10-27 02:35:00,A0121,U00723,flight,domestic,SG,SG,2,105.69,4,credit
 B002814,2025-10-26 12:17:00,A0012,U00591,flight,domestic,US,US,15,200.4,6,credit_line,pending
 B002815,2025-05-01 05:04:00,A0163,U00692,hotel,domestic,IN,IN,9,108.59,2,credit_line,confirmed
 B002816,2025-11-15 05:25:00,A0135,U00121,flight,domestic,IN,IN,2,168.74,2,card,confirmed
-B002817,2025-07-28 19:00:00,A0174,U00413,flight,international,IN,FR,0,10495.63,3,credit_line,confirmed
+B002817,2025-07-28 19:00:00,A0174,U00413,flight,international,IN,FR,1,25000.0,3,credit_line,confirmed
 B002818,2025-08-31 13:41:00,A0037,U00611,hotel,domestic,US,US,2,220.94,4,bank,confirmed
 B002819,2025-10-02 02:12:00,A0150,U00541,flight,domestic,IN,IN,2,113.89,4,card,confirmed
 B002820,2025-03-25 00:38:00,A0031,U00016,flight,domestic,IN,IN,19,265.46,5,credit_line,confirmed
@@ -2883,7 +2883,7 @@ B002881,2025-02-23 06:13:00,A0070,U00686,flight,domestic,IN,IN,9,132.2,1,bank,co
 B002882,2025-07-29 23:48:00,A0181,U00203,flight,domestic,IN,IN,15,232.72,7,credit_line,confirmed
 B002883,2025-11-28 00:57:00,A0040,U00283,flight,domestic,IN,IN,18,66.37,1,bank,confirmed
 B002884,2025-07-12 10:26:00,A0145,U00259,flight,domestic,SG,SG,4,595.46,3,card,confirmed
-B002885,2025-06-11 00:58:00,A0068,U00383,package,international,IN,IN,0,21163.28,2,credit_line,confirmed
+B002885,2025-06-11 00:58:00,A0068,U00383,package,international,IN,IN,0,15537.1,2,credit_line,confirmed
 B002886,2025-09-09 23:19:00,A0134,U00406,flight,international,IN,AE,84,1494.61,1,credit_line,confirmed
 B002887,2025-06-22 04:23:00,A0031,U00341,hotel,domestic,UK,UK,9,351.3,3,credit_line,confirmed
 B002888,2025-03-04 18:28:00,A0052,U00773,flight,domestic,SG,SG,18,191.21,2,credit_line,confirmed
@@ -2901,7 +2901,7 @@ B002899,2025-02-18 00:03:00,A0026,U00665,flight,international,US,FR,61,2259.95,2
 B002900,2025-12-06 10:15:00,A0036,U00037,flight,domestic,UK,UK,10,150.23,3,credit_line,confirmed
 B002901,2025-05-03 09:05:00,A0011,U00044,flight,domestic,US,US,5,404.95,3,credit_line,confirmed
 B002902,2025-06-03 22:06:00,A0117,U00011,flight,international,SG,TH,31,1464.59,2,credit_line,confirmed
-B002903,2025-04-17 16:27:00,A0082,U00607,hotel,international,US,US,0,14157.71,1,credit_line,confirmed
+B002903,2025-04-17 16:27:00,A0082,U00607,hotel,international,US,US,0,14284.09,1,credit_line,confirmed
 B002904,2025-10-08 16:08:00,A0119,U00551,flight,domestic,SG,SG,2,238.09,1,card,confirmed
 B002905,2025-11-21 10:56:00,A0175,U00397,flight,domestic,US,US,4,231.19,2,card,confirmed
 B002906,2025-02-16 07:26:00,A0011,U00044,hotel,domestic,IN,IN,2,276.42,2,card,confirmed
@@ -2922,7 +2922,7 @@ B002920,2025-07-21 14:38:00,A0162,U00650,flight,international,AE,UK,41,828.3,3,c
 B002921,2025-10-05 19:57:00,A0187,U00135,flight,international,SG,IN,31,744.48,1,credit_line,confirmed
 B002922,2025-10-17 23:39:00,A0015,U00484,flight,domestic,AE,AE,1,213.19,1,credit_line,confirmed
 B002923,2025-03-03 00:06:00,A0130,U00031,hotel,domestic,IN,IN,8,235.73,2,credit_line,pending
-B002924,2025-04-29 07:32:00,A0059,U00322,hotel,international,IN,IN,0,13881.58,2,credit_line,confirmed
+B002924,2025-04-29 07:32:00,A0059,U00322,hotel,international,IN,IN,0,15664.68,2,credit_line,confirmed
 B002925,2025-02-08 01:28:00,A0087,U00590,flight,domestic,IN,IN,19,201.63,3,credit_line,confirmed
 B002926,2025-05-27 15:37:00,A0034,U00004,flight,domestic,IN,IN,15,128.84,2,credit_line,failed
 B002927,2025-04-19 13:59:00,A0058,U00340,flight,domestic,US,US,14,351.57,1,card,confirmed
@@ -3021,7 +3021,7 @@ B003019,2025-10-27 03:14:00,A0020,U00742,flight,domestic,IN,IN,13,242.96,4,card,
 B003020,2025-01-05 01:13:00,A0038,U00767,package,domestic,UK,UK,13,46.37,4,credit_line,confirmed
 B003021,2025-10-17 07:22:00,A0094,U00711,hotel,international,SG,FR,8,477.88,1,credit_line,confirmed
 B003022,2025-06-22 06:13:00,A0061,U00555,package,domestic,IN,IN,14,195.59,4,credit_line,confirmed
-B003023,2025-03-10 23:41:00,A0082,U00607,flight,international,IN,IN,1,13720.9,1,credit_line,confirmed
+B003023,2025-03-10 23:41:00,A0082,U00607,flight,international,IN,IN,0,25000.0,1,credit_line,confirmed
 B003024,2025-10-18 07:28:00,A0117,U00646,flight,domestic,UK,UK,10,178.79,9,credit_line,confirmed
 B003025,2025-05-26 02:09:00,A0113,U00799,hotel,international,AE,AE,84,2594.86,2,credit_line,confirmed
 B003026,2025-04-29 01:22:00,A0118,U00705,flight,international,AE,AE,65,528.3,3,card,confirmed
@@ -3090,7 +3090,7 @@ B003088,2025-09-11 03:23:00,A0049,U00728,flight,international,SG,UK,45,1838.43,2
 B003089,2025-02-01 16:06:00,A0031,U00016,hotel,international,UK,SG,15,1531.18,1,credit_line,confirmed
 B003090,2025-01-02 03:38:00,A0072,U00461,hotel,domestic,IN,IN,18,138.86,3,bank,confirmed
 B003091,2025-06-06 15:31:00,A0059,U00108,flight,international,IN,UK,78,1382.21,8,credit_line,confirmed
-B003092,2025-02-20 07:48:00,A0139,U00404,flight,international,IN,US,0,1388.21,4,credit_line,confirmed
+B003092,2025-02-20 07:48:00,A0139,U00404,flight,international,IN,US,3,1388.21,4,credit_line,confirmed
 B003093,2025-10-10 23:04:00,A0168,U00695,flight,domestic,US,US,1,401.67,2,credit_line,confirmed
 B003094,2025-10-18 00:53:00,A0006,U00652,hotel,domestic,IN,IN,10,119.04,2,credit_line,confirmed
 B003095,2025-04-14 15:53:00,A0130,U00740,flight,international,IN,SG,81,1413.01,2,credit_line,confirmed
@@ -3123,7 +3123,7 @@ B003121,2025-02-28 22:19:00,A0003,U00260,package,domestic,US,US,6,156.85,1,credi
 B003122,2025-02-01 21:57:00,A0093,U00474,flight,domestic,AE,AE,1,513.4,1,credit_line,confirmed
 B003123,2025-07-28 22:37:00,A0151,U00765,hotel,domestic,US,US,11,386.78,2,card,confirmed
 B003124,2025-04-22 15:47:00,A0187,U00287,flight,international,IN,DE,57,793.64,1,credit_line,confirmed
-B003125,2025-11-09 03:07:00,A0092,U00528,flight,domestic,UK,UK,1,301.39,1,credit_line,confirmed
+B003125,2025-11-09 03:07:00,A0092,U00528,flight,domestic,UK,UK,2,301.39,1,credit_line,confirmed
 B003126,2025-01-13 05:00:00,A0123,U00173,flight,domestic,SG,SG,18,146.62,2,bank,confirmed
 B003127,2025-09-20 12:44:00,A0056,U00613,flight,domestic,AE,AE,11,170.21,3,credit_line,confirmed
 B003128,2025-10-01 15:19:00,A0039,U00761,flight,domestic,UK,UK,15,194.75,6,credit_line,pending
@@ -3175,7 +3175,7 @@ B003173,2025-02-12 14:10:00,A0125,U00401,flight,domestic,US,US,1,104.85,3,credit
 B003174,2025-09-10 03:56:00,A0006,U00652,flight,domestic,IN,IN,16,245.33,1,credit_line,confirmed
 B003175,2025-09-23 02:47:00,A0007,U00337,package,domestic,US,US,9,209.5,2,credit_line,pending
 B003176,2025-12-20 12:28:00,A0046,U00220,flight,domestic,IN,IN,3,145.52,9,credit_line,confirmed
-B003177,2025-09-18 16:00:00,A0107,U00327,hotel,domestic,IN,IN,0,59.8,1,credit_line,confirmed
+B003177,2025-09-18 16:00:00,A0107,U00327,hotel,domestic,IN,IN,2,59.8,1,credit_line,confirmed
 B003178,2025-08-16 10:55:00,A0160,U00563,flight,domestic,US,US,2,86.08,1,bank,confirmed
 B003179,2025-09-12 22:21:00,A0197,U00300,flight,domestic,IN,IN,18,88.31,1,credit_line,confirmed
 B003180,2025-02-20 19:45:00,A0174,U00463,flight,domestic,IN,IN,2,193.58,2,credit_line,confirmed
@@ -3184,7 +3184,7 @@ B003182,2025-12-14 17:35:00,A0139,U00499,hotel,domestic,IN,IN,3,133.09,1,credit_
 B003183,2025-03-30 14:14:00,A0161,U00751,flight,domestic,IN,IN,17,278.77,1,credit_line,confirmed
 B003184,2025-01-21 10:24:00,A0094,U00627,hotel,international,IN,US,27,685.63,1,credit_line,confirmed
 B003185,2025-01-29 20:39:00,A0148,U00737,flight,international,SG,FR,86,1145.0,2,bank,confirmed
-B003186,2025-12-21 19:26:00,A0131,U00145,flight,domestic,UK,UK,2,170.91,2,credit_line,confirmed
+B003186,2025-12-21 19:26:00,A0131,U00145,flight,domestic,UK,UK,3,170.91,2,credit_line,confirmed
 B003187,2025-06-22 10:10:00,A0066,U00691,flight,domestic,US,US,17,206.59,3,credit_line,confirmed
 B003188,2025-07-09 17:39:00,A0007,U00125,hotel,international,AE,UK,36,1172.96,2,credit_line,confirmed
 B003189,2025-10-16 19:55:00,A0020,U00754,hotel,domestic,IN,IN,12,205.98,1,card,confirmed
@@ -3277,7 +3277,7 @@ B003275,2025-08-08 12:51:00,A0100,U00001,flight,domestic,US,US,14,154.04,2,card,
 B003276,2025-01-13 15:45:00,A0089,U00265,flight,international,US,AE,51,2597.34,3,credit_line,confirmed
 B003277,2025-02-25 20:59:00,A0045,U00698,hotel,international,IN,TH,50,981.06,3,credit_line,confirmed
 B003278,2025-12-24 11:42:00,A0012,U00020,hotel,international,UK,TH,4,6327.64,1,bank,confirmed
-B003279,2025-07-16 14:00:00,A0005,U00245,hotel,international,IN,IN,0,21720.01,7,credit_line,confirmed
+B003279,2025-07-16 14:00:00,A0005,U00245,hotel,international,IN,IN,1,14258.64,7,credit_line,confirmed
 B003280,2025-09-23 23:41:00,A0107,U00238,flight,domestic,SG,SG,7,342.34,1,credit_line,confirmed
 B003281,2025-09-11 01:33:00,A0121,U00182,hotel,domestic,IN,IN,13,584.61,7,bank,confirmed
 B003282,2025-07-05 18:44:00,A0123,U00688,package,international,AE,UK,85,791.18,2,credit_line,confirmed
@@ -3324,14 +3324,14 @@ B003322,2025-04-05 02:33:00,A0009,U00490,flight,international,AE,AE,42,1902.22,5
 B003323,2025-03-19 07:15:00,A0004,U00415,flight,domestic,AE,AE,18,83.88,1,credit_line,confirmed
 B003324,2025-10-30 05:33:00,A0177,U00248,package,international,AE,US,76,897.85,1,credit_line,confirmed
 B003325,2025-01-30 16:18:00,A0014,U00706,flight,international,AE,TH,4,3428.16,1,credit_line,confirmed
-B003326,2025-04-02 16:53:00,A0092,U00528,flight,domestic,UK,UK,2,109.8,1,credit_line,confirmed
+B003326,2025-04-02 16:53:00,A0092,U00528,flight,domestic,UK,UK,1,109.8,1,credit_line,confirmed
 B003327,2025-05-15 16:33:00,A0131,U00145,package,domestic,IN,IN,3,146.5,3,credit_line,confirmed
 B003328,2025-05-12 17:21:00,A0146,U00294,hotel,domestic,AE,AE,13,150.85,1,credit_line,confirmed
 B003329,2025-11-30 13:06:00,A0050,U00758,flight,domestic,IN,IN,19,128.88,2,credit_line,confirmed
 B003330,2025-08-27 18:10:00,A0084,U00684,hotel,domestic,IN,IN,12,175.48,3,credit_line,confirmed
 B003331,2025-12-03 20:41:00,A0026,U00119,flight,international,SG,UK,47,1473.49,3,credit_line,confirmed
 B003332,2025-12-22 10:01:00,A0084,U00428,hotel,domestic,IN,IN,5,434.58,4,credit_line,confirmed
-B003333,2025-01-08 10:48:00,A0107,U00327,package,domestic,IN,IN,0,353.14,1,credit_line,confirmed
+B003333,2025-01-08 10:48:00,A0107,U00327,package,domestic,IN,IN,1,353.14,1,credit_line,confirmed
 B003334,2025-03-23 16:16:00,A0186,U00308,flight,international,AE,SG,37,1962.08,2,credit_line,confirmed
 B003335,2025-06-01 16:22:00,A0062,U00679,flight,domestic,IN,IN,13,186.12,6,credit_line,confirmed
 B003336,2025-05-12 06:07:00,A0169,U00514,flight,domestic,IN,IN,7,135.88,2,card,confirmed
@@ -3417,7 +3417,7 @@ B003415,2025-08-10 20:24:00,A0169,U00325,flight,international,IN,DE,14,389.9,1,c
 B003416,2025-12-05 16:22:00,A0037,U00741,hotel,international,AE,FR,82,2703.32,2,credit_line,pending
 B003417,2025-04-11 21:46:00,A0069,U00750,package,domestic,UK,UK,3,111.14,3,credit_line,pending
 B003418,2025-01-03 08:16:00,A0148,U00482,flight,domestic,US,US,6,130.38,5,card,confirmed
-B003419,2025-07-23 10:07:00,A0005,U00245,flight,international,UK,UK,0,19653.26,1,credit_line,confirmed
+B003419,2025-07-23 10:07:00,A0005,U00245,flight,international,UK,UK,0,11845.29,1,credit_line,confirmed
 B003420,2025-10-29 17:05:00,A0168,U00695,flight,international,AE,TH,55,1206.0,2,credit_line,confirmed
 B003421,2025-07-31 22:09:00,A0066,U00648,hotel,domestic,AE,AE,17,234.28,3,bank,confirmed
 B003422,2025-05-31 15:37:00,A0171,U00717,flight,domestic,IN,IN,16,365.22,1,credit_line,confirmed
@@ -3449,7 +3449,7 @@ B003447,2025-03-29 21:20:00,A0189,U00630,flight,international,IN,DE,36,1932.51,2
 B003448,2025-07-02 15:55:00,A0064,U00504,flight,international,SG,DE,67,2109.92,2,card,confirmed
 B003449,2025-08-06 02:01:00,A0057,U00719,flight,domestic,SG,SG,8,217.2,1,credit_line,pending
 B003450,2025-11-07 20:51:00,A0195,U00556,flight,domestic,AE,AE,19,168.62,1,credit_line,pending
-B003451,2025-07-16 13:56:00,A0139,U00404,hotel,domestic,IN,IN,0,269.31,1,credit_line,confirmed
+B003451,2025-07-16 13:56:00,A0139,U00404,hotel,domestic,IN,IN,2,269.31,1,credit_line,confirmed
 B003452,2025-07-04 22:56:00,A0064,U00454,flight,international,US,AE,36,1171.94,2,credit_line,confirmed
 B003453,2025-01-16 20:36:00,A0064,U00720,flight,domestic,IN,IN,12,84.58,3,credit_line,confirmed
 B003454,2025-07-19 07:01:00,A0139,U00499,flight,international,IN,IN,20,3230.96,7,credit_line,confirmed
@@ -3489,7 +3489,7 @@ B003487,2025-06-21 14:37:00,A0109,U00368,flight,domestic,IN,IN,15,187.91,2,credi
 B003488,2025-05-13 08:46:00,A0138,U00389,hotel,domestic,UK,UK,4,370.16,1,credit_line,confirmed
 B003489,2025-12-29 16:43:00,A0073,U00561,flight,domestic,IN,IN,8,164.89,3,credit_line,confirmed
 B003490,2025-09-15 10:39:00,A0039,U00074,hotel,international,US,DE,3,1227.71,2,credit_line,confirmed
-B003491,2025-04-06 23:55:00,A0174,U00413,flight,international,AE,AE,0,16975.05,2,credit_line,confirmed
+B003491,2025-04-06 23:55:00,A0174,U00413,flight,international,AE,AE,0,23072.09,2,credit_line,confirmed
 B003492,2025-04-03 17:42:00,A0084,U00576,flight,domestic,IN,IN,10,181.13,8,credit_line,confirmed
 B003493,2025-10-12 13:19:00,A0050,U00471,flight,domestic,IN,IN,2,92.26,4,credit_line,confirmed
 B003494,2025-04-15 09:48:00,A0148,U00737,flight,domestic,AE,AE,18,101.82,1,credit_line,confirmed
@@ -3525,7 +3525,7 @@ B003523,2025-01-07 10:57:00,A0096,U00382,hotel,international,US,SG,27,2392.38,3,
 B003524,2025-02-14 10:45:00,A0025,U00284,hotel,domestic,US,US,10,125.84,8,credit_line,confirmed
 B003525,2025-05-12 14:26:00,A0100,U00001,hotel,international,AE,UK,23,281.3,4,credit_line,confirmed
 B003526,2025-10-02 04:23:00,A0124,U00288,hotel,domestic,IN,IN,5,126.91,1,credit_line,pending
-B003527,2025-05-13 02:55:00,A0033,U00535,hotel,international,US,US,0,21291.98,1,credit_line,confirmed
+B003527,2025-05-13 02:55:00,A0033,U00535,hotel,international,US,US,1,19161.55,1,credit_line,confirmed
 B003528,2025-02-09 02:25:00,A0062,U00570,flight,domestic,IN,IN,4,103.96,3,credit_line,pending
 B003529,2025-05-28 22:58:00,A0027,U00469,flight,domestic,IN,IN,15,163.0,3,credit_line,confirmed
 B003530,2025-06-06 22:03:00,A0089,U00265,package,domestic,SG,SG,14,514.43,1,credit_line,confirmed
@@ -3537,7 +3537,7 @@ B003535,2025-11-15 01:44:00,A0015,U00459,flight,domestic,US,US,9,182.67,1,card,c
 B003536,2025-12-28 09:56:00,A0005,U00785,flight,international,US,DE,77,1780.65,2,card,confirmed
 B003537,2025-09-28 11:52:00,A0062,U00570,hotel,domestic,UK,UK,5,242.59,2,credit_line,confirmed
 B003538,2025-04-09 23:12:00,A0063,U00374,package,domestic,US,US,19,193.32,7,card,confirmed
-B003539,2025-07-20 06:29:00,A0107,U00327,flight,domestic,AE,AE,0,744.21,2,credit_line,confirmed
+B003539,2025-07-20 06:29:00,A0107,U00327,flight,domestic,AE,AE,3,744.21,2,credit_line,confirmed
 B003540,2025-09-16 01:18:00,A0012,U00386,flight,international,AE,SG,76,1006.32,4,credit_line,confirmed
 B003541,2025-04-20 15:19:00,A0184,U00696,flight,international,UK,TH,2,574.37,3,credit_line,confirmed
 B003542,2025-05-31 15:36:00,A0046,U00029,flight,international,AE,UK,42,1488.45,1,credit_line,confirmed
@@ -3546,7 +3546,7 @@ B003544,2025-08-03 23:31:00,A0114,U00738,flight,international,SG,SG,4,1685.44,3,
 B003545,2025-10-14 07:09:00,A0017,U00067,flight,domestic,SG,SG,12,156.6,4,credit_line,pending
 B003546,2025-06-08 12:12:00,A0129,U00780,flight,domestic,UK,UK,17,159.24,5,credit_line,confirmed
 B003547,2025-09-21 03:45:00,A0087,U00010,flight,domestic,SG,SG,17,408.1,3,credit_line,confirmed
-B003548,2025-03-03 21:47:00,A0092,U00528,hotel,international,UK,AE,3,2491.34,2,bank,confirmed
+B003548,2025-03-03 21:47:00,A0092,U00528,hotel,international,UK,AE,2,2491.34,2,bank,confirmed
 B003549,2025-01-19 11:17:00,A0119,U00746,hotel,domestic,SG,SG,4,176.1,2,credit_line,confirmed
 B003550,2025-08-24 21:05:00,A0103,U00562,package,domestic,AE,AE,2,243.51,4,card,confirmed
 B003551,2025-02-17 20:28:00,A0058,U00447,hotel,international,IN,DE,48,1783.03,1,card,confirmed
@@ -3653,11 +3653,11 @@ B003651,2025-10-16 12:34:00,A0006,U00441,hotel,domestic,AE,AE,4,587.21,9,bank,co
 B003652,2025-02-09 19:00:00,A0043,U00756,hotel,domestic,UK,UK,18,75.09,4,bank,confirmed
 B003653,2025-07-01 12:27:00,A0110,U00236,flight,domestic,US,US,4,95.15,1,credit_line,confirmed
 B003654,2025-02-12 23:55:00,A0103,U00545,flight,international,IN,FR,28,1112.76,5,card,confirmed
-B003655,2025-04-07 21:16:00,A0068,U00383,hotel,international,AE,AE,1,13344.86,1,credit_line,confirmed
+B003655,2025-04-07 21:16:00,A0068,U00383,hotel,international,AE,AE,1,19297.28,1,credit_line,confirmed
 B003656,2025-02-16 04:55:00,A0164,U00645,flight,international,SG,UK,68,1165.62,1,credit_line,confirmed
 B003657,2025-11-30 19:33:00,A0100,U00667,hotel,domestic,IN,IN,9,311.62,1,bank,confirmed
 B003658,2025-05-09 20:56:00,A0148,U00059,flight,international,US,AE,70,562.07,1,credit_line,confirmed
-B003659,2025-04-01 23:12:00,A0092,U00528,hotel,international,US,UK,0,2265.7,2,bank,confirmed
+B003659,2025-04-01 23:12:00,A0092,U00528,hotel,international,US,UK,1,2265.7,2,bank,confirmed
 B003660,2025-10-31 00:26:00,A0051,U00035,hotel,domestic,IN,IN,9,211.96,1,credit_line,confirmed
 B003661,2025-05-02 11:53:00,A0154,U00026,hotel,domestic,AE,AE,16,133.25,2,credit_line,confirmed
 B003662,2025-10-26 09:07:00,A0049,U00206,package,domestic,IN,IN,17,413.32,1,card,confirmed
@@ -3669,7 +3669,7 @@ B003667,2025-09-28 08:21:00,A0157,U00422,hotel,domestic,AE,AE,2,159.44,6,credit_
 B003668,2025-03-06 12:50:00,A0143,U00205,flight,domestic,US,US,3,91.93,9,credit_line,confirmed
 B003669,2025-03-09 22:12:00,A0114,U00794,flight,international,IN,US,54,1385.63,6,credit_line,confirmed
 B003670,2025-04-25 09:02:00,A0114,U00738,hotel,international,UK,IN,4,1701.36,3,credit_line,confirmed
-B003671,2025-07-10 13:11:00,A0059,U00322,flight,international,UK,UK,0,21483.3,2,credit_line,confirmed
+B003671,2025-07-10 13:11:00,A0059,U00322,flight,international,UK,UK,1,12553.93,2,credit_line,confirmed
 B003672,2025-07-14 06:27:00,A0060,U00680,hotel,domestic,IN,IN,4,208.07,1,credit_line,confirmed
 B003673,2025-03-12 21:39:00,A0139,U00499,flight,domestic,IN,IN,15,481.7,5,credit_line,confirmed
 B003674,2025-12-17 04:14:00,A0006,U00441,flight,international,US,TH,7,536.95,3,credit_line,confirmed
@@ -3693,7 +3693,7 @@ B003691,2025-07-09 20:39:00,A0184,U00181,hotel,domestic,IN,IN,15,319.65,4,credit
 B003692,2025-09-27 06:20:00,A0077,U00538,hotel,international,IN,DE,49,2818.95,2,credit_line,confirmed
 B003693,2025-10-15 20:41:00,A0198,U00295,flight,domestic,IN,IN,5,326.64,2,credit_line,confirmed
 B003694,2025-01-25 08:54:00,A0015,U00152,package,international,AE,UK,4,1754.88,4,bank,confirmed
-B003695,2025-06-03 05:18:00,A0139,U00404,hotel,international,IN,SG,3,323.29,2,credit_line,confirmed
+B003695,2025-06-03 05:18:00,A0139,U00404,hotel,international,IN,SG,1,323.29,2,credit_line,confirmed
 B003696,2025-10-24 12:26:00,A0080,U00525,hotel,international,UK,IN,21,2931.56,7,credit_line,confirmed
 B003697,2025-07-29 13:09:00,A0160,U00532,hotel,international,US,SG,38,923.55,2,credit_line,confirmed
 B003698,2025-02-24 02:52:00,A0135,U00624,flight,domestic,IN,IN,4,109.08,3,card,confirmed
@@ -3706,13 +3706,13 @@ B003704,2025-02-05 10:44:00,A0034,U00788,flight,domestic,IN,IN,12,423.03,1,credi
 B003705,2025-04-11 09:42:00,A0118,U00390,package,domestic,IN,IN,9,77.37,2,credit_line,confirmed
 B003706,2025-09-02 21:26:00,A0187,U00287,flight,international,SG,US,28,1341.15,4,credit_line,confirmed
 B003707,2025-04-20 09:17:00,A0022,U00429,flight,domestic,AE,AE,9,284.77,1,card,confirmed
-B003708,2025-11-19 11:29:00,A0131,U00145,flight,international,UK,AE,3,1553.79,2,credit_line,confirmed
+B003708,2025-11-19 11:29:00,A0131,U00145,flight,international,UK,AE,2,1553.79,2,credit_line,confirmed
 B003709,2025-10-01 21:31:00,A0096,U00612,flight,domestic,IN,IN,6,432.98,2,credit_line,confirmed
 B003710,2025-03-14 14:13:00,A0080,U00707,package,domestic,AE,AE,19,224.67,1,bank,confirmed
 B003711,2025-05-12 21:32:00,A0025,U00284,hotel,domestic,IN,IN,1,164.56,1,bank,failed
 B003712,2025-05-23 03:25:00,A0027,U00014,flight,domestic,US,US,8,139.73,4,credit_line,confirmed
 B003713,2025-02-03 18:48:00,A0119,U00777,package,domestic,AE,AE,6,82.74,7,credit_line,confirmed
-B003714,2025-05-15 20:02:00,A0107,U00327,hotel,international,IN,DE,3,881.52,1,card,confirmed
+B003714,2025-05-15 20:02:00,A0107,U00327,hotel,international,IN,DE,1,881.52,1,card,confirmed
 B003715,2025-06-08 07:53:00,A0024,U00631,flight,domestic,IN,IN,3,102.11,5,credit_line,confirmed
 B003716,2025-06-21 06:02:00,A0134,U00406,hotel,domestic,IN,IN,13,188.23,3,credit_line,confirmed
 B003717,2025-07-25 00:06:00,A0031,U00016,hotel,domestic,IN,IN,2,70.32,3,credit_line,confirmed
@@ -3819,7 +3819,7 @@ B003817,2025-05-21 08:58:00,A0153,U00225,hotel,international,IN,FR,52,1703.29,3,
 B003818,2025-02-06 20:36:00,A0198,U00608,flight,domestic,AE,AE,19,151.44,2,credit_line,confirmed
 B003819,2025-07-18 06:18:00,A0031,U00341,flight,international,IN,FR,53,633.56,6,credit_line,confirmed
 B003820,2025-08-02 20:57:00,A0076,U00280,flight,domestic,IN,IN,14,202.04,1,credit_line,confirmed
-B003821,2025-09-09 11:36:00,A0131,U00145,hotel,international,AE,FR,1,1235.8,1,credit_line,confirmed
+B003821,2025-09-09 11:36:00,A0131,U00145,hotel,international,AE,FR,3,1235.8,1,credit_line,confirmed
 B003822,2025-04-20 21:44:00,A0130,U00740,hotel,domestic,IN,IN,10,125.47,1,credit_line,confirmed
 B003823,2025-03-11 22:46:00,A0161,U00751,flight,domestic,IN,IN,17,170.24,1,credit_line,confirmed
 B003824,2025-03-03 22:39:00,A0191,U00333,flight,domestic,AE,AE,15,102.91,2,credit_line,confirmed
@@ -3931,10 +3931,10 @@ B003929,2025-04-30 15:03:00,A0179,U00752,flight,international,IN,IN,40,2054.03,2
 B003930,2025-07-05 11:14:00,A0045,U00328,package,international,UK,DE,14,530.69,1,card,confirmed
 B003931,2025-12-23 10:39:00,A0047,U00112,flight,domestic,UK,UK,9,118.5,3,card,confirmed
 B003932,2025-08-08 13:21:00,A0040,U00311,flight,domestic,US,US,2,98.19,4,credit_line,confirmed
-B003933,2025-11-09 20:34:00,A0092,U00528,flight,domestic,AE,AE,0,153.98,2,credit_line,confirmed
+B003933,2025-11-09 20:34:00,A0092,U00528,flight,domestic,AE,AE,2,153.98,2,credit_line,confirmed
 B003934,2025-11-05 18:05:00,A0025,U00104,flight,domestic,AE,AE,13,521.81,4,credit_line,failed
 B003935,2025-04-19 17:57:00,A0015,U00484,flight,international,US,UK,57,1294.65,1,credit_line,confirmed
-B003936,2025-11-27 01:48:00,A0005,U00245,hotel,international,IN,IN,1,17908.04,3,credit_line,confirmed
+B003936,2025-11-27 01:48:00,A0005,U00245,hotel,international,IN,IN,0,15585.49,3,credit_line,confirmed
 B003937,2025-04-09 19:52:00,A0041,U00585,flight,domestic,SG,SG,10,589.7,3,credit_line,confirmed
 B003938,2025-11-18 08:37:00,A0174,U00470,flight,domestic,SG,SG,17,121.75,1,card,confirmed
 B003939,2025-04-20 15:48:00,A0032,U00604,flight,domestic,IN,IN,1,241.82,3,credit_line,confirmed
@@ -3942,7 +3942,7 @@ B003940,2025-07-12 00:52:00,A0097,U00623,flight,international,IN,TH,69,2729.26,4
 B003941,2025-06-19 16:15:00,A0016,U00115,hotel,international,IN,FR,88,753.38,3,credit_line,confirmed
 B003942,2025-03-30 16:47:00,A0015,U00459,hotel,international,IN,IN,71,2304.38,2,credit_line,confirmed
 B003943,2025-12-30 19:28:00,A0053,U00602,package,domestic,AE,AE,6,229.45,2,credit_line,confirmed
-B003944,2025-08-05 06:38:00,A0059,U00322,flight,international,UK,UK,1,14970.93,2,credit_line,confirmed
+B003944,2025-08-05 06:38:00,A0059,U00322,flight,international,UK,UK,1,16344.47,2,credit_line,confirmed
 B003945,2025-10-28 10:36:00,A0049,U00553,flight,international,IN,TH,10,2408.63,1,bank,confirmed
 B003946,2025-09-18 17:13:00,A0163,U00369,flight,international,IN,FR,86,1665.25,1,credit_line,confirmed
 B003947,2025-03-13 10:45:00,A0199,U00116,package,domestic,AE,AE,18,211.3,1,credit_line,confirmed
@@ -4023,7 +4023,7 @@ B004021,2025-12-14 19:26:00,A0029,U00398,package,domestic,IN,IN,7,98.47,1,card,c
 B004022,2025-10-16 16:41:00,A0070,U00686,hotel,international,IN,SG,48,892.99,1,card,confirmed
 B004023,2025-07-15 07:33:00,A0004,U00228,hotel,domestic,AE,AE,15,163.85,6,credit_line,failed
 B004024,2025-10-03 11:53:00,A0127,U00574,package,domestic,UK,UK,1,55.35,1,credit_line,confirmed
-B004025,2025-02-09 19:26:00,A0092,U00528,flight,domestic,SG,SG,1,138.1,3,credit_line,confirmed
+B004025,2025-02-09 19:26:00,A0092,U00528,flight,domestic,SG,SG,0,138.1,3,credit_line,confirmed
 B004026,2025-01-07 20:24:00,A0053,U00021,flight,domestic,IN,IN,8,258.83,2,credit_line,confirmed
 B004027,2025-08-31 20:26:00,A0073,U00561,flight,domestic,US,US,12,177.57,4,credit_line,confirmed
 B004028,2025-02-21 14:30:00,A0104,U00363,hotel,domestic,US,US,3,402.95,1,credit_line,failed
@@ -4058,7 +4058,7 @@ B004056,2025-07-07 09:41:00,A0184,U00434,flight,international,IN,UK,5,4013.76,1,
 B004057,2025-05-26 18:59:00,A0076,U00280,flight,domestic,IN,IN,2,311.38,1,credit_line,confirmed
 B004058,2025-05-27 05:04:00,A0073,U00065,flight,domestic,UK,UK,9,212.67,1,credit_line,confirmed
 B004059,2025-05-09 07:00:00,A0195,U00556,flight,domestic,UK,UK,6,375.61,1,credit_line,confirmed
-B004060,2025-02-05 20:45:00,A0139,U00404,flight,international,IN,TH,0,1577.94,1,credit_line,confirmed
+B004060,2025-02-05 20:45:00,A0139,U00404,flight,international,IN,TH,3,1577.94,1,credit_line,confirmed
 B004061,2025-11-29 21:27:00,A0125,U00681,hotel,international,SG,TH,75,1033.97,5,credit_line,confirmed
 B004062,2025-03-10 01:59:00,A0013,U00326,hotel,domestic,SG,SG,12,78.67,7,credit_line,confirmed
 B004063,2025-05-04 05:32:00,A0011,U00516,hotel,domestic,UK,UK,3,253.02,2,credit_line,confirmed
@@ -4256,7 +4256,7 @@ B004254,2025-06-20 22:30:00,A0186,U00308,hotel,domestic,IN,IN,5,272.94,1,credit_
 B004255,2025-01-12 19:58:00,A0062,U00095,flight,domestic,US,US,2,319.3,1,credit_line,confirmed
 B004256,2025-10-16 11:55:00,A0022,U00580,flight,domestic,IN,IN,16,148.66,1,card,confirmed
 B004257,2025-02-21 17:31:00,A0189,U00736,flight,domestic,UK,UK,12,208.74,2,credit_line,confirmed
-B004258,2025-07-06 16:18:00,A0139,U00404,flight,international,US,TH,3,2092.5,1,bank,confirmed
+B004258,2025-07-06 16:18:00,A0139,U00404,flight,international,US,TH,1,2092.5,1,bank,confirmed
 B004259,2025-10-13 04:45:00,A0082,U00351,flight,domestic,IN,IN,4,465.83,3,credit_line,confirmed
 B004260,2025-07-05 19:50:00,A0096,U00612,hotel,international,IN,TH,86,537.5,2,credit_line,confirmed
 B004261,2025-03-28 16:09:00,A0166,U00677,flight,domestic,IN,IN,14,394.21,2,credit_line,confirmed
@@ -4302,7 +4302,7 @@ B004300,2025-01-23 20:02:00,A0015,U00152,hotel,domestic,IN,IN,3,215.63,1,credit_
 B004301,2025-05-24 07:13:00,A0154,U00109,hotel,international,IN,UK,40,248.34,1,credit_line,confirmed
 B004302,2025-01-03 01:48:00,A0150,U00610,package,domestic,IN,IN,8,139.21,1,credit_line,confirmed
 B004303,2025-01-25 22:39:00,A0060,U00376,hotel,domestic,AE,AE,1,76.3,6,credit_line,confirmed
-B004304,2025-12-16 11:19:00,A0082,U00607,flight,international,AE,AE,0,23219.42,2,credit_line,confirmed
+B004304,2025-12-16 11:19:00,A0082,U00607,flight,international,AE,AE,1,10181.94,2,credit_line,confirmed
 B004305,2025-01-07 06:13:00,A0121,U00723,hotel,international,IN,US,81,1442.31,1,credit_line,confirmed
 B004306,2025-10-28 05:29:00,A0084,U00428,flight,domestic,IN,IN,12,187.56,2,card,confirmed
 B004307,2025-01-06 10:38:00,A0184,U00434,package,international,IN,IN,51,1036.02,1,card,confirmed
@@ -4428,7 +4428,7 @@ B004426,2025-01-21 08:15:00,A0029,U00421,hotel,domestic,IN,IN,4,141.14,2,credit_
 B004427,2025-11-15 23:29:00,A0153,U00156,package,domestic,IN,IN,1,261.64,1,credit_line,confirmed
 B004428,2025-08-26 23:49:00,A0182,U00621,hotel,domestic,UK,UK,1,133.26,5,card,confirmed
 B004429,2025-02-04 10:14:00,A0125,U00401,hotel,domestic,IN,IN,17,199.11,3,credit_line,confirmed
-B004430,2025-09-10 05:31:00,A0005,U00245,flight,international,IN,IN,1,16262.08,2,credit_line,confirmed
+B004430,2025-09-10 05:31:00,A0005,U00245,flight,international,IN,IN,0,12334.57,2,credit_line,confirmed
 B004431,2025-05-17 02:46:00,A0025,U00284,hotel,domestic,US,US,3,288.9,3,credit_line,confirmed
 B004432,2025-01-21 21:06:00,A0104,U00554,flight,international,IN,US,79,3500.47,1,bank,pending
 B004433,2025-05-29 18:21:00,A0010,U00114,hotel,international,UK,AE,66,628.73,5,card,confirmed
@@ -4444,7 +4444,7 @@ B004442,2025-12-17 09:48:00,A0063,U00374,flight,international,IN,DE,28,606.74,2,
 B004443,2025-06-28 19:10:00,A0060,U00680,hotel,domestic,UK,UK,4,145.48,7,credit_line,confirmed
 B004444,2025-09-09 09:01:00,A0099,U00416,hotel,domestic,AE,AE,1,649.16,3,credit_line,confirmed
 B004445,2025-05-29 00:41:00,A0151,U00118,flight,domestic,UK,UK,12,91.4,2,credit_line,confirmed
-B004446,2025-07-14 03:08:00,A0139,U00404,flight,domestic,UK,UK,1,220.72,1,bank,confirmed
+B004446,2025-07-14 03:08:00,A0139,U00404,flight,domestic,UK,UK,0,220.72,1,bank,confirmed
 B004447,2025-01-10 03:16:00,A0073,U00204,flight,international,IN,US,82,1268.15,2,credit_line,confirmed
 B004448,2025-11-08 16:34:00,A0122,U00028,package,international,AE,UK,79,1214.88,1,card,confirmed
 B004449,2025-02-04 17:19:00,A0074,U00237,flight,domestic,IN,IN,13,129.18,3,credit_line,confirmed
@@ -4474,7 +4474,7 @@ B004472,2025-10-22 13:05:00,A0076,U00710,flight,domestic,AE,AE,15,198.11,1,credi
 B004473,2025-09-13 23:22:00,A0172,U00552,flight,domestic,IN,IN,5,123.07,4,card,confirmed
 B004474,2025-12-20 22:12:00,A0057,U00015,flight,domestic,SG,SG,11,101.39,8,credit_line,confirmed
 B004475,2025-08-15 05:24:00,A0106,U00012,hotel,domestic,IN,IN,18,151.51,2,credit_line,confirmed
-B004476,2025-10-08 10:37:00,A0174,U00413,flight,international,IN,IN,1,21746.01,4,credit_line,confirmed
+B004476,2025-10-08 10:37:00,A0174,U00413,flight,international,IN,IN,1,10753.68,4,credit_line,confirmed
 B004477,2025-03-23 19:01:00,A0105,U00614,hotel,international,AE,FR,10,1772.66,1,credit_line,confirmed
 B004478,2025-12-31 18:21:00,A0079,U00408,flight,international,SG,UK,48,609.33,4,credit_line,confirmed
 B004479,2025-06-16 19:30:00,A0149,U00041,package,domestic,IN,IN,13,218.06,8,credit_line,confirmed
@@ -4509,7 +4509,7 @@ B004507,2025-12-13 22:24:00,A0196,U00380,flight,domestic,IN,IN,4,88.23,3,credit_
 B004508,2025-08-21 03:42:00,A0109,U00062,hotel,domestic,IN,IN,6,133.55,2,credit_line,confirmed
 B004509,2025-12-26 15:52:00,A0172,U00476,package,domestic,IN,IN,12,68.52,7,credit_line,confirmed
 B004510,2025-09-26 14:44:00,A0044,U00606,flight,international,US,UK,22,1169.3,5,card,confirmed
-B004511,2025-03-28 06:21:00,A0033,U00535,flight,international,IN,AE,1,23142.45,5,credit_line,confirmed
+B004511,2025-03-28 06:21:00,A0033,U00535,flight,international,IN,AE,1,16880.31,5,credit_line,confirmed
 B004512,2025-06-23 01:42:00,A0120,U00263,hotel,domestic,US,US,3,211.74,3,credit_line,confirmed
 B004513,2025-02-23 16:38:00,A0148,U00381,package,domestic,IN,IN,1,312.47,2,credit_line,confirmed
 B004514,2025-08-19 18:26:00,A0046,U00483,hotel,domestic,IN,IN,14,184.42,2,card,confirmed
@@ -4593,7 +4593,7 @@ B004591,2025-04-28 18:03:00,A0195,U00704,hotel,domestic,AE,AE,3,324.96,1,bank,co
 B004592,2025-04-07 12:58:00,A0044,U00730,hotel,domestic,US,US,1,176.28,2,credit_line,confirmed
 B004593,2025-12-31 12:18:00,A0026,U00743,hotel,domestic,IN,IN,16,207.08,2,credit_line,confirmed
 B004594,2025-11-18 13:34:00,A0097,U00623,hotel,domestic,IN,IN,12,469.02,6,credit_line,confirmed
-B004595,2025-07-25 20:55:00,A0174,U00413,flight,international,UK,AE,1,14243.92,2,credit_line,confirmed
+B004595,2025-07-25 20:55:00,A0174,U00413,flight,international,UK,AE,1,22636.95,2,credit_line,confirmed
 B004596,2025-03-29 18:59:00,A0113,U00799,flight,domestic,IN,IN,18,126.99,2,card,confirmed
 B004597,2025-06-10 07:22:00,A0053,U00466,package,domestic,IN,IN,3,426.67,6,credit_line,confirmed
 B004598,2025-11-25 18:08:00,A0045,U00328,hotel,domestic,IN,IN,8,117.29,5,credit_line,confirmed
@@ -4638,7 +4638,7 @@ B004636,2025-08-11 00:22:00,A0145,U00025,package,international,IN,AE,24,1508.69,
 B004637,2025-08-12 04:07:00,A0012,U00355,flight,international,IN,TH,60,3066.19,1,credit_line,confirmed
 B004638,2025-07-30 21:40:00,A0109,U00062,hotel,domestic,IN,IN,11,404.17,2,credit_line,confirmed
 B004639,2025-10-07 22:45:00,A0037,U00296,flight,domestic,US,US,17,144.77,6,credit_line,confirmed
-B004640,2025-03-05 12:27:00,A0107,U00327,flight,international,IN,FR,1,1433.69,1,credit_line,confirmed
+B004640,2025-03-05 12:27:00,A0107,U00327,flight,international,IN,FR,3,1433.69,1,credit_line,confirmed
 B004641,2025-01-31 05:58:00,A0191,U00333,flight,domestic,IN,IN,19,181.39,2,credit_line,confirmed
 B004642,2025-06-01 23:45:00,A0068,U00267,hotel,domestic,SG,SG,18,270.69,4,card,confirmed
 B004643,2025-10-20 12:29:00,A0108,U00150,flight,international,AE,TH,12,1905.22,1,credit_line,confirmed
@@ -4695,7 +4695,7 @@ B004693,2025-12-20 06:10:00,A0199,U00472,hotel,international,UK,SG,3,1208.88,1,c
 B004694,2025-05-30 09:01:00,A0076,U00800,flight,domestic,IN,IN,12,108.78,9,credit_line,confirmed
 B004695,2025-06-01 16:38:00,A0108,U00735,hotel,international,IN,SG,14,1990.82,2,credit_line,confirmed
 B004696,2025-03-11 15:30:00,A0120,U00393,hotel,domestic,US,US,2,173.36,1,credit_line,confirmed
-B004697,2025-12-14 15:10:00,A0059,U00322,package,international,IN,IN,1,17977.05,3,credit_line,confirmed
+B004697,2025-12-14 15:10:00,A0059,U00322,package,international,IN,IN,0,19928.08,3,credit_line,confirmed
 B004698,2025-04-29 20:20:00,A0006,U00652,package,domestic,UK,UK,18,248.59,5,credit_line,failed
 B004699,2025-02-10 22:31:00,A0004,U00634,flight,domestic,UK,UK,6,109.1,2,credit_line,confirmed
 B004700,2025-08-31 21:33:00,A0176,U00492,flight,international,IN,SG,70,1438.87,1,credit_line,confirmed
@@ -4745,7 +4745,7 @@ B004743,2025-06-04 13:34:00,A0017,U00487,hotel,domestic,UK,UK,13,133.29,4,credit
 B004744,2025-03-14 19:00:00,A0153,U00200,hotel,domestic,AE,AE,17,197.91,6,credit_line,confirmed
 B004745,2025-12-06 21:34:00,A0080,U00707,hotel,international,US,AE,69,1277.32,1,credit_line,confirmed
 B004746,2025-07-21 15:27:00,A0055,U00597,flight,domestic,US,US,7,371.46,10,credit_line,confirmed
-B004747,2025-07-17 02:05:00,A0068,U00383,hotel,international,SG,IN,0,18032.68,2,credit_line,confirmed
+B004747,2025-07-17 02:05:00,A0068,U00383,hotel,international,SG,IN,0,18039.98,2,credit_line,confirmed
 B004748,2025-06-09 19:19:00,A0076,U00625,flight,domestic,IN,IN,11,105.22,2,credit_line,confirmed
 B004749,2025-10-22 16:43:00,A0053,U00021,flight,domestic,AE,AE,16,313.25,3,credit_line,confirmed
 B004750,2025-09-02 13:55:00,A0037,U00378,package,international,IN,UK,64,973.36,4,credit_line,failed
@@ -4797,7 +4797,7 @@ B004795,2025-01-01 01:08:00,A0084,U00571,flight,domestic,IN,IN,19,63.83,1,credit
 B004796,2025-09-03 04:42:00,A0158,U00184,flight,domestic,AE,AE,7,106.6,1,credit_line,confirmed
 B004797,2025-12-07 13:15:00,A0131,U00076,flight,international,US,SG,8,1498.09,4,credit_line,confirmed
 B004798,2025-06-27 00:55:00,A0108,U00161,flight,domestic,SG,SG,10,87.67,2,credit_line,confirmed
-B004799,2025-09-19 05:00:00,A0092,U00528,hotel,international,IN,IN,2,1931.61,1,credit_line,confirmed
+B004799,2025-09-19 05:00:00,A0092,U00528,hotel,international,IN,IN,3,1931.61,1,credit_line,confirmed
 B004800,2025-06-06 18:40:00,A0063,U00374,flight,international,UK,FR,27,983.48,2,credit_line,confirmed
 B004801,2025-02-12 14:01:00,A0072,U00567,flight,international,IN,SG,26,1100.54,1,credit_line,failed
 B004802,2025-12-03 15:40:00,A0062,U00305,flight,domestic,IN,IN,8,232.22,8,credit_line,pending
@@ -4920,10 +4920,10 @@ B004918,2025-02-16 14:34:00,A0069,U00750,hotel,domestic,US,US,7,347.87,2,credit_
 B004919,2025-09-24 16:33:00,A0086,U00786,flight,international,SG,IN,31,1168.79,2,credit_line,confirmed
 B004920,2025-01-23 08:00:00,A0060,U00376,hotel,domestic,AE,AE,16,1183.18,2,card,confirmed
 B004921,2025-05-27 17:10:00,A0076,U00710,hotel,domestic,SG,SG,9,164.31,1,credit_line,confirmed
-B004922,2025-03-09 09:32:00,A0131,U00145,flight,domestic,IN,IN,2,159.14,9,bank,confirmed
+B004922,2025-03-09 09:32:00,A0131,U00145,flight,domestic,IN,IN,0,159.14,9,bank,confirmed
 B004923,2025-04-24 08:33:00,A0072,U00567,flight,domestic,IN,IN,14,75.74,5,credit_line,confirmed
 B004924,2025-10-31 23:15:00,A0184,U00273,hotel,domestic,IN,IN,2,247.88,1,credit_line,confirmed
-B004925,2025-10-07 04:16:00,A0131,U00145,flight,domestic,IN,IN,1,208.33,1,credit_line,confirmed
+B004925,2025-10-07 04:16:00,A0131,U00145,flight,domestic,IN,IN,3,208.33,1,credit_line,confirmed
 B004926,2025-02-04 08:20:00,A0062,U00572,flight,domestic,IN,IN,7,90.12,3,card,confirmed
 B004927,2025-09-29 22:08:00,A0006,U00316,flight,domestic,AE,AE,19,158.64,2,credit_line,confirmed
 B004928,2025-02-19 06:55:00,A0134,U00558,flight,domestic,IN,IN,2,289.87,1,credit_line,confirmed
@@ -4932,7 +4932,7 @@ B004930,2025-02-15 16:21:00,A0029,U00276,flight,domestic,US,US,12,131.27,2,credi
 B004931,2025-07-07 21:34:00,A0028,U00690,hotel,international,US,AE,76,1532.23,5,credit_line,pending
 B004932,2025-11-21 06:15:00,A0059,U00108,flight,domestic,IN,IN,17,275.39,1,credit_line,pending
 B004933,2025-01-21 21:26:00,A0139,U00286,hotel,domestic,US,US,12,414.43,2,bank,confirmed
-B004934,2025-06-09 06:14:00,A0033,U00535,flight,international,UK,UK,1,20623.88,2,credit_line,confirmed
+B004934,2025-06-09 06:14:00,A0033,U00535,flight,international,UK,UK,0,18450.66,2,credit_line,confirmed
 B004935,2025-04-11 16:13:00,A0061,U00253,flight,domestic,US,US,14,178.82,2,credit_line,confirmed
 B004936,2025-07-04 18:11:00,A0092,U00435,hotel,domestic,AE,AE,3,72.44,6,credit_line,confirmed
 B004937,2025-06-09 11:32:00,A0158,U00167,hotel,international,UK,SG,2,444.12,2,credit_line,confirmed
@@ -4950,7 +4950,7 @@ B004948,2025-12-17 04:28:00,A0008,U00778,hotel,domestic,IN,IN,8,57.16,4,credit_l
 B004949,2025-10-22 21:22:00,A0072,U00501,package,domestic,IN,IN,11,653.09,8,credit_line,confirmed
 B004950,2025-07-07 02:57:00,A0007,U00337,hotel,domestic,AE,AE,7,94.22,8,credit_line,confirmed
 B004951,2025-02-11 10:28:00,A0036,U00037,hotel,international,US,TH,69,1347.22,1,credit_line,pending
-B004952,2025-09-03 21:40:00,A0033,U00535,flight,international,US,DE,1,17411.07,2,credit_line,confirmed
+B004952,2025-09-03 21:40:00,A0033,U00535,flight,international,US,DE,0,25000.0,2,credit_line,confirmed
 B004953,2025-09-22 23:55:00,A0158,U00348,hotel,domestic,IN,IN,16,349.61,7,bank,confirmed
 B004954,2025-03-05 15:14:00,A0098,U00081,hotel,domestic,IN,IN,12,217.03,1,credit_line,confirmed
 B004955,2025-03-17 18:39:00,A0175,U00726,hotel,international,IN,FR,42,3489.36,6,card,confirmed
@@ -5020,7 +5020,7 @@ B005018,2025-12-10 04:06:00,A0184,U00181,flight,domestic,IN,IN,16,261.42,1,credi
 B005019,2025-09-26 03:25:00,A0108,U00141,flight,domestic,US,US,5,141.82,1,card,confirmed
 B005020,2025-12-27 11:11:00,A0011,U00222,flight,domestic,SG,SG,5,100.7,1,credit_line,confirmed
 B005021,2025-06-04 08:34:00,A0088,U00497,flight,domestic,IN,IN,3,155.69,1,credit_line,confirmed
-B005022,2025-04-15 10:02:00,A0033,U00535,flight,international,US,US,1,18589.01,2,credit_line,confirmed
+B005022,2025-04-15 10:02:00,A0033,U00535,flight,international,US,US,0,16460.88,2,credit_line,confirmed
 B005023,2025-06-27 13:12:00,A0195,U00556,flight,international,AE,US,10,1971.52,2,credit_line,confirmed
 B005024,2025-04-15 11:48:00,A0193,U00694,flight,international,UK,IN,49,4251.39,2,card,confirmed
 B005025,2025-11-12 07:44:00,A0153,U00485,flight,international,AE,US,37,1641.03,2,credit_line,confirmed
@@ -5043,7 +5043,7 @@ B005041,2025-09-13 16:07:00,A0163,U00255,hotel,domestic,IN,IN,10,335.28,1,credit
 B005042,2025-05-09 11:44:00,A0166,U00335,flight,international,UK,SG,13,1185.8,4,bank,confirmed
 B005043,2025-01-16 19:26:00,A0179,U00079,hotel,domestic,US,US,15,294.56,3,credit_line,confirmed
 B005044,2025-10-15 19:09:00,A0069,U00750,hotel,international,US,DE,88,3360.21,2,credit_line,confirmed
-B005045,2025-09-05 05:55:00,A0033,U00535,hotel,international,AE,AE,0,16683.47,2,credit_line,confirmed
+B005045,2025-09-05 05:55:00,A0033,U00535,hotel,international,AE,AE,0,16796.72,2,credit_line,confirmed
 B005046,2025-04-17 16:09:00,A0076,U00800,hotel,international,UK,SG,69,1784.64,2,credit_line,confirmed
 B005047,2025-10-03 00:10:00,A0084,U00571,package,domestic,IN,IN,19,395.19,1,credit_line,confirmed
 B005048,2025-11-11 04:20:00,A0024,U00456,flight,domestic,IN,IN,1,243.62,1,credit_line,confirmed
@@ -5123,7 +5123,7 @@ B005121,2025-10-18 01:09:00,A0131,U00445,package,domestic,US,US,19,152.95,5,cred
 B005122,2025-06-03 04:21:00,A0108,U00150,flight,international,AE,SG,79,1584.49,2,credit_line,confirmed
 B005123,2025-10-10 05:53:00,A0014,U00122,flight,domestic,IN,IN,3,222.51,7,credit_line,confirmed
 B005124,2025-08-14 22:08:00,A0117,U00495,flight,domestic,SG,SG,15,182.26,2,credit_line,pending
-B005125,2025-03-03 17:38:00,A0059,U00322,flight,international,IN,IN,1,19043.6,1,credit_line,confirmed
+B005125,2025-03-03 17:38:00,A0059,U00322,flight,international,IN,IN,0,16364.21,1,credit_line,confirmed
 B005126,2025-04-25 04:11:00,A0081,U00301,flight,international,AE,IN,42,1791.03,1,credit_line,confirmed
 B005127,2025-07-21 23:49:00,A0138,U00344,flight,domestic,IN,IN,5,76.22,5,credit_line,confirmed
 B005128,2025-11-01 13:56:00,A0173,U00024,hotel,domestic,AE,AE,7,89.86,7,credit_line,confirmed
@@ -5145,7 +5145,7 @@ B005143,2025-11-05 16:38:00,A0004,U00154,hotel,international,IN,US,49,5713.48,2,
 B005144,2025-12-27 15:28:00,A0080,U00707,hotel,domestic,US,US,5,590.97,2,credit_line,confirmed
 B005145,2025-10-16 03:19:00,A0021,U00662,hotel,international,IN,UK,15,1702.9,2,credit_line,confirmed
 B005146,2025-06-23 06:46:00,A0046,U00220,hotel,domestic,IN,IN,3,160.35,1,credit_line,confirmed
-B005147,2025-08-08 14:56:00,A0005,U00245,package,international,IN,IN,1,15023.71,1,credit_line,confirmed
+B005147,2025-08-08 14:56:00,A0005,U00245,package,international,IN,IN,1,17423.95,1,credit_line,confirmed
 B005148,2025-01-08 21:59:00,A0109,U00110,flight,domestic,IN,IN,18,133.22,1,card,confirmed
 B005149,2025-01-09 19:25:00,A0129,U00780,flight,domestic,US,US,10,280.54,2,credit_line,confirmed
 B005150,2025-09-01 00:01:00,A0193,U00694,flight,international,IN,FR,33,1167.02,5,credit_line,confirmed
@@ -5154,11 +5154,11 @@ B005152,2025-07-31 23:42:00,A0155,U00360,flight,domestic,IN,IN,8,80.01,3,card,co
 B005153,2025-02-11 09:35:00,A0015,U00450,hotel,domestic,SG,SG,17,258.1,1,credit_line,confirmed
 B005154,2025-06-25 06:49:00,A0098,U00364,flight,domestic,US,US,18,119.28,2,credit_line,failed
 B005155,2025-02-02 21:02:00,A0140,U00210,hotel,domestic,UK,UK,5,282.07,1,credit_line,confirmed
-B005156,2025-09-17 20:00:00,A0131,U00145,flight,international,IN,DE,3,1225.36,1,credit_line,confirmed
+B005156,2025-09-17 20:00:00,A0131,U00145,flight,international,IN,DE,1,1225.36,1,credit_line,confirmed
 B005157,2025-05-08 06:16:00,A0090,U00546,flight,domestic,UK,UK,5,196.58,9,bank,confirmed
 B005158,2025-11-27 21:03:00,A0098,U00144,package,domestic,AE,AE,10,184.65,1,credit_line,confirmed
 B005159,2025-03-28 18:19:00,A0166,U00003,flight,international,IN,DE,14,536.56,2,credit_line,confirmed
-B005160,2025-07-20 12:46:00,A0092,U00528,flight,domestic,SG,SG,2,136.56,4,credit_line,confirmed
+B005160,2025-07-20 12:46:00,A0092,U00528,flight,domestic,SG,SG,0,136.56,4,credit_line,confirmed
 B005161,2025-04-23 11:21:00,A0186,U00308,flight,international,US,DE,36,765.09,7,credit_line,confirmed
 B005162,2025-04-09 02:56:00,A0100,U00598,hotel,domestic,IN,IN,10,123.62,1,credit_line,pending
 B005163,2025-04-05 19:37:00,A0146,U00197,flight,domestic,UK,UK,6,121.29,1,credit_line,confirmed
@@ -5209,7 +5209,7 @@ B005207,2025-01-23 02:54:00,A0047,U00093,flight,international,SG,TH,9,436.39,1,c
 B005208,2025-02-12 05:16:00,A0024,U00631,hotel,domestic,AE,AE,6,85.17,1,credit_line,pending
 B005209,2025-08-19 06:16:00,A0160,U00409,hotel,international,AE,UK,31,1950.52,3,credit_line,confirmed
 B005210,2025-05-12 23:20:00,A0125,U00264,flight,domestic,US,US,16,177.1,3,credit_line,pending
-B005211,2025-02-20 09:35:00,A0139,U00404,flight,international,AE,UK,3,1708.57,1,bank,confirmed
+B005211,2025-02-20 09:35:00,A0139,U00404,flight,international,AE,UK,1,1708.57,1,bank,confirmed
 B005212,2025-03-18 15:40:00,A0158,U00348,flight,international,SG,AE,88,1107.79,2,credit_line,confirmed
 B005213,2025-07-18 18:43:00,A0164,U00645,package,domestic,IN,IN,19,324.23,2,credit_line,confirmed
 B005214,2025-11-18 03:02:00,A0184,U00762,hotel,domestic,US,US,16,388.64,2,credit_line,pending
@@ -5260,7 +5260,7 @@ B005258,2025-07-06 08:09:00,A0057,U00091,flight,international,IN,FR,50,1891.71,1
 B005259,2025-08-31 00:12:00,A0182,U00621,flight,domestic,AE,AE,18,312.8,1,credit_line,confirmed
 B005260,2025-03-05 10:48:00,A0133,U00188,flight,international,IN,UK,47,5137.97,1,card,confirmed
 B005261,2025-05-11 04:21:00,A0188,U00493,flight,international,IN,AE,71,783.75,10,credit_line,pending
-B005262,2025-07-14 03:27:00,A0131,U00145,hotel,international,IN,IN,0,3148.06,2,bank,confirmed
+B005262,2025-07-14 03:27:00,A0131,U00145,hotel,international,IN,IN,2,3148.06,2,bank,confirmed
 B005263,2025-02-05 14:28:00,A0062,U00572,hotel,domestic,IN,IN,11,222.84,1,credit_line,pending
 B005264,2025-03-20 06:12:00,A0192,U00475,flight,international,US,DE,17,1293.03,2,credit_line,confirmed
 B005265,2025-10-29 23:40:00,A0024,U00478,hotel,international,US,AE,33,934.46,3,credit_line,confirmed
@@ -5294,11 +5294,11 @@ B005292,2025-12-23 17:08:00,A0126,U00488,flight,domestic,SG,SG,11,218.22,3,credi
 B005293,2025-04-10 09:28:00,A0059,U00323,flight,international,IN,SG,64,996.59,1,credit_line,failed
 B005294,2025-11-12 18:19:00,A0096,U00612,flight,domestic,IN,IN,12,97.77,1,credit_line,confirmed
 B005295,2025-10-20 19:25:00,A0135,U00121,flight,international,IN,US,84,962.81,5,credit_line,confirmed
-B005296,2025-08-07 18:50:00,A0139,U00404,flight,domestic,UK,UK,2,264.0,3,card,confirmed
+B005296,2025-08-07 18:50:00,A0139,U00404,flight,domestic,UK,UK,1,264.0,3,card,confirmed
 B005297,2025-08-30 23:14:00,A0014,U00138,flight,domestic,SG,SG,10,166.4,1,credit_line,confirmed
 B005298,2025-07-16 13:29:00,A0049,U00206,flight,international,IN,SG,29,2253.62,2,card,confirmed
 B005299,2025-09-21 03:58:00,A0056,U00056,hotel,domestic,AE,AE,2,147.64,1,card,confirmed
-B005300,2025-12-06 03:33:00,A0139,U00404,flight,domestic,UK,UK,1,87.44,4,bank,pending
+B005300,2025-12-06 03:33:00,A0139,U00404,flight,domestic,UK,UK,3,87.44,4,bank,pending
 B005301,2025-11-29 20:49:00,A0168,U00148,flight,domestic,IN,IN,6,501.87,1,credit_line,confirmed
 B005302,2025-05-17 23:51:00,A0178,U00568,hotel,domestic,IN,IN,13,247.35,1,credit_line,confirmed
 B005303,2025-11-02 21:15:00,A0056,U00731,flight,domestic,SG,SG,10,418.18,3,card,confirmed
@@ -5320,9 +5320,9 @@ B005318,2025-12-16 08:00:00,A0037,U00611,flight,domestic,UK,UK,13,176.37,1,credi
 B005319,2025-03-18 06:44:00,A0143,U00107,flight,domestic,AE,AE,17,575.5,1,credit_line,confirmed
 B005320,2025-08-17 09:45:00,A0012,U00753,hotel,domestic,IN,IN,15,356.98,4,credit_line,confirmed
 B005321,2025-10-12 06:59:00,A0058,U00411,flight,international,IN,UK,40,2486.37,2,bank,confirmed
-B005322,2025-05-08 01:17:00,A0139,U00404,flight,domestic,IN,IN,3,132.9,3,credit_line,confirmed
+B005322,2025-05-08 01:17:00,A0139,U00404,flight,domestic,IN,IN,0,132.9,3,credit_line,confirmed
 B005323,2025-05-31 23:32:00,A0057,U00239,flight,domestic,AE,AE,17,179.91,1,credit_line,confirmed
-B005324,2025-01-26 12:44:00,A0131,U00145,hotel,domestic,IN,IN,0,250.86,2,credit_line,confirmed
+B005324,2025-01-26 12:44:00,A0131,U00145,hotel,domestic,IN,IN,2,250.86,2,credit_line,confirmed
 B005325,2025-12-04 11:58:00,A0093,U00474,package,domestic,US,US,3,147.08,2,credit_line,confirmed
 B005326,2025-05-15 03:58:00,A0080,U00525,flight,international,US,TH,66,2083.97,3,credit_line,confirmed
 B005327,2025-06-16 00:26:00,A0158,U00536,flight,international,UK,SG,17,4322.32,5,bank,confirmed
@@ -5355,7 +5355,7 @@ B005353,2025-07-11 17:20:00,A0145,U00520,package,domestic,US,US,17,348.24,3,cred
 B005354,2025-01-07 22:59:00,A0193,U00202,flight,domestic,UK,UK,17,212.31,2,card,confirmed
 B005355,2025-11-16 18:58:00,A0011,U00044,hotel,domestic,SG,SG,14,174.78,2,credit_line,confirmed
 B005356,2025-09-01 08:48:00,A0061,U00253,flight,international,IN,TH,64,1235.21,2,credit_line,confirmed
-B005357,2025-01-04 02:46:00,A0068,U00383,flight,international,UK,AE,1,17279.88,3,credit_line,confirmed
+B005357,2025-01-04 02:46:00,A0068,U00383,flight,international,UK,AE,1,11895.27,3,credit_line,confirmed
 B005358,2025-08-28 00:05:00,A0012,U00082,hotel,international,IN,UK,15,1225.21,1,credit_line,confirmed
 B005359,2025-12-21 11:42:00,A0056,U00056,package,domestic,IN,IN,4,78.75,4,bank,confirmed
 B005360,2025-02-08 21:18:00,A0136,U00515,flight,domestic,AE,AE,11,155.29,1,credit_line,confirmed
@@ -5503,7 +5503,7 @@ B005501,2025-11-22 08:12:00,A0002,U00534,flight,domestic,US,US,4,126.32,3,credit
 B005502,2025-10-18 05:35:00,A0153,U00185,flight,domestic,AE,AE,11,240.76,2,card,confirmed
 B005503,2025-07-16 00:54:00,A0029,U00398,flight,domestic,AE,AE,16,347.11,4,card,confirmed
 B005504,2025-01-03 15:45:00,A0012,U00106,hotel,domestic,SG,SG,5,316.83,1,credit_line,confirmed
-B005505,2025-10-11 08:16:00,A0139,U00404,package,domestic,UK,UK,1,289.05,3,credit_line,confirmed
+B005505,2025-10-11 08:16:00,A0139,U00404,package,domestic,UK,UK,3,289.05,3,credit_line,confirmed
 B005506,2025-02-22 10:55:00,A0105,U00644,hotel,domestic,SG,SG,11,268.35,1,credit_line,confirmed
 B005507,2025-03-01 23:50:00,A0100,U00667,package,international,UK,SG,36,1789.96,2,card,pending
 B005508,2025-12-17 08:04:00,A0015,U00450,hotel,international,IN,FR,20,1316.88,9,credit_line,confirmed
@@ -5593,7 +5593,7 @@ B005591,2025-03-09 08:28:00,A0123,U00557,flight,international,US,TH,13,1371.79,1
 B005592,2025-07-05 14:40:00,A0145,U00464,flight,domestic,AE,AE,17,181.39,1,bank,confirmed
 B005593,2025-03-10 03:15:00,A0059,U00323,flight,domestic,IN,IN,9,78.83,2,credit_line,confirmed
 B005594,2025-01-22 21:16:00,A0010,U00709,hotel,domestic,IN,IN,3,448.66,5,credit_line,confirmed
-B005595,2025-08-24 12:06:00,A0131,U00145,flight,domestic,US,US,2,287.11,2,bank,confirmed
+B005595,2025-08-24 12:06:00,A0131,U00145,flight,domestic,US,US,3,287.11,2,bank,confirmed
 B005596,2025-11-14 10:14:00,A0074,U00237,package,domestic,AE,AE,12,153.16,3,credit_line,confirmed
 B005597,2025-02-01 07:39:00,A0089,U00265,flight,domestic,US,US,17,97.62,1,credit_line,confirmed
 B005598,2025-09-26 05:01:00,A0026,U00796,package,international,IN,SG,40,664.85,1,credit_line,confirmed
@@ -5654,7 +5654,7 @@ B005652,2025-06-04 06:52:00,A0161,U00158,package,international,UK,AE,81,318.89,2
 B005653,2025-06-13 05:57:00,A0007,U00125,hotel,international,AE,AE,17,5901.34,8,bank,confirmed
 B005654,2025-03-23 10:56:00,A0172,U00078,flight,international,UK,AE,41,4044.82,2,credit_line,confirmed
 B005655,2025-03-29 01:15:00,A0039,U00349,flight,international,UK,TH,54,3050.75,1,credit_line,confirmed
-B005656,2025-11-10 20:10:00,A0068,U00383,hotel,international,IN,TH,0,20404.13,1,credit_line,confirmed
+B005656,2025-11-10 20:10:00,A0068,U00383,hotel,international,IN,TH,1,16086.48,1,credit_line,confirmed
 B005657,2025-01-09 04:20:00,A0130,U00426,flight,international,AE,DE,22,1241.88,7,credit_line,confirmed
 B005658,2025-12-24 02:49:00,A0070,U00370,flight,international,SG,DE,78,1319.82,5,credit_line,confirmed
 B005659,2025-12-08 02:33:00,A0079,U00408,flight,international,US,UK,10,1686.97,1,card,confirmed
@@ -5692,7 +5692,7 @@ B005690,2025-05-24 17:18:00,A0098,U00081,hotel,domestic,IN,IN,5,96.73,1,credit_l
 B005691,2025-02-23 17:14:00,A0173,U00192,hotel,domestic,US,US,11,127.08,7,credit_line,confirmed
 B005692,2025-10-24 09:53:00,A0100,U00667,package,domestic,IN,IN,8,163.96,3,credit_line,confirmed
 B005693,2025-03-25 08:45:00,A0018,U00458,flight,domestic,IN,IN,9,134.88,1,credit_line,confirmed
-B005694,2025-05-12 20:56:00,A0174,U00413,hotel,international,IN,IN,0,16482.64,7,credit_line,confirmed
+B005694,2025-05-12 20:56:00,A0174,U00413,hotel,international,IN,IN,0,18011.04,7,credit_line,confirmed
 B005695,2025-03-27 23:00:00,A0175,U00726,flight,domestic,IN,IN,8,174.45,1,credit_line,confirmed
 B005696,2025-01-24 19:47:00,A0166,U00491,flight,international,IN,US,16,3412.8,3,credit_line,confirmed
 B005697,2025-06-21 23:39:00,A0171,U00792,flight,domestic,US,US,8,60.3,2,credit_line,confirmed
@@ -5737,7 +5737,7 @@ B005735,2025-10-26 06:18:00,A0032,U00425,flight,domestic,UK,UK,11,263.46,8,credi
 B005736,2025-02-06 04:02:00,A0172,U00766,hotel,international,IN,US,16,624.09,7,credit_line,confirmed
 B005737,2025-11-08 01:05:00,A0013,U00326,hotel,domestic,IN,IN,14,211.37,3,credit_line,confirmed
 B005738,2025-08-24 02:31:00,A0026,U00743,package,domestic,IN,IN,12,380.83,1,credit_line,confirmed
-B005739,2025-02-15 15:11:00,A0174,U00413,flight,international,IN,FR,0,17980.52,2,credit_line,confirmed
+B005739,2025-02-15 15:11:00,A0174,U00413,flight,international,IN,FR,0,19650.43,2,credit_line,confirmed
 B005740,2025-12-20 02:29:00,A0025,U00104,flight,international,SG,US,53,1311.82,1,card,confirmed
 B005741,2025-11-26 01:38:00,A0086,U00527,flight,domestic,IN,IN,9,150.62,2,card,confirmed
 B005742,2025-11-13 02:26:00,A0020,U00754,flight,international,UK,TH,76,1376.2,1,credit_line,confirmed
@@ -5747,7 +5747,7 @@ B005745,2025-01-12 07:03:00,A0022,U00392,package,domestic,IN,IN,17,114.62,4,cred
 B005746,2025-05-06 19:31:00,A0107,U00327,package,domestic,IN,IN,0,106.1,4,bank,confirmed
 B005747,2025-05-23 15:04:00,A0150,U00610,flight,international,UK,IN,19,1656.0,1,credit_line,confirmed
 B005748,2025-12-16 00:14:00,A0088,U00518,flight,domestic,US,US,14,225.38,1,credit_line,confirmed
-B005749,2025-02-22 07:48:00,A0005,U00245,flight,international,UK,UK,1,18280.09,7,credit_line,confirmed
+B005749,2025-02-22 07:48:00,A0005,U00245,flight,international,UK,UK,1,14791.57,7,credit_line,confirmed
 B005750,2025-10-19 18:21:00,A0163,U00453,flight,domestic,AE,AE,19,190.39,3,bank,confirmed
 B005751,2025-07-15 15:19:00,A0119,U00777,flight,domestic,IN,IN,14,142.29,8,credit_line,pending
 B005752,2025-01-16 10:31:00,A0137,U00126,flight,international,IN,US,24,419.12,2,credit_line,confirmed
@@ -5771,10 +5771,10 @@ B005769,2025-08-12 04:57:00,A0162,U00451,package,domestic,US,US,12,303.88,3,cred
 B005770,2025-09-30 09:50:00,A0100,U00598,package,international,IN,US,4,3635.76,2,credit_line,confirmed
 B005771,2025-01-06 05:09:00,A0124,U00215,flight,domestic,IN,IN,2,102.08,1,credit_line,confirmed
 B005772,2025-06-18 05:05:00,A0050,U00394,package,domestic,IN,IN,10,141.91,1,credit_line,confirmed
-B005773,2025-06-05 19:10:00,A0174,U00413,flight,international,IN,IN,1,16435.62,3,credit_line,confirmed
+B005773,2025-06-05 19:10:00,A0174,U00413,flight,international,IN,IN,1,15016.49,3,credit_line,confirmed
 B005774,2025-05-25 14:22:00,A0020,U00754,flight,domestic,AE,AE,16,411.01,4,credit_line,confirmed
 B005775,2025-11-22 17:33:00,A0184,U00273,flight,domestic,US,US,8,196.69,5,credit_line,failed
-B005776,2025-06-27 03:57:00,A0092,U00528,package,international,IN,TH,3,839.4,2,credit_line,confirmed
+B005776,2025-06-27 03:57:00,A0092,U00528,package,international,IN,TH,0,839.4,2,credit_line,confirmed
 B005777,2025-02-13 23:05:00,A0199,U00486,flight,domestic,SG,SG,5,116.65,8,credit_line,failed
 B005778,2025-07-31 19:15:00,A0199,U00022,flight,international,US,SG,84,2156.42,3,credit_line,confirmed
 B005779,2025-08-24 10:54:00,A0199,U00472,hotel,domestic,SG,SG,4,240.41,1,credit_line,confirmed
@@ -5842,13 +5842,13 @@ B005840,2025-05-10 07:05:00,A0057,U00091,flight,international,IN,UK,47,5833.05,2
 B005841,2025-05-08 21:28:00,A0073,U00065,hotel,domestic,IN,IN,17,118.02,1,credit_line,confirmed
 B005842,2025-03-22 09:02:00,A0166,U00335,flight,domestic,IN,IN,5,129.4,2,credit_line,confirmed
 B005843,2025-04-11 09:34:00,A0187,U00287,flight,international,AE,SG,8,1147.34,2,credit_line,pending
-B005844,2025-08-03 07:43:00,A0059,U00322,flight,international,US,US,0,14236.01,3,credit_line,confirmed
+B005844,2025-08-03 07:43:00,A0059,U00322,flight,international,US,US,1,14561.33,3,credit_line,confirmed
 B005845,2025-03-03 01:57:00,A0189,U00619,hotel,international,IN,FR,10,1407.07,3,credit_line,confirmed
 B005846,2025-07-12 01:30:00,A0143,U00205,flight,domestic,IN,IN,19,270.93,3,bank,confirmed
 B005847,2025-11-18 20:07:00,A0166,U00677,hotel,international,AE,IN,3,3824.28,1,card,confirmed
 B005848,2025-03-05 03:47:00,A0127,U00584,hotel,domestic,IN,IN,17,61.59,5,credit_line,confirmed
 B005849,2025-11-21 17:15:00,A0005,U00785,flight,domestic,SG,SG,4,79.23,7,credit_line,confirmed
-B005850,2025-01-22 15:12:00,A0005,U00245,package,international,IN,US,0,19846.61,1,credit_line,pending
+B005850,2025-01-22 15:12:00,A0005,U00245,package,international,IN,US,1,19690.31,1,credit_line,pending
 B005851,2025-09-12 04:14:00,A0007,U00402,hotel,domestic,UK,UK,19,183.16,1,credit_line,confirmed
 B005852,2025-07-23 09:21:00,A0080,U00774,flight,domestic,AE,AE,8,96.94,2,credit_line,confirmed
 B005853,2025-04-28 22:39:00,A0069,U00055,flight,international,IN,DE,24,3149.98,9,credit_line,confirmed
@@ -5897,7 +5897,7 @@ B005895,2025-03-16 03:05:00,A0183,U00603,flight,domestic,US,US,16,175.26,3,credi
 B005896,2025-08-16 09:40:00,A0058,U00340,flight,domestic,AE,AE,3,406.57,3,credit_line,confirmed
 B005897,2025-07-29 06:35:00,A0093,U00155,flight,international,SG,SG,33,1158.58,3,credit_line,confirmed
 B005898,2025-08-30 09:33:00,A0158,U00536,flight,international,IN,FR,37,515.45,5,credit_line,confirmed
-B005899,2025-07-30 19:21:00,A0068,U00383,flight,international,AE,AE,0,17745.0,3,credit_line,confirmed
+B005899,2025-07-30 19:21:00,A0068,U00383,flight,international,AE,AE,1,21872.39,3,credit_line,confirmed
 B005900,2025-05-15 15:39:00,A0123,U00688,flight,international,IN,DE,80,414.11,1,credit_line,confirmed
 B005901,2025-09-16 08:27:00,A0105,U00272,flight,domestic,US,US,7,205.34,1,credit_line,pending
 B005902,2025-06-22 21:05:00,A0055,U00092,hotel,international,IN,SG,12,2432.12,1,card,confirmed
@@ -5924,7 +5924,7 @@ B005922,2025-09-08 18:36:00,A0054,U00049,package,international,IN,DE,53,277.06,4
 B005923,2025-11-12 00:48:00,A0020,U00742,flight,domestic,UK,UK,13,407.52,2,credit_line,confirmed
 B005924,2025-11-21 10:52:00,A0077,U00538,flight,international,SG,TH,2,1721.85,1,card,confirmed
 B005925,2025-11-10 11:40:00,A0026,U00039,flight,domestic,IN,IN,2,240.89,1,credit_line,confirmed
-B005926,2025-10-07 02:09:00,A0174,U00413,hotel,international,IN,IN,1,18098.46,1,credit_line,confirmed
+B005926,2025-10-07 02:09:00,A0174,U00413,hotel,international,IN,IN,1,14106.27,1,credit_line,confirmed
 B005927,2025-11-22 03:25:00,A0025,U00073,hotel,domestic,UK,UK,16,160.41,2,credit_line,confirmed
 B005928,2025-03-28 22:52:00,A0168,U00319,flight,domestic,IN,IN,7,180.13,8,credit_line,pending
 B005929,2025-06-06 05:38:00,A0148,U00059,hotel,domestic,US,US,6,156.6,1,credit_line,confirmed
@@ -5964,7 +5964,7 @@ B005962,2025-11-10 04:08:00,A0016,U00159,hotel,domestic,AE,AE,19,124.19,1,credit
 B005963,2025-12-09 05:54:00,A0022,U00580,flight,domestic,IN,IN,15,177.68,1,credit_line,confirmed
 B005964,2025-05-05 03:02:00,A0143,U00549,package,international,US,IN,85,439.79,4,credit_line,confirmed
 B005965,2025-04-05 16:24:00,A0003,U00241,hotel,international,US,TH,43,1061.84,1,card,confirmed
-B005966,2025-07-28 01:35:00,A0005,U00245,package,international,SG,SG,1,17065.03,1,credit_line,confirmed
+B005966,2025-07-28 01:35:00,A0005,U00245,package,international,SG,SG,1,16676.98,1,credit_line,confirmed
 B005967,2025-02-03 20:42:00,A0122,U00008,flight,domestic,IN,IN,13,98.82,2,credit_line,confirmed
 B005968,2025-04-25 20:19:00,A0027,U00430,flight,international,IN,US,34,992.97,3,credit_line,confirmed
 B005969,2025-08-29 19:28:00,A0047,U00700,flight,domestic,AE,AE,8,573.59,1,bank,confirmed
@@ -5982,7 +5982,7 @@ B005980,2025-02-12 03:32:00,A0029,U00744,flight,domestic,IN,IN,12,203.62,10,card
 B005981,2025-02-21 01:13:00,A0113,U00799,flight,domestic,US,US,2,134.63,4,credit_line,confirmed
 B005982,2025-12-07 19:43:00,A0040,U00311,flight,domestic,SG,SG,7,468.33,1,card,confirmed
 B005983,2025-09-26 21:05:00,A0012,U00020,flight,domestic,IN,IN,5,113.26,3,bank,confirmed
-B005984,2025-11-11 08:05:00,A0139,U00404,hotel,international,UK,TH,1,1745.63,3,card,confirmed
+B005984,2025-11-11 08:05:00,A0139,U00404,hotel,international,UK,TH,3,1745.63,3,card,confirmed
 B005985,2025-05-20 16:37:00,A0151,U00699,hotel,domestic,SG,SG,4,279.04,3,credit_line,confirmed
 B005986,2025-09-04 13:25:00,A0098,U00050,flight,domestic,SG,SG,19,491.6,5,credit_line,confirmed
 B005987,2025-04-19 00:59:00,A0122,U00008,flight,domestic,AE,AE,3,182.03,3,credit_line,confirmed
@@ -6038,7 +6038,7 @@ B006036,2025-10-02 09:51:00,A0015,U00450,flight,domestic,IN,IN,14,205.55,1,bank,
 B006037,2025-12-06 17:38:00,A0175,U00427,flight,domestic,IN,IN,11,428.87,1,credit_line,confirmed
 B006038,2025-03-07 10:03:00,A0118,U00390,hotel,domestic,SG,SG,8,135.72,1,credit_line,confirmed
 B006039,2025-05-10 17:13:00,A0116,U00539,flight,international,IN,US,84,1981.01,4,credit_line,confirmed
-B006040,2025-03-10 18:39:00,A0107,U00327,hotel,domestic,IN,IN,0,182.43,2,credit_line,confirmed
+B006040,2025-03-10 18:39:00,A0107,U00327,hotel,domestic,IN,IN,1,182.43,2,credit_line,confirmed
 B006041,2025-07-04 00:22:00,A0119,U00746,flight,domestic,IN,IN,13,416.48,2,credit_line,confirmed
 B006042,2025-03-11 13:26:00,A0168,U00018,package,domestic,UK,UK,4,143.28,1,credit_line,confirmed
 B006043,2025-01-22 02:24:00,A0039,U00174,hotel,domestic,US,US,16,220.07,2,bank,confirmed
@@ -6073,7 +6073,7 @@ B006071,2025-04-23 02:46:00,A0062,U00178,hotel,domestic,IN,IN,5,317.45,2,credit_
 B006072,2025-08-29 18:09:00,A0153,U00007,flight,international,AE,IN,89,5775.57,7,credit_line,confirmed
 B006073,2025-09-16 20:47:00,A0187,U00287,flight,international,AE,FR,74,1012.09,3,credit_line,confirmed
 B006074,2025-10-01 02:33:00,A0072,U00498,flight,international,IN,TH,33,1872.93,3,credit_line,confirmed
-B006075,2025-09-05 04:53:00,A0174,U00413,flight,international,US,US,0,20258.34,1,credit_line,confirmed
+B006075,2025-09-05 04:53:00,A0174,U00413,flight,international,US,US,0,20236.62,1,credit_line,confirmed
 B006076,2025-08-15 21:22:00,A0133,U00338,hotel,domestic,AE,AE,2,189.61,1,credit_line,confirmed
 B006077,2025-04-15 07:13:00,A0115,U00655,flight,domestic,UK,UK,9,447.44,2,credit_line,confirmed
 B006078,2025-07-05 20:37:00,A0190,U00198,flight,domestic,US,US,11,171.04,1,credit_line,confirmed
@@ -6153,7 +6153,7 @@ B006151,2025-02-12 01:23:00,A0153,U00185,flight,domestic,IN,IN,8,199.48,5,credit
 B006152,2025-05-06 18:42:00,A0028,U00690,hotel,international,IN,FR,83,468.13,1,card,confirmed
 B006153,2025-02-15 13:58:00,A0046,U00220,flight,international,AE,US,38,2128.96,2,card,confirmed
 B006154,2025-10-10 06:38:00,A0036,U00037,hotel,domestic,UK,UK,16,401.33,1,credit_line,confirmed
-B006155,2025-10-06 05:49:00,A0033,U00535,flight,international,IN,TH,0,20837.21,2,credit_line,confirmed
+B006155,2025-10-06 05:49:00,A0033,U00535,flight,international,IN,TH,0,17019.51,2,credit_line,confirmed
 B006156,2025-09-07 11:51:00,A0165,U00006,flight,international,AE,UK,50,1403.46,1,credit_line,confirmed
 B006157,2025-10-08 17:35:00,A0031,U00016,flight,international,IN,SG,88,549.49,1,credit_line,confirmed
 B006158,2025-07-05 05:14:00,A0014,U00706,flight,international,UK,TH,55,594.92,2,credit_line,confirmed
@@ -6198,13 +6198,13 @@ B006196,2025-01-21 17:34:00,A0196,U00209,package,domestic,IN,IN,16,136.89,3,cred
 B006197,2025-03-09 04:22:00,A0100,U00352,flight,domestic,US,US,4,345.15,2,card,confirmed
 B006198,2025-10-26 07:41:00,A0126,U00771,hotel,domestic,UK,UK,6,198.82,3,credit_line,confirmed
 B006199,2025-11-27 21:54:00,A0073,U00204,flight,domestic,US,US,19,127.32,2,credit_line,confirmed
-B006200,2025-06-09 22:25:00,A0082,U00607,flight,international,US,US,1,19668.58,4,credit_line,confirmed
+B006200,2025-06-09 22:25:00,A0082,U00607,flight,international,US,US,1,19408.25,4,credit_line,confirmed
 B006201,2025-03-26 04:32:00,A0026,U00111,flight,domestic,IN,IN,8,242.2,1,credit_line,confirmed
 B006202,2025-07-12 18:39:00,A0072,U00230,flight,domestic,UK,UK,6,169.49,3,credit_line,confirmed
 B006203,2025-05-14 22:23:00,A0082,U00131,hotel,international,IN,US,37,1582.91,2,credit_line,confirmed
 B006204,2025-01-20 01:09:00,A0052,U00227,hotel,domestic,UK,UK,14,239.9,3,card,confirmed
 B006205,2025-07-14 14:17:00,A0159,U00350,flight,international,SG,AE,4,304.44,1,credit_line,confirmed
-B006206,2025-01-22 02:05:00,A0059,U00322,package,international,US,IN,0,21770.42,2,credit_line,confirmed
+B006206,2025-01-22 02:05:00,A0059,U00322,package,international,US,IN,1,16751.04,2,credit_line,confirmed
 B006207,2025-12-24 12:24:00,A0190,U00198,flight,domestic,US,US,13,242.78,8,credit_line,failed
 B006208,2025-12-17 05:30:00,A0034,U00788,flight,international,IN,TH,11,445.34,2,card,confirmed
 B006209,2025-03-16 01:37:00,A0002,U00673,flight,international,IN,FR,52,2394.3,2,credit_line,confirmed
@@ -6281,7 +6281,7 @@ B006279,2025-12-13 10:23:00,A0002,U00353,hotel,domestic,AE,AE,10,387.93,2,credit
 B006280,2025-11-24 03:31:00,A0093,U00306,flight,international,IN,TH,79,1716.85,1,bank,confirmed
 B006281,2025-01-24 20:21:00,A0100,U00352,hotel,domestic,AE,AE,14,68.44,1,bank,confirmed
 B006282,2025-12-04 09:44:00,A0067,U00309,flight,international,IN,UK,55,2014.66,1,card,confirmed
-B006283,2025-12-11 01:26:00,A0059,U00322,hotel,international,AE,UK,1,20875.69,1,credit_line,confirmed
+B006283,2025-12-11 01:26:00,A0059,U00322,hotel,international,AE,UK,0,20036.34,1,credit_line,confirmed
 B006284,2025-10-08 04:20:00,A0097,U00533,package,domestic,SG,SG,10,528.9,1,card,confirmed
 B006285,2025-03-16 09:27:00,A0046,U00523,hotel,international,IN,IN,65,3268.08,1,credit_line,confirmed
 B006286,2025-02-22 11:49:00,A0041,U00002,package,international,UK,US,53,3206.01,4,credit_line,confirmed
@@ -6364,7 +6364,7 @@ B006362,2025-11-06 11:41:00,A0003,U00191,flight,domestic,UK,UK,1,147.79,1,card,c
 B006363,2025-12-04 14:43:00,A0151,U00769,hotel,domestic,IN,IN,5,125.61,1,credit_line,confirmed
 B006364,2025-08-24 03:02:00,A0126,U00757,hotel,domestic,IN,IN,9,288.14,2,credit_line,confirmed
 B006365,2025-01-26 06:32:00,A0034,U00788,package,domestic,IN,IN,7,188.16,10,credit_line,confirmed
-B006366,2025-05-29 21:16:00,A0131,U00145,hotel,domestic,SG,SG,1,132.49,3,card,confirmed
+B006366,2025-05-29 21:16:00,A0131,U00145,hotel,domestic,SG,SG,3,132.49,3,card,confirmed
 B006367,2025-04-23 15:18:00,A0130,U00496,hotel,international,SG,IN,78,2032.57,2,credit_line,confirmed
 B006368,2025-07-31 13:09:00,A0072,U00567,flight,international,SG,SG,68,3979.13,9,credit_line,confirmed
 B006369,2025-12-17 02:01:00,A0046,U00523,flight,international,IN,AE,15,2116.13,1,credit_line,confirmed
@@ -6405,7 +6405,7 @@ B006403,2025-08-09 04:15:00,A0080,U00318,hotel,domestic,AE,AE,2,188.02,6,credit_
 B006404,2025-11-28 00:23:00,A0077,U00354,hotel,domestic,IN,IN,10,278.04,2,credit_line,confirmed
 B006405,2025-03-11 16:10:00,A0106,U00012,hotel,international,US,US,30,4654.72,1,credit_line,confirmed
 B006406,2025-09-04 06:24:00,A0170,U00165,flight,international,IN,US,60,350.7,1,credit_line,confirmed
-B006407,2025-05-02 09:18:00,A0005,U00245,hotel,international,US,US,0,14927.02,1,credit_line,confirmed
+B006407,2025-05-02 09:18:00,A0005,U00245,hotel,international,US,US,1,19676.75,1,credit_line,confirmed
 B006408,2025-01-25 01:03:00,A0027,U00430,flight,domestic,UK,UK,2,467.4,1,credit_line,confirmed
 B006409,2025-12-18 19:03:00,A0017,U00089,hotel,international,IN,US,27,1714.07,8,credit_line,confirmed
 B006410,2025-06-26 15:58:00,A0126,U00771,flight,domestic,IN,IN,12,154.0,1,credit_line,confirmed
@@ -6428,7 +6428,7 @@ B006426,2025-12-14 19:21:00,A0096,U00382,hotel,domestic,IN,IN,3,236.91,1,credit_
 B006427,2025-01-15 09:34:00,A0034,U00788,hotel,domestic,IN,IN,3,306.72,1,credit_line,confirmed
 B006428,2025-10-16 23:01:00,A0029,U00414,flight,domestic,US,US,17,194.93,2,credit_line,confirmed
 B006429,2025-10-10 07:57:00,A0174,U00470,hotel,domestic,US,US,14,178.74,2,credit_line,confirmed
-B006430,2025-01-10 00:16:00,A0059,U00322,flight,international,UK,UK,0,15018.03,1,credit_line,confirmed
+B006430,2025-01-10 00:16:00,A0059,U00322,flight,international,UK,UK,0,21374.57,1,credit_line,confirmed
 B006431,2025-12-26 16:49:00,A0026,U00412,flight,domestic,AE,AE,19,180.18,2,credit_line,pending
 B006432,2025-10-04 17:46:00,A0136,U00797,hotel,domestic,UK,UK,16,453.91,3,credit_line,confirmed
 B006433,2025-11-03 16:53:00,A0024,U00478,flight,domestic,AE,AE,17,365.24,2,credit_line,confirmed
@@ -6468,7 +6468,7 @@ B006466,2025-01-27 11:31:00,A0072,U00230,flight,international,IN,AE,29,414.81,9,
 B006467,2025-05-03 04:45:00,A0020,U00754,flight,domestic,US,US,15,103.63,3,card,confirmed
 B006468,2025-07-10 07:48:00,A0134,U00578,hotel,domestic,UK,UK,2,256.73,1,credit_line,confirmed
 B006469,2025-10-08 14:27:00,A0131,U00076,hotel,domestic,UK,UK,9,291.23,2,credit_line,confirmed
-B006470,2025-05-01 15:53:00,A0005,U00245,package,international,SG,AE,1,14825.21,3,credit_line,confirmed
+B006470,2025-05-01 15:53:00,A0005,U00245,package,international,SG,AE,0,21602.15,3,credit_line,confirmed
 B006471,2025-01-04 16:13:00,A0121,U00522,package,domestic,UK,UK,11,101.46,1,credit_line,confirmed
 B006472,2025-08-07 23:47:00,A0050,U00471,package,international,US,SG,57,1236.08,3,credit_line,confirmed
 B006473,2025-12-17 22:45:00,A0173,U00599,flight,domestic,UK,UK,7,706.47,8,credit_line,confirmed
@@ -6494,7 +6494,7 @@ B006492,2025-10-08 17:00:00,A0032,U00509,hotel,international,IN,IN,10,550.81,3,c
 B006493,2025-09-14 11:22:00,A0079,U00408,hotel,international,AE,SG,5,2091.09,2,bank,confirmed
 B006494,2025-04-19 17:47:00,A0123,U00275,flight,domestic,SG,SG,6,186.67,3,card,confirmed
 B006495,2025-11-19 20:24:00,A0136,U00515,hotel,domestic,IN,IN,10,176.5,8,credit_line,confirmed
-B006496,2025-11-20 13:24:00,A0092,U00528,flight,domestic,SG,SG,2,485.24,4,credit_line,confirmed
+B006496,2025-11-20 13:24:00,A0092,U00528,flight,domestic,SG,SG,0,485.24,4,credit_line,confirmed
 B006497,2025-12-21 17:18:00,A0054,U00032,flight,domestic,AE,AE,19,311.11,8,credit_line,pending
 B006498,2025-03-05 02:48:00,A0156,U00375,flight,domestic,IN,IN,16,224.89,2,bank,confirmed
 B006499,2025-06-22 13:32:00,A0047,U00437,flight,domestic,IN,IN,18,248.53,1,card,confirmed
@@ -6539,7 +6539,7 @@ B006537,2025-06-17 12:45:00,A0076,U00521,hotel,international,UK,US,22,911.55,1,c
 B006538,2025-06-24 06:47:00,A0100,U00332,flight,domestic,IN,IN,7,57.23,6,bank,confirmed
 B006539,2025-02-28 02:58:00,A0056,U00056,package,international,UK,DE,47,606.65,2,bank,confirmed
 B006540,2025-02-01 16:35:00,A0166,U00508,flight,domestic,UK,UK,18,147.29,3,credit_line,confirmed
-B006541,2025-05-03 04:06:00,A0059,U00322,hotel,international,US,US,1,18520.72,4,credit_line,confirmed
+B006541,2025-05-03 04:06:00,A0059,U00322,hotel,international,US,US,1,15472.4,4,credit_line,confirmed
 B006542,2025-07-12 07:14:00,A0117,U00646,hotel,domestic,US,US,3,187.32,2,credit_line,pending
 B006543,2025-06-30 00:58:00,A0003,U00260,flight,international,AE,FR,62,1593.82,1,card,confirmed
 B006544,2025-11-22 20:09:00,A0131,U00659,flight,domestic,SG,SG,15,235.22,2,credit_line,confirmed
@@ -6559,7 +6559,7 @@ B006557,2025-08-25 19:36:00,A0100,U00598,flight,domestic,IN,IN,13,344.04,3,card,
 B006558,2025-05-09 00:28:00,A0190,U00177,flight,domestic,IN,IN,9,157.19,6,credit_line,pending
 B006559,2025-10-04 13:47:00,A0150,U00610,flight,domestic,AE,AE,16,150.0,1,credit_line,confirmed
 B006560,2025-02-22 12:04:00,A0172,U00766,hotel,international,US,AE,20,2182.9,1,bank,confirmed
-B006561,2025-06-30 20:08:00,A0059,U00322,flight,international,UK,UK,0,15508.39,7,credit_line,confirmed
+B006561,2025-06-30 20:08:00,A0059,U00322,flight,international,UK,UK,1,12475.23,7,credit_line,confirmed
 B006562,2025-05-20 22:09:00,A0175,U00397,package,domestic,US,US,7,130.66,1,card,confirmed
 B006563,2025-01-29 14:22:00,A0089,U00105,hotel,international,UK,IN,56,1095.87,1,card,confirmed
 B006564,2025-09-21 03:54:00,A0171,U00070,hotel,domestic,IN,IN,16,177.98,3,credit_line,confirmed
@@ -6615,7 +6615,7 @@ B006613,2025-08-12 04:45:00,A0084,U00768,package,domestic,US,US,5,376.92,8,bank,
 B006614,2025-12-06 02:07:00,A0082,U00351,flight,international,IN,DE,2,2371.05,1,credit_line,confirmed
 B006615,2025-09-08 17:26:00,A0046,U00220,flight,domestic,IN,IN,12,270.87,9,credit_line,confirmed
 B006616,2025-08-21 17:08:00,A0059,U00130,hotel,international,AE,FR,5,974.72,2,card,confirmed
-B006617,2025-11-18 23:36:00,A0107,U00327,hotel,domestic,AE,AE,3,77.7,4,credit_line,confirmed
+B006617,2025-11-18 23:36:00,A0107,U00327,hotel,domestic,AE,AE,0,77.7,4,credit_line,confirmed
 B006618,2025-07-26 19:41:00,A0121,U00207,flight,domestic,IN,IN,11,188.71,3,credit_line,confirmed
 B006619,2025-12-17 17:51:00,A0132,U00577,flight,domestic,AE,AE,15,112.09,1,credit_line,confirmed
 B006620,2025-08-05 15:34:00,A0123,U00557,flight,international,IN,FR,33,749.09,1,credit_line,pending
@@ -6670,7 +6670,7 @@ B006668,2025-01-30 12:50:00,A0034,U00004,hotel,domestic,IN,IN,18,209.2,1,credit_
 B006669,2025-05-27 01:39:00,A0041,U00678,hotel,international,IN,AE,21,348.48,7,credit_line,confirmed
 B006670,2025-12-23 09:27:00,A0115,U00038,flight,domestic,IN,IN,15,240.8,5,credit_line,confirmed
 B006671,2025-10-13 13:54:00,A0170,U00331,flight,international,AE,IN,39,3107.63,1,card,confirmed
-B006672,2025-01-29 00:56:00,A0068,U00383,flight,international,IN,IN,1,21698.95,2,credit_line,confirmed
+B006672,2025-01-29 00:56:00,A0068,U00383,flight,international,IN,IN,1,14127.35,2,credit_line,confirmed
 B006673,2025-05-12 19:34:00,A0130,U00031,flight,domestic,IN,IN,19,132.59,2,credit_line,confirmed
 B006674,2025-08-24 14:29:00,A0022,U00429,package,international,IN,UK,53,3721.68,8,credit_line,confirmed
 B006675,2025-01-09 15:17:00,A0131,U00616,hotel,domestic,IN,IN,15,185.1,4,credit_line,confirmed
@@ -6727,7 +6727,7 @@ B006725,2025-02-17 12:46:00,A0037,U00741,flight,international,AE,IN,20,1839.09,1
 B006726,2025-05-30 05:02:00,A0059,U00229,package,domestic,IN,IN,2,319.53,1,card,pending
 B006727,2025-02-12 17:16:00,A0101,U00084,flight,domestic,IN,IN,7,191.45,3,card,confirmed
 B006728,2025-10-31 19:06:00,A0170,U00654,package,domestic,IN,IN,18,361.08,5,credit_line,confirmed
-B006729,2025-02-28 00:01:00,A0174,U00413,flight,international,IN,IN,1,21330.78,7,credit_line,confirmed
+B006729,2025-02-28 00:01:00,A0174,U00413,flight,international,IN,IN,0,21067.5,7,credit_line,confirmed
 B006730,2025-10-16 10:47:00,A0171,U00717,flight,international,US,UK,15,1401.09,3,credit_line,confirmed
 B006731,2025-05-02 18:49:00,A0189,U00452,flight,domestic,IN,IN,17,44.02,6,bank,confirmed
 B006732,2025-08-10 01:39:00,A0100,U00001,hotel,international,AE,DE,88,964.37,1,credit_line,confirmed
@@ -6752,7 +6752,7 @@ B006750,2025-07-08 20:49:00,A0109,U00368,flight,international,IN,FR,28,728.63,8,
 B006751,2025-06-17 18:09:00,A0146,U00197,flight,domestic,SG,SG,7,196.68,2,card,confirmed
 B006752,2025-07-25 18:37:00,A0139,U00286,hotel,domestic,US,US,17,382.73,1,credit_line,confirmed
 B006753,2025-07-01 14:56:00,A0073,U00065,hotel,domestic,IN,IN,5,495.67,1,credit_line,confirmed
-B006754,2025-08-09 16:03:00,A0139,U00404,hotel,international,UK,UK,0,3782.03,4,credit_line,confirmed
+B006754,2025-08-09 16:03:00,A0139,U00404,hotel,international,UK,UK,3,3782.03,4,credit_line,confirmed
 B006755,2025-08-28 18:18:00,A0161,U00537,flight,domestic,IN,IN,16,304.03,4,bank,confirmed
 B006756,2025-09-14 09:35:00,A0008,U00566,flight,international,IN,IN,4,1392.19,1,credit_line,confirmed
 B006757,2025-07-25 21:58:00,A0189,U00619,flight,international,SG,SG,62,8470.46,1,credit_line,confirmed
@@ -6768,7 +6768,7 @@ B006766,2025-08-15 19:23:00,A0174,U00463,package,domestic,AE,AE,13,287.53,4,cred
 B006767,2025-09-02 20:57:00,A0153,U00225,hotel,international,US,FR,14,1556.18,3,credit_line,pending
 B006768,2025-03-27 15:11:00,A0055,U00790,hotel,domestic,US,US,9,450.48,1,credit_line,confirmed
 B006769,2025-06-22 13:22:00,A0114,U00565,hotel,domestic,AE,AE,6,88.52,2,credit_line,confirmed
-B006770,2025-11-03 18:00:00,A0174,U00413,flight,international,AE,AE,1,22446.07,1,credit_line,confirmed
+B006770,2025-11-03 18:00:00,A0174,U00413,flight,international,AE,AE,0,18511.83,1,credit_line,confirmed
 B006771,2025-10-03 07:19:00,A0181,U00477,hotel,international,IN,SG,74,767.71,2,credit_line,confirmed
 B006772,2025-11-19 08:33:00,A0062,U00095,hotel,international,US,FR,80,1197.55,4,credit_line,confirmed
 B006773,2025-06-16 02:38:00,A0050,U00471,hotel,domestic,IN,IN,4,185.61,2,credit_line,confirmed
@@ -6828,7 +6828,7 @@ B006826,2025-03-23 21:57:00,A0133,U00338,flight,domestic,US,US,19,140.57,3,bank,
 B006827,2025-12-27 04:10:00,A0198,U00216,flight,domestic,US,US,12,177.82,2,bank,confirmed
 B006828,2025-06-08 14:34:00,A0011,U00044,flight,international,UK,UK,62,6067.9,2,credit_line,confirmed
 B006829,2025-10-12 06:46:00,A0088,U00208,hotel,domestic,IN,IN,6,251.89,4,credit_line,confirmed
-B006830,2025-03-02 20:30:00,A0139,U00404,hotel,domestic,AE,AE,3,284.89,1,credit_line,confirmed
+B006830,2025-03-02 20:30:00,A0139,U00404,hotel,domestic,AE,AE,0,284.89,1,credit_line,confirmed
 B006831,2025-02-23 15:08:00,A0163,U00369,flight,international,SG,SG,40,376.24,1,credit_line,pending
 B006832,2025-07-10 09:58:00,A0168,U00531,hotel,international,UK,IN,29,1329.35,1,bank,confirmed
 B006833,2025-01-04 06:28:00,A0006,U00243,flight,international,SG,FR,58,839.66,1,credit_line,confirmed
@@ -6912,7 +6912,7 @@ B006910,2025-11-28 23:21:00,A0009,U00559,flight,domestic,IN,IN,14,131.16,3,bank,
 B006911,2025-10-22 18:06:00,A0067,U00309,hotel,domestic,UK,UK,3,188.3,1,credit_line,confirmed
 B006912,2025-07-26 19:54:00,A0178,U00764,flight,international,AE,IN,28,874.82,1,bank,confirmed
 B006913,2025-11-16 23:33:00,A0118,U00101,flight,domestic,UK,UK,18,460.03,8,credit_line,confirmed
-B006914,2025-09-01 08:08:00,A0107,U00327,flight,domestic,SG,SG,3,107.22,3,credit_line,confirmed
+B006914,2025-09-01 08:08:00,A0107,U00327,flight,domestic,SG,SG,1,107.22,3,credit_line,confirmed
 B006915,2025-09-06 08:59:00,A0006,U00652,package,domestic,IN,IN,3,63.55,3,credit_line,confirmed
 B006916,2025-12-30 08:59:00,A0170,U00343,package,domestic,IN,IN,10,84.57,1,bank,pending
 B006917,2025-09-19 18:48:00,A0008,U00666,flight,domestic,AE,AE,16,147.37,1,credit_line,confirmed
@@ -6920,7 +6920,7 @@ B006918,2025-09-26 05:22:00,A0173,U00599,flight,international,IN,SG,70,1602.97,2
 B006919,2025-02-21 21:45:00,A0098,U00270,flight,international,IN,UK,54,510.45,1,credit_line,confirmed
 B006920,2025-06-17 13:08:00,A0079,U00649,flight,international,US,SG,70,1573.18,4,credit_line,confirmed
 B006921,2025-11-26 11:55:00,A0180,U00400,hotel,international,UK,IN,3,1695.62,3,credit_line,confirmed
-B006922,2025-05-03 14:39:00,A0033,U00535,flight,international,IN,IN,0,24029.61,1,credit_line,confirmed
+B006922,2025-05-03 14:39:00,A0033,U00535,flight,international,IN,IN,1,16584.08,1,credit_line,confirmed
 B006923,2025-01-09 03:21:00,A0194,U00163,flight,domestic,UK,UK,9,182.43,4,credit_line,confirmed
 B006924,2025-10-02 20:43:00,A0098,U00312,hotel,domestic,SG,SG,13,264.78,2,credit_line,confirmed
 B006925,2025-03-17 14:38:00,A0188,U00638,flight,international,IN,US,50,1602.91,1,credit_line,confirmed
@@ -6954,14 +6954,14 @@ B006952,2025-02-09 17:14:00,A0084,U00576,flight,domestic,UK,UK,14,91.9,8,bank,co
 B006953,2025-11-03 02:09:00,A0186,U00629,package,domestic,SG,SG,4,524.7,2,card,confirmed
 B006954,2025-01-19 02:42:00,A0123,U00275,flight,domestic,IN,IN,3,436.14,5,card,confirmed
 B006955,2025-03-30 19:39:00,A0136,U00797,hotel,domestic,IN,IN,17,121.67,1,credit_line,confirmed
-B006956,2025-07-07 11:11:00,A0033,U00535,hotel,international,US,US,1,18493.98,2,credit_line,confirmed
+B006956,2025-07-07 11:11:00,A0033,U00535,hotel,international,US,US,0,19423.94,2,credit_line,confirmed
 B006957,2025-05-07 16:14:00,A0024,U00631,flight,international,IN,DE,31,1549.89,2,credit_line,confirmed
 B006958,2025-01-23 07:43:00,A0108,U00735,flight,international,IN,AE,10,1304.67,2,credit_line,confirmed
 B006959,2025-03-26 16:32:00,A0107,U00724,flight,domestic,SG,SG,5,231.02,3,credit_line,confirmed
 B006960,2025-08-11 14:38:00,A0196,U00380,flight,domestic,UK,UK,16,141.74,6,credit_line,confirmed
 B006961,2025-01-09 11:22:00,A0074,U00237,flight,domestic,US,US,9,187.48,4,credit_line,confirmed
 B006962,2025-04-26 20:12:00,A0130,U00031,flight,international,US,DE,8,1485.11,1,credit_line,confirmed
-B006963,2025-02-23 08:48:00,A0092,U00528,flight,international,US,US,3,894.3,8,card,confirmed
+B006963,2025-02-23 08:48:00,A0092,U00528,flight,international,US,US,1,894.3,8,card,confirmed
 B006964,2025-11-29 17:06:00,A0043,U00756,flight,domestic,IN,IN,5,298.96,6,credit_line,confirmed
 B006965,2025-05-09 10:23:00,A0077,U00538,hotel,domestic,IN,IN,9,202.81,3,credit_line,confirmed
 B006966,2025-06-28 19:16:00,A0026,U00796,hotel,domestic,AE,AE,6,152.49,2,credit_line,confirmed
@@ -7063,7 +7063,7 @@ B007061,2025-06-23 06:14:00,A0036,U00037,hotel,domestic,IN,IN,16,108.8,5,bank,co
 B007062,2025-12-09 16:47:00,A0013,U00262,package,domestic,UK,UK,18,72.2,4,credit_line,pending
 B007063,2025-12-12 21:39:00,A0040,U00043,hotel,international,IN,US,30,393.79,6,card,confirmed
 B007064,2025-04-05 09:21:00,A0001,U00745,package,domestic,IN,IN,19,177.98,5,credit_line,confirmed
-B007065,2025-04-19 04:30:00,A0082,U00607,flight,international,US,US,0,15257.8,1,credit_line,confirmed
+B007065,2025-04-19 04:30:00,A0082,U00607,flight,international,US,US,0,24454.49,1,credit_line,confirmed
 B007066,2025-08-13 09:21:00,A0152,U00140,flight,domestic,UK,UK,19,135.14,2,credit_line,confirmed
 B007067,2025-12-30 03:12:00,A0087,U00668,hotel,international,IN,AE,75,1887.15,4,credit_line,confirmed
 B007068,2025-12-16 21:49:00,A0077,U00354,package,domestic,UK,UK,17,243.31,5,credit_line,confirmed
@@ -7099,7 +7099,7 @@ B007097,2025-10-15 07:42:00,A0083,U00097,hotel,international,IN,AE,11,904.55,2,c
 B007098,2025-01-16 00:43:00,A0116,U00539,package,international,US,US,67,1636.02,3,credit_line,confirmed
 B007099,2025-02-13 20:08:00,A0199,U00372,hotel,international,AE,TH,72,1731.26,3,card,confirmed
 B007100,2025-11-21 00:46:00,A0151,U00769,flight,international,UK,FR,15,1264.71,3,card,pending
-B007101,2025-02-06 15:44:00,A0139,U00404,flight,domestic,IN,IN,1,115.23,2,card,confirmed
+B007101,2025-02-06 15:44:00,A0139,U00404,flight,domestic,IN,IN,2,115.23,2,card,confirmed
 B007102,2025-09-20 16:05:00,A0169,U00325,flight,domestic,UK,UK,8,185.58,4,credit_line,confirmed
 B007103,2025-03-17 16:42:00,A0100,U00001,hotel,domestic,UK,UK,16,118.07,2,credit_line,confirmed
 B007104,2025-12-30 19:37:00,A0076,U00521,hotel,domestic,IN,IN,12,196.29,1,bank,confirmed
@@ -7114,7 +7114,7 @@ B007112,2025-06-28 06:00:00,A0010,U00703,flight,domestic,AE,AE,15,343.77,2,credi
 B007113,2025-02-22 19:03:00,A0141,U00417,flight,international,US,TH,44,3337.54,3,credit_line,pending
 B007114,2025-10-25 16:11:00,A0094,U00711,hotel,domestic,US,US,17,348.12,1,bank,confirmed
 B007115,2025-02-26 19:43:00,A0093,U00620,flight,international,UK,US,44,448.6,1,credit_line,confirmed
-B007116,2025-11-03 09:12:00,A0082,U00607,flight,international,IN,IN,0,20298.61,2,credit_line,confirmed
+B007116,2025-11-03 09:12:00,A0082,U00607,flight,international,IN,IN,0,22440.51,2,credit_line,confirmed
 B007117,2025-11-25 01:35:00,A0026,U00412,flight,domestic,US,US,4,116.67,7,credit_line,confirmed
 B007118,2025-06-28 19:45:00,A0091,U00314,flight,domestic,SG,SG,17,243.29,2,credit_line,confirmed
 B007119,2025-09-07 15:52:00,A0084,U00187,package,international,IN,UK,67,867.47,2,credit_line,confirmed
@@ -7122,7 +7122,7 @@ B007120,2025-10-14 17:45:00,A0064,U00500,flight,international,SG,IN,87,2891.45,3
 B007121,2025-04-14 22:31:00,A0096,U00643,package,domestic,US,US,16,281.17,2,credit_line,confirmed
 B007122,2025-02-26 23:25:00,A0093,U00620,flight,domestic,IN,IN,6,146.63,2,credit_line,confirmed
 B007123,2025-04-26 14:20:00,A0176,U00492,flight,domestic,US,US,17,193.33,8,credit_line,confirmed
-B007124,2025-09-22 14:47:00,A0068,U00383,flight,international,US,US,0,12156.99,4,credit_line,confirmed
+B007124,2025-09-22 14:47:00,A0068,U00383,flight,international,US,US,0,18315.25,4,credit_line,confirmed
 B007125,2025-08-22 22:40:00,A0029,U00176,flight,domestic,IN,IN,17,189.14,3,credit_line,confirmed
 B007126,2025-07-19 22:53:00,A0180,U00400,flight,domestic,US,US,14,121.9,2,credit_line,pending
 B007127,2025-11-30 19:23:00,A0117,U00011,hotel,international,US,SG,22,1072.32,1,credit_line,confirmed
@@ -7139,7 +7139,7 @@ B007137,2025-06-01 07:52:00,A0151,U00118,package,domestic,AE,AE,16,152.11,1,card
 B007138,2025-07-21 18:10:00,A0067,U00309,flight,domestic,AE,AE,2,112.1,5,credit_line,confirmed
 B007139,2025-09-05 21:39:00,A0108,U00141,hotel,domestic,AE,AE,12,164.9,1,bank,confirmed
 B007140,2025-07-14 05:24:00,A0006,U00243,flight,domestic,IN,IN,17,162.4,3,credit_line,confirmed
-B007141,2025-04-05 21:39:00,A0131,U00145,package,domestic,IN,IN,3,129.5,1,credit_line,confirmed
+B007141,2025-04-05 21:39:00,A0131,U00145,package,domestic,IN,IN,0,129.5,1,credit_line,confirmed
 B007142,2025-11-28 05:24:00,A0172,U00766,flight,domestic,IN,IN,8,92.18,3,credit_line,confirmed
 B007143,2025-03-04 08:32:00,A0153,U00279,flight,domestic,IN,IN,5,198.77,1,credit_line,confirmed
 B007144,2025-10-08 04:45:00,A0125,U00401,hotel,domestic,US,US,17,51.36,1,card,confirmed
@@ -7257,7 +7257,7 @@ B007255,2025-11-04 17:55:00,A0076,U00280,package,domestic,IN,IN,18,544.35,4,cred
 B007256,2025-02-18 21:42:00,A0045,U00143,package,international,IN,TH,30,689.71,3,credit_line,confirmed
 B007257,2025-09-22 00:53:00,A0142,U00193,flight,domestic,AE,AE,17,270.27,1,credit_line,confirmed
 B007258,2025-04-18 15:42:00,A0012,U00457,flight,international,US,UK,3,2482.47,1,credit_line,confirmed
-B007259,2025-04-16 08:34:00,A0082,U00607,hotel,international,IN,IN,1,14645.19,7,credit_line,confirmed
+B007259,2025-04-16 08:34:00,A0082,U00607,hotel,international,IN,IN,0,13819.19,7,credit_line,confirmed
 B007260,2025-11-16 06:02:00,A0148,U00231,flight,international,IN,FR,51,1637.07,1,credit_line,confirmed
 B007261,2025-01-29 21:27:00,A0130,U00031,flight,domestic,IN,IN,11,96.28,2,credit_line,confirmed
 B007262,2025-10-22 19:04:00,A0109,U00110,flight,domestic,IN,IN,17,553.37,1,credit_line,confirmed
@@ -7352,7 +7352,7 @@ B007350,2025-05-20 17:27:00,A0171,U00147,flight,international,SG,US,13,2916.7,1,
 B007351,2025-10-30 21:12:00,A0034,U00166,hotel,international,IN,AE,50,924.27,5,credit_line,confirmed
 B007352,2025-12-09 18:37:00,A0059,U00323,hotel,domestic,AE,AE,11,501.78,3,credit_line,confirmed
 B007353,2025-07-11 14:14:00,A0129,U00780,flight,domestic,UK,UK,13,240.46,2,credit_line,confirmed
-B007354,2025-05-07 02:53:00,A0082,U00607,flight,international,US,US,0,17359.52,4,credit_line,confirmed
+B007354,2025-05-07 02:53:00,A0082,U00607,flight,international,US,US,0,11730.46,4,credit_line,confirmed
 B007355,2025-06-24 19:31:00,A0045,U00511,flight,international,UK,AE,20,1403.92,1,credit_line,confirmed
 B007356,2025-01-03 10:34:00,A0053,U00021,flight,international,UK,US,48,1191.06,1,bank,confirmed
 B007357,2025-02-11 02:47:00,A0013,U00326,hotel,international,IN,FR,55,1560.03,4,card,confirmed
@@ -7428,7 +7428,7 @@ B007426,2025-04-22 03:25:00,A0131,U00473,hotel,international,US,FR,2,939.83,4,cr
 B007427,2025-08-01 20:54:00,A0163,U00255,flight,domestic,IN,IN,7,177.41,2,credit_line,pending
 B007428,2025-08-05 17:40:00,A0198,U00608,hotel,international,IN,UK,21,2455.17,2,credit_line,failed
 B007429,2025-09-09 01:23:00,A0017,U00067,hotel,international,IN,UK,35,1032.98,1,credit_line,confirmed
-B007430,2025-07-11 19:27:00,A0005,U00245,hotel,international,IN,IN,1,13018.61,1,credit_line,confirmed
+B007430,2025-07-11 19:27:00,A0005,U00245,hotel,international,IN,IN,1,15923.6,1,credit_line,confirmed
 B007431,2025-09-05 12:50:00,A0023,U00342,package,domestic,IN,IN,15,196.1,1,credit_line,confirmed
 B007432,2025-11-26 22:55:00,A0171,U00214,flight,international,IN,US,27,974.28,1,credit_line,confirmed
 B007433,2025-03-13 08:36:00,A0128,U00770,hotel,domestic,IN,IN,4,348.76,1,credit_line,confirmed
@@ -7468,7 +7468,7 @@ B007466,2025-12-01 14:18:00,A0152,U00639,hotel,domestic,UK,UK,5,93.62,1,credit_l
 B007467,2025-09-19 05:53:00,A0096,U00612,flight,domestic,IN,IN,3,141.97,2,credit_line,confirmed
 B007468,2025-01-19 15:46:00,A0131,U00473,hotel,domestic,UK,UK,11,111.93,3,credit_line,confirmed
 B007469,2025-06-14 14:12:00,A0121,U00207,hotel,domestic,UK,UK,1,71.4,3,bank,confirmed
-B007470,2025-12-20 15:49:00,A0082,U00607,flight,international,US,US,0,21051.77,3,credit_line,confirmed
+B007470,2025-12-20 15:49:00,A0082,U00607,flight,international,US,US,1,18135.79,3,credit_line,confirmed
 B007471,2025-01-06 02:24:00,A0084,U00428,flight,domestic,IN,IN,7,208.55,1,card,confirmed
 B007472,2025-08-19 20:32:00,A0114,U00302,package,international,US,DE,48,563.32,3,credit_line,confirmed
 B007473,2025-03-16 21:59:00,A0115,U00038,flight,international,IN,AE,28,1343.68,5,credit_line,confirmed
@@ -7476,7 +7476,7 @@ B007474,2025-11-19 19:23:00,A0029,U00403,hotel,international,US,IN,80,2052.28,2,
 B007475,2025-10-20 17:01:00,A0025,U00104,flight,international,IN,DE,22,2854.46,2,card,confirmed
 B007476,2025-11-03 20:10:00,A0062,U00223,flight,international,IN,AE,12,4171.26,5,credit_line,confirmed
 B007477,2025-12-19 00:50:00,A0181,U00330,hotel,domestic,UK,UK,9,302.06,1,credit_line,confirmed
-B007478,2025-07-14 13:11:00,A0131,U00145,flight,domestic,UK,UK,0,103.92,3,card,confirmed
+B007478,2025-07-14 13:11:00,A0131,U00145,flight,domestic,UK,UK,1,103.92,3,card,confirmed
 B007479,2025-07-19 14:01:00,A0061,U00253,hotel,domestic,IN,IN,6,266.32,2,credit_line,confirmed
 B007480,2025-01-21 16:24:00,A0013,U00326,flight,domestic,AE,AE,14,331.04,2,credit_line,confirmed
 B007481,2025-01-31 17:01:00,A0123,U00173,flight,domestic,IN,IN,9,120.28,2,card,confirmed
@@ -7589,7 +7589,7 @@ B007587,2025-06-27 13:05:00,A0047,U00437,flight,domestic,IN,IN,16,267.68,2,credi
 B007588,2025-08-22 18:44:00,A0072,U00129,flight,international,IN,DE,46,592.83,1,credit_line,confirmed
 B007589,2025-09-18 08:44:00,A0033,U00057,hotel,domestic,US,US,15,337.88,8,credit_line,confirmed
 B007590,2025-11-04 12:50:00,A0077,U00538,flight,domestic,UK,UK,7,210.23,1,card,confirmed
-B007591,2025-07-20 18:32:00,A0005,U00245,flight,international,IN,IN,1,23497.11,1,credit_line,confirmed
+B007591,2025-07-20 18:32:00,A0005,U00245,flight,international,IN,IN,1,19580.98,1,credit_line,confirmed
 B007592,2025-04-29 22:37:00,A0143,U00205,hotel,international,IN,TH,15,2309.79,4,credit_line,confirmed
 B007593,2025-07-21 16:29:00,A0164,U00645,flight,domestic,UK,UK,13,215.83,2,credit_line,confirmed
 B007594,2025-09-11 22:11:00,A0084,U00768,hotel,international,UK,FR,8,1708.57,1,credit_line,confirmed
@@ -7597,7 +7597,7 @@ B007595,2025-11-06 12:49:00,A0140,U00210,flight,international,IN,AE,75,882.25,2,
 B007596,2025-01-11 17:10:00,A0127,U00582,hotel,domestic,SG,SG,7,193.13,1,credit_line,confirmed
 B007597,2025-12-16 23:42:00,A0119,U00551,flight,international,IN,IN,59,1510.34,1,credit_line,failed
 B007598,2025-06-24 19:07:00,A0123,U00275,flight,domestic,IN,IN,1,317.41,1,card,confirmed
-B007599,2025-04-15 20:30:00,A0139,U00404,flight,domestic,IN,IN,3,206.87,3,card,pending
+B007599,2025-04-15 20:30:00,A0139,U00404,flight,domestic,IN,IN,1,206.87,3,card,pending
 B007600,2025-07-14 17:20:00,A0166,U00491,hotel,international,AE,UK,46,4939.04,2,credit_line,confirmed
 B007601,2025-05-05 17:14:00,A0150,U00610,hotel,domestic,UK,UK,14,210.6,1,card,confirmed
 B007602,2025-09-24 17:30:00,A0080,U00525,hotel,domestic,AE,AE,17,51.05,3,credit_line,confirmed
@@ -7656,7 +7656,7 @@ B007654,2025-01-09 14:06:00,A0108,U00635,flight,domestic,IN,IN,9,325.28,3,credit
 B007655,2025-07-03 06:49:00,A0197,U00300,package,domestic,IN,IN,18,90.93,1,credit_line,confirmed
 B007656,2025-01-05 08:02:00,A0078,U00739,hotel,domestic,IN,IN,19,191.37,2,credit_line,confirmed
 B007657,2025-08-15 18:23:00,A0123,U00173,hotel,domestic,AE,AE,19,323.47,3,credit_line,confirmed
-B007658,2025-07-06 11:00:00,A0068,U00383,flight,international,UK,UK,1,18317.47,1,credit_line,confirmed
+B007658,2025-07-06 11:00:00,A0068,U00383,flight,international,UK,UK,1,19148.17,1,credit_line,confirmed
 B007659,2025-12-24 18:54:00,A0037,U00611,hotel,domestic,US,US,2,73.25,1,credit_line,confirmed
 B007660,2025-12-14 23:49:00,A0170,U00654,flight,domestic,IN,IN,10,201.15,3,credit_line,confirmed
 B007661,2025-11-13 00:26:00,A0111,U00052,flight,domestic,UK,UK,5,90.67,6,credit_line,confirmed
@@ -7666,9 +7666,9 @@ B007664,2025-08-26 11:37:00,A0172,U00670,flight,international,UK,AE,38,1100.14,7
 B007665,2025-03-14 21:52:00,A0072,U00567,flight,international,US,IN,39,2691.25,5,credit_line,pending
 B007666,2025-05-05 18:35:00,A0152,U00053,hotel,international,IN,SG,72,1919.55,6,card,confirmed
 B007667,2025-03-06 23:53:00,A0124,U00215,hotel,international,IN,IN,32,2817.44,1,credit_line,confirmed
-B007668,2025-04-14 19:59:00,A0005,U00245,flight,international,US,US,0,17020.85,7,credit_line,confirmed
+B007668,2025-04-14 19:59:00,A0005,U00245,flight,international,US,US,1,16319.22,7,credit_line,confirmed
 B007669,2025-02-28 07:00:00,A0033,U00057,hotel,domestic,AE,AE,8,214.36,2,credit_line,confirmed
-B007670,2025-03-02 04:37:00,A0107,U00327,hotel,domestic,UK,UK,1,399.56,3,credit_line,confirmed
+B007670,2025-03-02 04:37:00,A0107,U00327,hotel,domestic,UK,UK,3,399.56,3,credit_line,confirmed
 B007671,2025-06-14 09:29:00,A0130,U00496,package,domestic,UK,UK,14,88.56,2,card,confirmed
 B007672,2025-11-21 22:14:00,A0024,U00631,flight,international,IN,UK,68,3275.03,2,credit_line,confirmed
 B007673,2025-03-20 20:50:00,A0084,U00489,hotel,domestic,AE,AE,14,267.25,1,credit_line,confirmed
@@ -7681,7 +7681,7 @@ B007679,2025-05-28 16:54:00,A0153,U00185,flight,international,IN,UK,45,984.21,2,
 B007680,2025-06-01 11:23:00,A0067,U00309,flight,domestic,IN,IN,12,159.57,1,credit_line,confirmed
 B007681,2025-06-28 11:54:00,A0064,U00504,flight,domestic,UK,UK,2,152.33,3,credit_line,confirmed
 B007682,2025-05-27 09:48:00,A0119,U00777,flight,domestic,US,US,17,134.65,5,credit_line,confirmed
-B007683,2025-02-02 19:46:00,A0033,U00535,flight,international,AE,AE,1,21064.66,4,credit_line,confirmed
+B007683,2025-02-02 19:46:00,A0033,U00535,flight,international,AE,AE,0,21000.43,4,credit_line,confirmed
 B007684,2025-05-12 10:47:00,A0155,U00360,hotel,domestic,IN,IN,9,260.87,7,credit_line,confirmed
 B007685,2025-02-07 13:44:00,A0073,U00065,hotel,domestic,US,US,18,221.15,1,credit_line,confirmed
 B007686,2025-02-23 08:44:00,A0096,U00612,flight,domestic,IN,IN,6,104.48,1,card,failed
@@ -7746,7 +7746,7 @@ B007744,2025-09-04 13:40:00,A0050,U00471,package,domestic,IN,IN,4,174.88,3,credi
 B007745,2025-10-07 18:27:00,A0181,U00755,flight,domestic,IN,IN,12,94.76,1,credit_line,confirmed
 B007746,2025-01-06 09:31:00,A0168,U00018,flight,domestic,US,US,4,255.93,2,bank,confirmed
 B007747,2025-08-25 21:40:00,A0029,U00759,flight,domestic,IN,IN,12,160.39,1,card,confirmed
-B007748,2025-08-19 18:37:00,A0082,U00607,flight,international,IN,TH,1,25000.0,1,credit_line,confirmed
+B007748,2025-08-19 18:37:00,A0082,U00607,flight,international,IN,TH,1,17052.69,1,credit_line,confirmed
 B007749,2025-04-25 17:09:00,A0073,U00266,flight,international,IN,US,23,573.15,1,card,confirmed
 B007750,2025-05-25 12:50:00,A0123,U00688,flight,international,UK,SG,47,2009.01,1,card,confirmed
 B007751,2025-08-26 04:52:00,A0166,U00544,hotel,domestic,US,US,1,227.78,1,credit_line,confirmed
@@ -7763,7 +7763,7 @@ B007761,2025-05-21 14:16:00,A0118,U00705,hotel,domestic,IN,IN,15,303.6,2,credit_
 B007762,2025-02-10 13:16:00,A0026,U00039,flight,domestic,UK,UK,2,158.58,1,credit_line,confirmed
 B007763,2025-01-13 18:45:00,A0078,U00672,hotel,international,IN,UK,64,998.87,3,credit_line,confirmed
 B007764,2025-03-22 20:35:00,A0158,U00793,hotel,domestic,IN,IN,5,397.0,1,credit_line,confirmed
-B007765,2025-02-02 02:33:00,A0092,U00528,hotel,international,IN,UK,3,631.29,7,credit_line,failed
+B007765,2025-02-02 02:33:00,A0092,U00528,hotel,international,IN,UK,2,631.29,7,credit_line,failed
 B007766,2025-07-04 08:06:00,A0151,U00765,flight,domestic,US,US,1,286.63,3,credit_line,confirmed
 B007767,2025-08-26 15:12:00,A0103,U00542,hotel,domestic,UK,UK,10,91.14,2,credit_line,confirmed
 B007768,2025-08-01 01:43:00,A0146,U00294,flight,international,IN,FR,79,2782.12,1,card,confirmed
@@ -7785,7 +7785,7 @@ B007783,2025-11-22 01:29:00,A0009,U00249,flight,domestic,IN,IN,18,93.37,4,card,c
 B007784,2025-05-01 21:55:00,A0102,U00080,hotel,domestic,IN,IN,19,298.77,2,credit_line,confirmed
 B007785,2025-12-12 15:30:00,A0024,U00456,flight,domestic,IN,IN,11,508.8,5,credit_line,failed
 B007786,2025-02-23 12:40:00,A0139,U00499,flight,international,US,IN,6,979.27,1,credit_line,confirmed
-B007787,2025-05-17 03:42:00,A0082,U00607,flight,international,UK,UK,1,15973.77,5,credit_line,confirmed
+B007787,2025-05-17 03:42:00,A0082,U00607,flight,international,UK,UK,1,21011.02,5,credit_line,confirmed
 B007788,2025-02-13 20:11:00,A0190,U00177,package,international,IN,US,84,982.62,2,credit_line,confirmed
 B007789,2025-08-24 10:03:00,A0169,U00325,flight,domestic,IN,IN,2,217.13,1,credit_line,confirmed
 B007790,2025-04-18 01:21:00,A0199,U00022,flight,international,AE,SG,86,816.49,1,card,confirmed
@@ -7829,7 +7829,7 @@ B007827,2025-07-07 04:28:00,A0152,U00053,flight,domestic,UK,UK,5,220.21,1,bank,p
 B007828,2025-01-11 04:34:00,A0084,U00428,flight,international,IN,TH,71,1381.05,10,bank,confirmed
 B007829,2025-11-22 20:59:00,A0020,U00637,hotel,domestic,IN,IN,3,219.22,5,credit_line,confirmed
 B007830,2025-10-14 01:13:00,A0041,U00678,flight,domestic,US,US,19,300.25,3,credit_line,confirmed
-B007831,2025-05-14 03:35:00,A0033,U00535,flight,international,IN,IN,1,19248.62,1,credit_line,confirmed
+B007831,2025-05-14 03:35:00,A0033,U00535,flight,international,IN,IN,1,18286.44,1,credit_line,confirmed
 B007832,2025-10-17 10:26:00,A0010,U00183,package,domestic,IN,IN,14,119.59,1,credit_line,confirmed
 B007833,2025-01-20 11:17:00,A0087,U00590,flight,international,US,UK,20,1196.94,3,card,confirmed
 B007834,2025-12-06 11:15:00,A0123,U00557,flight,domestic,IN,IN,15,84.62,1,card,confirmed
@@ -7864,7 +7864,7 @@ B007862,2025-03-28 20:34:00,A0176,U00128,flight,domestic,UK,UK,7,1042.53,1,credi
 B007863,2025-07-24 03:56:00,A0040,U00311,flight,domestic,IN,IN,6,253.13,10,credit_line,confirmed
 B007864,2025-06-30 19:06:00,A0086,U00013,hotel,domestic,IN,IN,7,226.04,4,credit_line,confirmed
 B007865,2025-06-23 23:37:00,A0125,U00264,hotel,domestic,IN,IN,7,210.91,4,credit_line,confirmed
-B007866,2025-05-04 20:30:00,A0174,U00413,flight,international,UK,US,1,19216.55,4,credit_line,confirmed
+B007866,2025-05-04 20:30:00,A0174,U00413,flight,international,UK,US,0,21782.93,4,credit_line,confirmed
 B007867,2025-07-22 18:49:00,A0184,U00434,flight,domestic,AE,AE,2,172.54,3,card,confirmed
 B007868,2025-04-10 13:21:00,A0003,U00191,hotel,domestic,AE,AE,15,157.89,1,credit_line,confirmed
 B007869,2025-12-05 05:25:00,A0108,U00635,flight,domestic,IN,IN,10,279.12,2,bank,confirmed
@@ -7949,11 +7949,11 @@ B007947,2025-06-21 13:47:00,A0003,U00260,hotel,domestic,IN,IN,19,340.9,3,credit_
 B007948,2025-11-10 00:37:00,A0137,U00126,flight,domestic,US,US,15,225.14,3,credit_line,confirmed
 B007949,2025-11-01 15:27:00,A0011,U00222,flight,domestic,UK,UK,10,85.49,3,credit_line,confirmed
 B007950,2025-05-19 11:07:00,A0186,U00656,hotel,domestic,SG,SG,9,188.74,1,card,confirmed
-B007951,2025-09-17 19:54:00,A0082,U00607,flight,international,AE,AE,1,16689.25,2,credit_line,confirmed
+B007951,2025-09-17 19:54:00,A0082,U00607,flight,international,AE,AE,1,17600.62,2,credit_line,confirmed
 B007952,2025-07-11 05:29:00,A0110,U00236,flight,domestic,SG,SG,4,202.25,2,credit_line,confirmed
 B007953,2025-12-08 04:13:00,A0129,U00780,flight,domestic,IN,IN,10,247.45,3,credit_line,confirmed
 B007954,2025-11-17 13:34:00,A0199,U00116,flight,international,US,IN,25,2219.82,1,credit_line,confirmed
-B007955,2025-03-05 00:01:00,A0082,U00607,package,international,IN,IN,0,22894.06,3,credit_line,confirmed
+B007955,2025-03-05 00:01:00,A0082,U00607,package,international,IN,IN,1,14622.47,3,credit_line,confirmed
 B007956,2025-01-19 20:14:00,A0081,U00301,flight,domestic,SG,SG,1,472.5,2,credit_line,confirmed
 B007957,2025-04-30 13:53:00,A0086,U00120,flight,international,SG,US,16,1687.64,3,credit_line,pending
 B007958,2025-05-31 18:49:00,A0134,U00578,hotel,international,SG,SG,80,3036.24,1,credit_line,confirmed
@@ -7964,22 +7964,22 @@ B007962,2025-12-30 08:53:00,A0160,U00532,hotel,international,AE,TH,59,2263.85,6,
 B007963,2025-03-24 13:43:00,A0002,U00353,flight,international,IN,DE,33,1031.08,1,card,confirmed
 B007964,2025-05-16 02:29:00,A0062,U00095,flight,domestic,IN,IN,5,160.86,7,credit_line,confirmed
 B007965,2025-04-26 16:01:00,A0029,U00744,flight,domestic,UK,UK,1,59.42,3,credit_line,confirmed
-B007966,2025-01-18 03:38:00,A0092,U00528,flight,international,IN,FR,0,745.17,2,credit_line,confirmed
+B007966,2025-01-18 03:38:00,A0092,U00528,flight,international,IN,FR,2,745.17,2,credit_line,confirmed
 B007967,2025-07-15 16:21:00,A0084,U00571,hotel,international,AE,TH,16,843.25,1,credit_line,confirmed
 B007968,2025-05-05 08:56:00,A0062,U00570,flight,international,AE,IN,78,1274.12,1,bank,confirmed
 B007969,2025-02-27 01:36:00,A0028,U00722,hotel,international,SG,DE,9,1960.32,4,credit_line,confirmed
 B007970,2025-05-20 07:53:00,A0062,U00572,flight,domestic,US,US,10,145.08,3,credit_line,pending
 B007971,2025-05-22 05:09:00,A0146,U00609,hotel,domestic,IN,IN,7,145.23,1,card,confirmed
-B007972,2025-01-03 12:54:00,A0033,U00535,hotel,international,AE,TH,1,11974.98,2,credit_line,confirmed
+B007972,2025-01-03 12:54:00,A0033,U00535,hotel,international,AE,TH,0,11302.27,2,credit_line,confirmed
 B007973,2025-12-17 18:20:00,A0131,U00659,flight,international,IN,AE,7,2424.39,3,credit_line,confirmed
 B007974,2025-12-10 14:11:00,A0124,U00776,flight,international,IN,IN,12,1130.79,1,credit_line,confirmed
 B007975,2025-02-15 09:15:00,A0193,U00034,hotel,international,US,US,65,973.04,3,credit_line,confirmed
-B007976,2025-12-01 22:32:00,A0059,U00322,flight,international,IN,IN,1,18807.86,2,credit_line,confirmed
+B007976,2025-12-01 22:32:00,A0059,U00322,flight,international,IN,IN,0,17419.88,2,credit_line,confirmed
 B007977,2025-02-02 02:57:00,A0108,U00161,flight,domestic,IN,IN,8,252.77,1,credit_line,confirmed
 B007978,2025-03-15 12:26:00,A0026,U00743,hotel,international,UK,AE,9,3535.45,1,credit_line,confirmed
 B007979,2025-06-26 18:39:00,A0014,U00671,package,domestic,IN,IN,5,155.0,2,credit_line,confirmed
 B007980,2025-03-20 06:15:00,A0003,U00241,hotel,international,UK,US,56,1453.21,3,credit_line,failed
-B007981,2025-04-26 06:32:00,A0174,U00413,flight,international,UK,AE,1,19626.55,1,credit_line,confirmed
+B007981,2025-04-26 06:32:00,A0174,U00413,flight,international,UK,AE,0,20424.88,1,credit_line,confirmed
 B007982,2025-09-15 07:44:00,A0131,U00473,flight,domestic,IN,IN,15,139.03,1,credit_line,confirmed
 B007983,2025-07-05 20:18:00,A0154,U00026,package,international,IN,UK,56,655.44,4,credit_line,pending
 B007984,2025-02-10 23:46:00,A0120,U00153,flight,domestic,IN,IN,18,100.47,2,credit_line,confirmed
@@ -7996,6 +7996,6 @@ B007994,2025-05-23 11:40:00,A0037,U00199,package,domestic,IN,IN,4,148.26,3,credi
 B007995,2025-12-13 18:33:00,A0192,U00366,flight,domestic,UK,UK,5,44.56,1,credit_line,confirmed
 B007996,2025-01-30 21:06:00,A0015,U00450,flight,domestic,AE,AE,10,74.92,2,credit_line,confirmed
 B007997,2025-03-03 19:57:00,A0148,U00482,flight,international,AE,SG,25,2056.51,2,credit_line,confirmed
-B007998,2025-11-11 04:23:00,A0174,U00413,hotel,international,IN,IN,0,24257.86,2,credit_line,confirmed
+B007998,2025-11-11 04:23:00,A0174,U00413,hotel,international,IN,IN,0,18243.69,2,credit_line,confirmed
 B007999,2025-10-09 16:32:00,A0195,U00556,hotel,domestic,IN,IN,11,274.14,2,credit_line,confirmed
 B008000,2025-01-18 21:35:00,A0087,U00590,flight,domestic,UK,UK,19,241.4,5,credit_line,confirmed
