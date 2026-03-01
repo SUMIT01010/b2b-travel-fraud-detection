@@ -6,10 +6,10 @@ import json
 import csv
 from tqdm import tqdm
 from datetime import datetime
-from preprocessRW import computeRep
 import argparse
 from collections import defaultdict
 import random
+import sys
 
 def set_seed(seed=42):
     random.seed(seed)
@@ -20,7 +20,10 @@ set_seed(42)
 
 # Base directory of the script to resolve relative paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Add parent directory to sys.path to import modules from DONE_AdONE
+sys.path.append(os.path.dirname(SCRIPT_DIR))
 
+from preprocessRW import computeRep
 from aemodel_done import AutoEncoder
 
 def parse_args():
