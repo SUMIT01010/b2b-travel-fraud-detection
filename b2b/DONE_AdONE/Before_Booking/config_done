@@ -1,0 +1,11 @@
+    {"cont_file": "../../Data/graph/attribute_matrix.csv",
+    "struc_file": "../../Data/graph/structural_matrix.csv",
+    "encoder1": [25, 16],
+    "decoder1": [25],
+    "encoder2": [25, 16],
+    "decoder2": [25],
+    "batch_size": 256,
+    "pretrain_threshold": 10,
+    "experiment_name": "b2b_done",
+    "num_epochs": 50,
+    "learning_rate": 5e-4}

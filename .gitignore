@@ -6,3 +6,5 @@ __pycache__/
 .vscode/
 structural_matrix.csv
 fraud_env/
+__pycache__
+structural_matrix_b.csv
