@@ -66,8 +66,13 @@ user_arr = np.array(master_df['user_id'].values)
 v_min, v_max = v_prime.min(), v_prime.max()
 v_tilde = (v_prime - v_min) / (v_max - v_min + 1e-8)
 
+def set_seed(seed=42):
+    import random
+    random.seed(seed)
+    np.random.seed(seed)
+
 # Compute lambda_val (Gaussian decay scale for value) using a subset to save memory
-np.random.seed(42)
+set_seed(42)
 subset_size = min(3000, n_nodes)
 sub_idx = np.random.choice(n_nodes, subset_size, replace=False)
 v_sub = v_tilde[sub_idx]
