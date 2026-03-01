@@ -1,8 +1,14 @@
 import pandas as pd
 import numpy as np
 import os
+import random
+
+def set_seed(seed=42):
+    random.seed(seed)
+    np.random.seed(seed)
 
 def generate_matrices():
+    set_seed(42)
     # Define paths relative to the project root
     current_dir = os.path.dirname(os.path.abspath(__file__))
     

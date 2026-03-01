@@ -9,6 +9,14 @@ from datetime import datetime
 from preprocessRW import computeRep
 import argparse
 from collections import defaultdict
+import random
+
+def set_seed(seed=42):
+    random.seed(seed)
+    np.random.seed(seed)
+    tf.set_random_seed(seed)
+
+set_seed(42)
 
 # Base directory of the script to resolve relative paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

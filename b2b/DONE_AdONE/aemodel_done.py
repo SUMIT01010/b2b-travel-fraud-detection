@@ -1,5 +1,6 @@
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+tf.set_random_seed(42)
 
 class AutoEncoder(object):
     def __init__(self, config):
