@@ -13,4 +13,4 @@ The following results evaluate the fraud detection model's performance by calcul
 
 The results show that the model captures **80.14% of all fraud cases within the top 10%** of the highest-scored bookings.
 
-*Last updated: 2026-03-01 13:20:39*
+*Last updated: 2026-03-01 15:07:06*

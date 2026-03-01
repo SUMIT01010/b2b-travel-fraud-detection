@@ -88,42 +88,64 @@ delta_l_sub = np.abs(l_sub[:, None] - l_sub[None, :])
 eta_val = -np.log(0.2) / (np.percentile(delta_l_sub, 75) + 1e-8)
 del delta_l_sub
 
-# --- 4. Dense Structural Matrix Calculation ---
-print("Calculating dense structural matrix weights (vectorized)...")
+# --- 4. Structural Matrix Calculation (Chunked for Memory Efficiency) ---
+print("Calculating structural matrix weights in chunks...")
 
-# 1. Temporal Gating: Only consider connections within 7 days
-# Using broadcasting for N x N comparison
-t_diff = np.abs(t_arr[:, np.newaxis] - t_arr[np.newaxis, :])
-temporal_mask = (t_diff <= TEMPORAL_THRESHOLD).astype(np.float32)
-
-# 2. Identity Anchoring: Weight for common agency or user
-agency_match = (agency_arr[:, np.newaxis] == agency_arr[np.newaxis, :])
-user_match = (user_arr[:, np.newaxis] == user_arr[np.newaxis, :])
-A_mat = (W_AGENCY * agency_match) + (W_USER * user_match)
-
-# 3. Booking Similarity (Value & Lead Time)
-v_diff = np.abs(v_tilde[:, np.newaxis] - v_tilde[np.newaxis, :])
-f_val_mat = np.exp(-lambda_val * v_diff)
-
-l_diff = np.abs(l_tilde[:, np.newaxis] - l_tilde[np.newaxis, :])
-f_lead_mat = np.exp(-eta_val * l_diff)
-
-# 4. Outcome Reinforcement: Weight for shared negative outcomes
-c_match = ((cancel_arr[:, np.newaxis] == 1) & (cancel_arr[np.newaxis, :] == 1))
-d_match = ((dispute_arr[:, np.newaxis] == 1) & (dispute_arr[np.newaxis, :] == 1))
-s_match = ((susp_arr[:, np.newaxis] == True) & (susp_arr[np.newaxis, :] == True))
-R_mat = (ALPHA * c_match) + (BETA * d_match) + (GAMMA * s_match)
-
-# Combine terms
-W_dense = ((f_val_mat * f_lead_mat) + R_mat) * temporal_mask + A_mat
-
-# SET DIAGONAL TO ZERO: No self-loops
-np.fill_diagonal(W_dense, 0.0)
-
-# Save Structural Matrix (Dense Format)
-structural_df = pd.DataFrame(W_dense, index=booking_ids, columns=booking_ids)
+chunk_size = 1000
 structural_output = os.path.join(OUTPUT_DIR, "structural_matrix_b.csv")
-structural_df.to_csv(structural_output)
+
+with open(structural_output, 'w') as f:
+    # Write header
+    header = ",".join(booking_ids)
+    f.write("," + header + "\n")
+
+    for i in range(0, n_nodes, chunk_size):
+        end_i = min(i + chunk_size, n_nodes)
+        print(f"  Processing structural rows {i} to {end_i}...")
+        
+        # Slices for this chunk
+        t_i = t_arr[i:end_i, np.newaxis]
+        agency_i = agency_arr[i:end_i, np.newaxis]
+        user_i = user_arr[i:end_i, np.newaxis]
+        v_i = v_tilde[i:end_i, np.newaxis]
+        l_i = l_tilde[i:end_i, np.newaxis]
+        cancel_i = cancel_arr[i:end_i, np.newaxis]
+        dispute_i = dispute_arr[i:end_i, np.newaxis]
+        susp_i = susp_arr[i:end_i, np.newaxis]
+
+        # 1. Temporal Gating
+        t_diff_chunk = np.abs(t_i - t_arr)
+        temporal_mask_chunk = (t_diff_chunk <= TEMPORAL_THRESHOLD).astype(np.float32)
+
+        # 2. Identity Anchoring
+        agency_match_chunk = (agency_i == agency_arr)
+        user_match_chunk = (user_i == user_arr)
+        A_chunk = (W_AGENCY * agency_match_chunk) + (W_USER * user_match_chunk)
+
+        # 3. Booking Similarity
+        v_diff_chunk = np.abs(v_i - v_tilde)
+        f_val_chunk = np.exp(-lambda_val * v_diff_chunk)
+        l_diff_chunk = np.abs(l_i - l_tilde)
+        f_lead_chunk = np.exp(-eta_val * l_diff_chunk)
+
+        # 4. Outcome Reinforcement
+        c_match_chunk = ((cancel_i == 1) & (cancel_arr == 1))
+        d_match_chunk = ((dispute_i == 1) & (dispute_arr == 1))
+        s_match_chunk = ((susp_i == True) & (susp_arr == True))
+        R_chunk = (ALPHA * c_match_chunk) + (BETA * d_match_chunk) + (GAMMA * s_match_chunk)
+
+        # Combine terms for this chunk
+        W_chunk = ((f_val_chunk * f_lead_chunk) + R_chunk) * temporal_mask_chunk + A_chunk
+
+        # Ensure diagonal = 0
+        for local_idx in range(end_i - i):
+            global_idx = i + local_idx
+            W_chunk[local_idx, global_idx] = 0.0
+
+        # Save chunk to file
+        batch_df = pd.DataFrame(W_chunk, index=booking_ids[i:end_i], columns=booking_ids)
+        batch_df.to_csv(f, header=False)
+
 print(f"Saved dense structural matrix ({n_nodes}x{n_nodes}) to {structural_output}")
 
 # --- 5. Attribute Matrix Formulation ---
