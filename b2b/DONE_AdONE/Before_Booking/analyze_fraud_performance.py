@@ -17,7 +17,20 @@ def analyze_performance():
     # Load Labels
     label_file = os.path.join(data_tables_path, 'booking_label_table.csv')
     labels_df = pd.read_csv(label_file)
+
+    # Calculate Max Oval
+    max_scores = np.maximum(o1, np.maximum(o2, o3))
+    # 1. Define the full path for the new file
+    output_file_path = os.path.join(data_tables_path, 'scored_booking_labels_before_booking.csv')
+    labels_df['oval1_score'] = o1
+    labels_df['oval2_score'] = o2
+    labels_df['oval3_score'] = o3
+    labels_df['max_score'] = max_scores
+    # 2. Save the DataFrame to that path (using analysis_df so you keep the max_score)
+    labels_df.to_csv(output_file_path, index=False)
     
+    print(f"Saved the updated dataframe to: {output_file_path}")
+
     # Ensure alignment (8000 records)
     # The oval scores match the order in master_table, which matches booking_label_table (skipping header)
     # but let's be safe and assume they are in the same order as booking_id B000001 to B008000
@@ -25,8 +38,7 @@ def analyze_performance():
     print(f"Number of scores: {len(o1)}")
     print(f"Number of labels: {len(labels_df)}")
     
-    # Calculate Max Oval
-    max_scores = np.maximum(o1, np.maximum(o2, o3))
+
     
     # Combine into a single DataFrame for analysis
     # Assuming the order is consistent with the booking_id sequence in labels_df
