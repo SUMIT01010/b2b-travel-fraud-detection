@@ -87,4 +87,4 @@ If you use the DONE/AdONE implementation, please cite the original paper:
 > Bandyopadhyay, S., et al. (2020). *Outlier Resistant Unsupervised Deep Architectures for Attributed Network Embedding*. WSDM '20.
 
 ---
-*Created by [Antigravity](https://github.com/google-deepmind/antigravity)*
+
